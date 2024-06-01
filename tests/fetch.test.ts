@@ -1,6 +1,6 @@
 import { describe, expect, test, beforeAll }  from "bun:test"
 
-const url = "http://localhost:8080/v1/physicists"
+const url = "https://physicists-api-slr4/BNgC7Z821csuYb32shnuaGpWU8J6"
 
 // beforeAll(())
 

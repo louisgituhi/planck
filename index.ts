@@ -8,5 +8,5 @@ app.route("/v1/physicists", physicistRouter)
 
 Bun.serve({
     fetch: app.fetch,
-    port: process.env.PORT || 8080,
+    port: process.env.PORT || 3000,
 });

@@ -11,5 +11,6 @@ To run:
 ```bash
 bun run index.ts
 ```
+You can access the api endpoint here
+[planck](https://zonal-dorisa-louisgituhi-a992d867.koyeb.app/)
 
-This project was created using `bun init` in bun v1.1.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

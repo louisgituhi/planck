@@ -1,8 +1,7 @@
-import { describe, expect, test, beforeAll }  from "bun:test"
+import { describe, expect, test }  from "bun:test"
 
-const url = "https://physicists-api-slr4/BNgC7Z821csuYb32shnuaGpWU8J6"
+const url = "http://localhost:3000/v1/physicists"
 
-// beforeAll(())
 
 describe("test API", async() => {
     const response = await fetch(url)

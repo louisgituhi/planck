@@ -4,7 +4,7 @@ import physicistRouter from "./routes/physicists"
 const app = new Hono();
 
 
-app.route("/v1/physicists", physicistRouter)
+app.route("/", physicistRouter)
 
 Bun.serve({
     fetch: app.fetch,

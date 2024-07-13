@@ -17,12 +17,26 @@ export const physicistsData = [
     {
         "id": 2,
         "name": "Abdus Salam",
-        "description": "lkdjhbvnwndbmsncldjfbcj",
-        "nationality": "Denmark’s capital city, Copenhagen",
+        "description": "He was a Pakistani theoretical physicist.",
+        "nationality": "Punjab province, British india",
         "year_born": 1926, 
         "year_died": 1996,
         "discovery": [
-            "Aage Bohr was awarded the Nobel Prize in Physics in 1975 for his work detailing the structure of the atomic nucleus"
+            "Electroweak theory", 
+            "Goldstone boson", 
+            "Grand Unified Theory", 
+            "Higgs mechanism", 
+            "Magnetic photon", 
+            "Neutral current", 
+            "Pati–Salam model",
+            "Quantum mechanics",
+            "Pakistan atomic research program", 
+            "Pakistan space program", 
+            "Preon", 
+            "Standard Model",
+            "Strong gravity", "Superfield", 
+            "W and Z bosons",
+            "He shared the 1979 Nobel Prize in Physics with Sheldon Glashow and Steven Weinberg for his contribution to the electroweak unification theory."
         ]
     },
 

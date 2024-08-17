@@ -1,6 +1,6 @@
 import { describe, expect, test }  from "bun:test"
 
-const url = "http://localhost:3000/v1/physicists"
+const url = "http://localhost:3000"
 
 
 describe("test API", async() => {

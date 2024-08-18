@@ -184,10 +184,10 @@
         ]
     },
 
-    // Bermhard Riemann
+    // Bernhard Riemann
     {
         "id": 13,
-        "name": "Bermhard Riemann",
+        "name": "Bernhard Riemann",
         "description": "lkdjhbvnwndbmsncldjfbcj",
         "nationality": "Boston, Massachusetts",
         "year_born": 1826, 

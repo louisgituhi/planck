@@ -56,7 +56,7 @@ export const physicistsData = [
         description: "About Abdus Salam",
         date_of_birth: "1879-03-14",
         date_of_death: "1996-11-21",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -95,7 +95,7 @@ export const physicistsData = [
         description: "About Alessandro Volta",
         date_of_birth: "1745-02-18",
         date_of_death: "1827-03-05",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -229,9 +229,9 @@ export const physicistsData = [
         description: "About Bernhard Riemann",
         date_of_birth: "1826-09-17",
         date_of_death: "1866-07-20",
-        discoveries: ["placeholder discovery"],
-        nobel_prize: [],
-        other_awards: []
+        discoveries: ["placeholder discoveries"],
+        nobel_prize: null,
+        other_awards: null
     },
     
     // Blaise Pascal
@@ -242,7 +242,7 @@ export const physicistsData = [
         description: "About Blaise Pascal",
         date_of_birth: "1623-06-19",
         date_of_death: "1662-08-19",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -255,7 +255,7 @@ export const physicistsData = [
         description: "About Brian Greene",
         date_of_birth: "1963-02-09",
         date_of_death: null,
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -268,7 +268,7 @@ export const physicistsData = [
         description: "About C.V. Raman",
         date_of_birth: "1888-11-07",
         date_of_death: "1970-11-21",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -304,7 +304,7 @@ export const physicistsData = [
             "Geodesy",
             "Known for Construction of the Heptadecagon",
             "Number Theory",
-            "Discovery of the Dwarf Planet Ceres",
+            "discoveries of the Dwarf Planet Ceres",
             "Disquisitiones Arithmeticae: Investigations in Arithmetic",
             "Inventing the Heliotrope, The Magnetic Field and SI Units",
             "The Telegraph",
@@ -332,7 +332,7 @@ export const physicistsData = [
         discoveries: [
             "Known for Construction of the Heptadecagon",
             "Number Theory",
-            "Discovery of the Dwarf Planet Ceres",
+            "discoveries of the Dwarf Planet Ceres",
             "Disquisitiones Arithmeticae: Investigations in Arithmetic",
             "Inventing the Heliotrope, The Magnetic Field and SI Units",
             "The Telegraph",
@@ -355,7 +355,7 @@ export const physicistsData = [
         description: "About Charles Hard Townes",
         date_of_birth: "1915-07-28",
         date_of_death: "2015-01-27",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -368,7 +368,7 @@ export const physicistsData = [
         description: "About Chen Ning Yang",
         date_of_birth: "1922-09-22",
         date_of_death: null,
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null
     },
@@ -381,57 +381,75 @@ export const physicistsData = [
         description: "About Chien-Shiung Wu",
         date_of_birth: "1912-05-29",
         date_of_death: "1997-02-16",
-        discoveries: ["placeholder discovery"],
+        discoveries: ["placeholder discoveries"],
         nobel_prize: null,
         other_awards: null 
     },
 
     // Daniel Bernoulli
-    // {
-    //     "id": 23,
-    //     "name": "Daniel Bernoulli",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Groningen in the Netherlands",
-    //     "year_born": 1700, 
-    //     "year_died": 1782,
-    //     "discovery": [
-    //         "Bernoulli explained how the speed of a fluid affects its pressure: the Bernoulli Effect explains how an airplane’s wings generate lift",
-    //         "Bernoulli’s kinetic theory anticipated James Clerk Maxwell’s by more than a century",
-    //         "Bernoulli carried out ground-breaking work on the theory of risk, utilized in areas as diverse as economics and evolution",
-    //     ]
-    // },
+    {
+        id: 19,
+        name: "Daniel Bernoulli",
+        nationality: "Swiss",
+        description: "Most distinguished of the second generation of the Bernoulli family os Swiss mathematicians.",
+        date_of_birth: "1700-02-08",
+        date_of_death: "1782-03-17",
+        discoveries: [
+            "Put forward Bernoulli's principle",
+            "Established the basis for the kinetic theory of gases.",
+            "He wrote Exercitationes quaedam Mathematicae on differential equations and the physics of flowing water",
+            "Researched properties of vibrating and rotating bodies and contributed to probability theory"
+        ],
+        nobel_prize: null,
+        other_awards: [
+            "10 Prizes from Paris Academy of Sciences"
+        ] 
+    },
 
-    // // David Gross
-    // {
-    //     "id": 24,
-    //     "name": "David Gross",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Groningen in the Netherlands",
-    //     "year_born": 1700, 
-    //     "year_died": 1782,
-    //     "discovery": [
-    //         "Bernoulli explained how the speed of a fluid affects its pressure: the Bernoulli Effect explains how an airplane’s wings generate lift",
-    //         "Bernoulli’s kinetic theory anticipated James Clerk Maxwell’s by more than a century",
-    //         "Bernoulli carried out ground-breaking work on the theory of risk, utilized in areas as diverse as economics and evolution",
-    //     ]
-    // },
+    // David Gross
+    {
+        id: 20,
+        name: "David Gross",
+        nationality: "U.S",
+        description: "Graduted from Hebrew University of Jerusalem in 1962 and received a Ph.D in physics from University of California.",
+        date_of_birth: "1941-02-19",
+        date_of_death: null,
+        discoveries: [
+            "Did research in supestring theory and coinventor of a new supestring model in 1987",
+            "Quantum Chromodynamics (QCD)",
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 2004,
+                study: "Together with David Politzer and Frank Wilczek discovered strong force - nuclear force that binds together quarks(the smallest building blocks of matter) and hold together the nucleus of the atom."
+            }
+        ],
+        other_awards: [
+            "Numerous awards from a MacArthur Foundation fellowship (1987)"
+        ] 
+    },
 
-    // // David Hilbert
-    // {
-    //     "id": 25,
-    //     "name": "David Hilbert",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Königsberg, Prussia, on the Baltic Sea. Königsberg is now called Kaliningrad and is part of Russia.",
-    //     "year_born": 1862, 
-    //     "year_died": 1943,
-    //     "discovery": [
-    //         "Hilbert’s Basis Theorem Proof",
-    //         "Hilbert’s Axioms of Geometry",
-    //         "Hilbert’s 23 Problems",
-    //         "The Gravitational Field Equations of General Relativity",
-    //         "Hilbert Space and Hilbert’s Program: Logic and the Foundation of Mathematics"
-    //     ]
-    // },
+    // David Hilbert
+    {
+        id: 21,
+        name: "David Hilbert",
+        nationality: "German",
+        description: "German mathematician who reduced geometry to a series of axioms and contributed to the establishment of the formalistic foundations of mathematics.",
+        date_of_birth: "1862-01-23", 
+        date_of_death: "1943-02-14",
+        discoveries: [
+            "His work in integral equations led to research in functional analysis",
+            "Hilbert’s Basis Theorem of Proof",
+            "Hilbert’s Axioms of Geometry",
+            "Hilbert’s 23 research Problems",
+            "Hilbert space",
+            "The Gravitational Field Equations of General Relativity",
+            "Hilbert Space and Hilbert’s Program: Logic and the Foundation of Mathematics"
+        ],
+        nobel_prize: null,
+        other_awards: null,
+    },
 
     // // Democritus
     // {
@@ -439,68 +457,84 @@ export const physicistsData = [
     //     "name": "Democritus",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Ancient Greek city of Abdera.",
-    //     "year_born": 460, 
-    //     "year_died": 370,
-    //     "discovery": [
+    //     "date_of_birth": 460, 
+    //     "date_of_death": 370,
+    //     "discoveries": [
     //         "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
     //         "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
     //         "His description of a universe containing an infinity of diverse inhabited worlds",
     //         "His assertion that nothing is actually something",
     //         "His deduction that the light of stars explains the Milky Way’s appearance",
-    //         "His discovery that a cone’s volume is one-third that of the cylinder with the same base and height"
+    //         "His discoveries that a cone’s volume is one-third that of the cylinder with the same base and height"
     //     ]
     // },
 
-    // // Emmy Noether
-    // {
-    //     "id": 27,
-    //     "name": "Emmy Noether",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Ancient Greek city of Abdera.",
-    //     "year_born": 1882, 
-    //     "year_died": 1935,
-    //     "discovery": [
-    //         "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
-    //         "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
-    //         "His description of a universe containing an infinity of diverse inhabited worlds",
-    //         "His assertion that nothing is actually something",
-    //         "His deduction that the light of stars explains the Milky Way’s appearance",
-    //         "His discovery that a cone’s volume is one-third that of the cylinder with the same base and height"
-    //     ]
-    // },
+    // Amalie Emmy Noether
+    {
+        id: 22,
+        name: "Emmy Noether",
+        nationality: "German",
+        description: "German mathematician whose innovations in higher algebra gained her recognition as the most creative abstract algebraist of modern times",
+        date_of_birth: "1882-03-23", 
+        date_of_death: "1935-04-14",
+        discoveries: [
+            "Discovered that if Lagrangian does not change when the coordinate system changes, then there is quantity that is conserved",
+            "Noether's Theorem",
+            "Built up the theory of noncommutative algebras"
+        ],
+        nobel_prize: null,
+        other_awards: null,  
+    },
 
-    // // Enrico Fermi
-    // {
-    //     "id": 28,
-    //     "name": "Enrico Fermi",
-    //     "description": "Italian-born American scientist who was one of the chief architects of the nuclear age.",
-    //     "nationality": "Rome, Italy",
-    //     "awards_and_honors": ["Nobel prize (1938)"],
-    //     "year_born": 1901, 
-    //     "year_died": 1954,
-    //     "discovery": [
-    //         "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
-    //         "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
-    //         "His description of a universe containing an infinity of diverse inhabited worlds",
-    //         "His assertion that nothing is actually something",
-    //         "His deduction that the light of stars explains the Milky Way’s appearance",
-    //         "His discovery that a cone’s volume is one-third that of the cylinder with the same base and height"
-    //     ]
-    // },
+    // Enrico Fermi
+    {
+        id: 23,
+        name: "Enrico Fermi",
+        nationality: "Italian",
+        description: "Was an Italian born American scientist who was one of the chief architects of the nuclear age.",
+        date_of_birth: "1901-09-29", 
+        date_of_death: "1954-11-28",
+        discoveries: [
+            "He developed the mathematical statistics required to clarify a large class of subatomic phenomena",
+            "Explored nuclear transformations caused by neutrons, and directed the first controlled chain reaction",
+            "Fermi-Dirac Statistics",
+            "Fermi paradox (Where is everybody)",
+            "Nuclear chain reaction",
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 1938,
+                study: "Nuclear chain reaction"
+            }
+        ],
+        other_awards: null,
+    },
 
-    // // Ernest Lawrence
-    // {
-    //     "id": 29,
-    //     "name": "Ernest Lawrence",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1901, 
-    //     "year_died": 1958,
-    //     "discovery": [
-    //         "The Cyclotron", 
-    //         "Cancer Treatments"
-    //     ]
-    // },
+    // Ernest Orlando Lawrence
+    {
+        id: 24,
+        name: "Ernest Orlando Lawrence",
+        nationality: "U.S",
+        description: "Was an American phycist who invented the cyclotron, the first particle accelerator",
+        date_of_birth: "1901-08-08", 
+        date_of_death: "1958-08-27",
+        discoveries: [
+            "Invented the first particle accelerator",
+            "Invented and patented a colour-television picture tube",
+            "Worked on the Manhattan Project as program chief in charge of the development of the electromagnetic process separating uranium-235 for the atomic bomb"
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 1939,
+                study: "Invention of the cyclotron"
+            }
+        ],
+        other_awards: [
+            "Award from U.S Atomic Energy Commission (1957)"
+        ],
+    },
 
     // // Ernest Rutherford
     // {
@@ -509,9 +543,9 @@ export const physicistsData = [
     //     "description": "He was a New Zeland-born British physicist considered the greatest experimentalist since Michael Faraday.",
     //     "nationality": "Spring Grove, New Zealand",
     //     "awards_and_honors": ["Copley Medal (1922)", "Nobel Prize (1908)"],
-    //     "year_born": 1871, 
-    //     "year_died": 1937,
-    //     "discovery": [
+    //     "date_of_birth": 1871, 
+    //     "date_of_death": 1937,
+    //     "discoveries": [
     //         "Atom", 
     //         "Radioactivity",
     //         "Rutherford model"
@@ -524,9 +558,9 @@ export const physicistsData = [
     //     "name": "Ernest Walton",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1871, 
-    //     "year_died": 1937,
-    //     "discovery": [
+    //     "date_of_birth": 1871, 
+    //     "date_of_death": 1937,
+    //     "discoveries": [
     //         "The Cyclotron", 
     //         "Cancer Treatments"
     //     ]
@@ -538,9 +572,9 @@ export const physicistsData = [
     //     "name": "Erwin Schrodinger",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1887, 
-    //     "year_died": 1961,
-    //     "discovery": [
+    //     "date_of_birth": 1887, 
+    //     "date_of_death": 1961,
+    //     "discoveries": [
     //         "The Cyclotron", 
     //         "Cancer Treatments"
     //     ]
@@ -552,9 +586,9 @@ export const physicistsData = [
     //     "name": "Evangelista Torricelli",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1608, 
-    //     "year_died": 1647,
-    //     "discovery": [
+    //     "date_of_birth": 1608, 
+    //     "date_of_death": 1647,
+    //     "discoveries": [
     //         "The Cyclotron", 
     //         "Cancer Treatments"
     //     ]
@@ -566,27 +600,39 @@ export const physicistsData = [
     //     "name": "Francis Crick",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1916, 
-    //     "year_died": 2004,
-    //     "discovery": [
+    //     "date_of_birth": 1916, 
+    //     "date_of_death": 2004,
+    //     "discoveries": [
     //         "The Cyclotron", 
     //         "Cancer Treatments"
     //     ]
     // },
 
-    // // Frank Wilczek
-    // {
-    //     "id": 35,
-    //     "name": "Frank Wilczek",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Canton, South Dakota, USA",
-    //     "year_born": 1871, 
-    //     "year_died": 1937,
-    //     "discovery": [
-    //         "The Cyclotron", 
-    //         "Cancer Treatments"
-    //     ]
-    // },
+    // Frank Wilczek
+    {
+        id: 35,
+        name: "Frank Wilczek",
+        nationality: "U.S",
+        description: "Contributed to the study of questions relating to cosmology, condensed matter physics and blackholes",
+        date_of_birth: "1951-05-15",
+        date_of_death: null,
+        discoveries: [
+            "Did research in supestring theory and coinventor of a new supestring model in 1987",
+            "Quantum Chromodynamics (QCD)",
+            ""
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 2004,
+                study: "Together with David J.Gross and H. David Politzer discovered strong force - nuclear force that binds together quarks(the smallest building blocks of matter) and hold together the nucleus of the atom."
+            }
+        ],
+        other_awards: [
+            "MacArthur Foundation fellowship (1982)",
+            "Trempleton Prize(2022)"
+        ] 
+    },
 
     // // Fred Hoyle
     // {
@@ -594,9 +640,9 @@ export const physicistsData = [
     //     "name": "Fred Hoyle",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Gilstead, England, UK",
-    //     "year_born": 1915, 
-    //     "year_died": 2001,
-    //     "discovery": [
+    //     "date_of_birth": 1915, 
+    //     "date_of_death": 2001,
+    //     "discoveries": [
     //         "How the Stars Built the Chemical Elements – Stellar Nucleosynthesis", 
     //         "The Unlikely Existence of Carbon",
     //         "The Age of the Universe, Panspermia"
@@ -609,9 +655,9 @@ export const physicistsData = [
     //     "name": "Galileo Galilei",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Pisa, Italy",
-    //     "year_born": 1564, 
-    //     "year_died": 1642,
-    //     "discovery": [
+    //     "date_of_birth": 1564, 
+    //     "date_of_death": 1642,
+    //     "discoveries": [
     //         "Was the first person to study the sky with a telescope",
     //         "Discovered the first moons ever known to orbit a planet other than Earth", 
     //         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
@@ -631,9 +677,9 @@ export const physicistsData = [
     //     "name": "Georg Ohm",
     //     "description": "lkdjhbvnwndbmsncldjfbcj",
     //     "nationality": "Pisa, Italy",
-    //     "year_born": 1789, 
-    //     "year_died": 1854,
-    //     "discovery": [
+    //     "date_of_birth": 1789, 
+    //     "date_of_death": 1854,
+    //     "discoveries": [
     //         "Was the first person to study the sky with a telescope",
     //         "Discovered the first moons ever known to orbit a planet other than Earth", 
     //         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
@@ -648,26 +694,41 @@ export const physicistsData = [
     // },
 
     // Guglielmo Marconi
-    // {
-    //     "id": 39,
-    //     "name": "Guglielmo Marconi",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Pisa, Italy",
-    //     "year_born": 1874, 
-    //     "year_died": 1937,
-    //     "discovery": [
-    //         "Was the first person to study the sky with a telescope",
-    //         "Discovered the first moons ever known to orbit a planet other than Earth", 
-    //         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-    //         "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-    //         "Discovered the rings of Saturn",
-    //         "Discovered our moon has mountains",
-    //         "Discovered that the Milky Way is made up of stars",
-    //         "Was the first person ever to see the planet Neptune",
-    //         "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-    //         " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-    //     ]
-    // },
+    {
+        "id": 39,
+        "name": "Guglielmo Marconi",
+        nationality: "Italian",
+        description: "Worked on the development of shortwave wireless communication.",
+        date_of_birth: "1874-04-25",
+        date_of_death: "1937-07-20",
+        discoveries: [
+            "Radiotelegraphy"
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 1909,
+                study: "Hertzian wave"
+            }
+        ],
+        other_awards: null
+        // "description": "lkdjhbvnwndbmsncldjfbcj",
+        // "nationality": "Pisa, Italy",
+        // "date_of_birth": 1874, 
+        // "date_of_death": 1937,
+        // "discoveries": [
+        //     "Was the first person to study the sky with a telescope",
+        //     "Discovered the first moons ever known to orbit a planet other than Earth", 
+        //     "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
+        //     "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
+        //     "Discovered the rings of Saturn",
+        //     "Discovered our moon has mountains",
+        //     "Discovered that the Milky Way is made up of stars",
+        //     "Was the first person ever to see the planet Neptune",
+        //     "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
+        //     " Established that when gravity accelerates any object, the object accelerates at a constant rate"
+        // ]
+    },
 
         // Hans Bethe
         // {
@@ -675,9 +736,9 @@ export const physicistsData = [
         //     "name": "Hans Bethe",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "Pisa, Italy",
-        //     "year_born": 1906, 
-        //     "year_died": 2005,
-        //     "discovery": [
+        //     "date_of_birth": 1906, 
+        //     "date_of_death": 2005,
+        //     "discoveries": [
         //         "Was the first person to study the sky with a telescope",
         //         "Discovered the first moons ever known to orbit a planet other than Earth", 
         //         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
@@ -697,9 +758,9 @@ export const physicistsData = [
         //     "name": "Hans Christian Oersted",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "Pisa, Italy",
-        //     "year_born": 1777, 
-        //     "year_died": 1851,
-        //     "discovery": [
+        //     "date_of_birth": 1777, 
+        //     "date_of_death": 1851,
+        //     "discoveries": [
         //         "Was the first person to study the sky with a telescope",
         //         "Discovered the first moons ever known to orbit a planet other than Earth", 
         //         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
@@ -719,9 +780,9 @@ export const physicistsData = [
         //     "name": "Heinrich Hertz",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "German port city of Hamburg",
-        //     "year_born": 1857, 
-        //     "year_died": 1894,
-        //     "discovery": [
+        //     "date_of_birth": 1857, 
+        //     "date_of_death": 1894,
+        //     "discoveries": [
         //         "He discovered Radio Waves and the Photoelectric Effect"
         //     ]
         // },
@@ -732,9 +793,9 @@ export const physicistsData = [
         //     "name": "Henry Moseley",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "Weymouth, England, UK",
-        //     "year_born": 1887, 
-        //     "year_died": 1915,
-        //     "discovery": [
+        //     "date_of_birth": 1887, 
+        //     "date_of_death": 1915,
+        //     "discoveries": [
         //         "The True Basis of the Periodic Table",
         //         "The Atomic Battery",
         //         "Four New Chemical Elements",
@@ -748,9 +809,9 @@ export const physicistsData = [
         //     "name": "Inge Lehmann",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "Denmark’s capital city, Copenhagen",
-        //     "year_born": 1888, 
-        //     "year_died": 1993,
-        //     "discovery": [
+        //     "date_of_birth": 1888, 
+        //     "date_of_death": 1993,
+        //     "discoveries": [
         //         "Earth Research"
         //     ]
         // },
@@ -761,9 +822,9 @@ export const physicistsData = [
         //     "name": "Irene Joliot-Curie",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "France’s capital city, Paris",
-        //     "year_born": 1897, 
-        //     "year_died": 1956,
-        //     "discovery": [
+        //     "date_of_birth": 1897, 
+        //     "date_of_death": 1956,
+        //     "discoveries": [
         //         "Almost Discovering the Neutron",
         //         "Making the First Artificial Radioactive Elements"
         //     ]
@@ -775,9 +836,9 @@ export const physicistsData = [
         //     "name": "Irene Joliot-Curie",
         //     "description": "lkdjhbvnwndbmsncldjfbcj",
         //     "nationality": "France’s capital city, Paris",
-        //     "year_born": 1897, 
-        //     "year_died": 1956,
-        //     "discovery": [
+        //     "date_of_birth": 1897, 
+        //     "date_of_death": 1956,
+        //     "discoveries": [
         //         "Almost Discovering the Neutron",
         //         "Making the First Artificial Radioactive Elements"
         //     ]
@@ -790,9 +851,9 @@ export const physicistsData = [
         //     "description": "Was an English physicist and mathematician who was the culminating figure of the Scientific Revolution of the 17th century",
         //     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
         //     "awards_and_honors": ["Unavailable"],
-        //     "year_born": 1643,
-        //     "year_died": 1727,
-        //     "discovery": [
+        //     "date_of_birth": 1643,
+        //     "date_of_death": 1727,
+        //     "discoveries": [
         //         "Calculus", 
         //         "Universal Gravitation",
         //         "Newton's laws of motion",
@@ -812,9 +873,9 @@ export const physicistsData = [
         //     "name": "J. J. Thomson",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
-        //     "year_born": 1856,
-        //     "year_died": 1940,
-        //     "discovery": [
+        //     "date_of_birth": 1856,
+        //     "date_of_death": 1940,
+        //     "discoveries": [
         //         "Calculus", 
         //         "Universal Gravitation",
         //         "Newton's laws of motion",
@@ -834,9 +895,9 @@ export const physicistsData = [
         //     "name": "J. Robert Oppenheimer",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
-        //     "year_born": 1904,
-        //     "year_died": 1967,
-        //     "discovery": [
+        //     "date_of_birth": 1904,
+        //     "date_of_death": 1967,
+        //     "discoveries": [
         //         "Calculus", 
         //         "Universal Gravitation",
         //         "Newton's laws of motion",
@@ -856,9 +917,9 @@ export const physicistsData = [
         //     "name": "James Chadwick",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Bollington, England",
-        //     "year_born": 1891,
-        //     "year_died": 1974,
-        //     "discovery": [
+        //     "date_of_birth": 1891,
+        //     "date_of_death": 1974,
+        //     "discoveries": [
         //         "James Chadwick discovered the neutron in 1932 and was awarded the Nobel Prize for Physics in 1935"
         //     ] 
         // },
@@ -869,9 +930,9 @@ export const physicistsData = [
         //     "name": "James Clerk Maxwell",
         //     "description": "Regarded by modern physicists as the scientist of the 19th century who had the greatest influence on 20th century physics",
         //     "nationality": "Edinburgh, Scotland, UK",
-        //     "year_born": 1831,
-        //     "year_died": 1879,
-        //     "discovery": [
+        //     "date_of_birth": 1831,
+        //     "date_of_death": 1879,
+        //     "discoveries": [
         //         "Color in the Human Eye and Photography",
         //         "Electromagnetism – The First Unification of Nature’s Forces",
         //         "The Kinetic Theory of Gases and Statistical Physics"
@@ -884,9 +945,9 @@ export const physicistsData = [
         //     "name": "Johannes Kepler",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-        //     "year_born": 1571,
-        //     "year_died": 1630,
-        //     "discovery": [
+        //     "date_of_birth": 1571,
+        //     "date_of_death": 1630,
+        //     "discoveries": [
         //         "The Tides",
         //         "Optics",
         //         "Kepler’s ‘Last Theorem",
@@ -900,9 +961,9 @@ export const physicistsData = [
         //     "name": "John Bardeen",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-        //     "year_born": 1908,
-        //     "year_died": 1991,
-        //     "discovery": [
+        //     "date_of_birth": 1908,
+        //     "date_of_death": 1991,
+        //     "discoveries": [
         //         "The Tides",
         //         "Optics",
         //         "Kepler’s ‘Last Theorem",
@@ -916,9 +977,9 @@ export const physicistsData = [
         //     "name": "John Cockcroft",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Todmorden, Yorkshire, England, UK",
-        //     "year_born": 1897,
-        //     "year_died": 1967,
-        //     "discovery": [
+        //     "date_of_birth": 1897,
+        //     "date_of_death": 1967,
+        //     "discoveries": [
         //         "Won the 1951 Nobel Prize in Physics with his colleague Ernest Walton for producing the first artificial nuclear disintegration in history",
         //         "Cockcroft & Walton designed and built the first ‘high energy’ particle accelerator",
         //         "As a remarkable side-benefit, their experiment provided proof that Einstein’s mass-energy equivalence equation E = mc2 is correct",
@@ -931,9 +992,9 @@ export const physicistsData = [
         //     "name": "John Michell",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": " Eakring, Nottinghamshire, England, UK",
-        //     "year_born": 1724,
-        //     "year_died": 1793,
-        //     "discovery": [
+        //     "date_of_birth": 1724,
+        //     "date_of_death": 1793,
+        //     "discoveries": [
         //         "Made the first explicit statement that the force between two magnets is governed by an inverse square law",
         //         "Suggested that black holes – he called them dark stars – could exist, proposing their masses could be so great that light could not escape from them",
         //         "Proposed that earthquakes are caused by the movement of rocks miles below our planet’s surface and travel long distances as waves",
@@ -949,9 +1010,9 @@ export const physicistsData = [
         //     "name": "John Philoponus",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-        //     "year_born": 490,
-        //     "year_died": 570,
-        //     "discovery": [
+        //     "date_of_birth": 490,
+        //     "date_of_death": 570,
+        //     "discoveries": [
         //         "Made the first explicit statement that the force between two magnets is governed by an inverse square law",
         //         "Suggested that black holes – he called them dark stars – could exist, proposing their masses could be so great that light could not escape from them",
         //         "Proposed that earthquakes are caused by the movement of rocks miles below our planet’s surface and travel long distances as waves",
@@ -967,9 +1028,9 @@ export const physicistsData = [
         //     "name": "John Wallis",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-        //     "year_born": 1616,
-        //     "year_died": 1703,
-        //     "discovery": [
+        //     "date_of_birth": 1616,
+        //     "date_of_death": 1703,
+        //     "discoveries": [
         //         "Made the first explicit statement that the force between two magnets is governed by an inverse square law",
         //         "Suggested that black holes – he called them dark stars – could exist, proposing their masses could be so great that light could not escape from them",
         //         "Proposed that earthquakes are caused by the movement of rocks miles below our planet’s surface and travel long distances as waves",
@@ -985,9 +1046,9 @@ export const physicistsData = [
         //     "name": "Joseph Henry",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Albany, New York, USA",
-        //     "year_born": 1797,
-        //     "year_died": 1878,
-        //     "discovery": [
+        //     "date_of_birth": 1797,
+        //     "date_of_death": 1878,
+        //     "discoveries": [
         //         "Using a magnet to produce electricity",
         //         "Inductance and the The Telegraph"
         //     ] 
@@ -999,9 +1060,9 @@ export const physicistsData = [
         //     "name": "Joseph-Louis Lagrange",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Italian city of Turin, Piedmont",
-        //     "year_born": 1736,
-        //     "year_died": 1813,
-        //     "discovery": [
+        //     "date_of_birth": 1736,
+        //     "date_of_death": 1813,
+        //     "discoveries": [
         //         "Built on earlier work by Leonhard Euler to create the calculus of variations – he called it his ‘method of variations’",
         //         "Introduced the ∂ notation and created the first partial differential equations",
         //         "Gave the most generalized statement of the principle of least action of his era",
@@ -1024,9 +1085,9 @@ export const physicistsData = [
         //     "name": "Kip Thorne",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-        //     "year_born": 1736,
-        //     "year_died": 1813,
-        //     "discovery": [
+        //     "date_of_birth": 1736,
+        //     "date_of_death": 1813,
+        //     "discoveries": [
         //         "Built on earlier work by Leonhard Euler to create the calculus of variations – he called it his ‘method of variations’",
         //         "Introduced the ∂ notation and created the first partial differential equations",
         //         "Gave the most generalized statement of the principle of least action of his era",
@@ -1049,11 +1110,11 @@ export const physicistsData = [
         //     "name": "Lawrence Bragg",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Adelaide, capital of the British colony of South Australia",
-        //     "year_born": 1890,
-        //     "year_died": 1971,
-        //     "discovery": [
+        //     "date_of_birth": 1890,
+        //     "date_of_death": 1971,
+        //     "discoveries": [
         //         "He discovered how to ‘see’ the positions of atoms in solids",
-        //         "His discovery has had an enormous impact on chemistry, biology, and mineralogy",
+        //         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
         //         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
         //     ] 
         // },
@@ -1064,11 +1125,11 @@ export const physicistsData = [
         //     "name": "Lisa Randall",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Adelaide, capital of the British colony of South Australia",
-        //     "year_born": 1890,
-        //     "year_died": 1971,
-        //     "discovery": [
+        //     "date_of_birth": 1890,
+        //     "date_of_death": 1971,
+        //     "discoveries": [
         //         "He discovered how to ‘see’ the positions of atoms in solids",
-        //         "His discovery has had an enormous impact on chemistry, biology, and mineralogy",
+        //         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
         //         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
         //     ] 
         // },
@@ -1079,9 +1140,9 @@ export const physicistsData = [
         //     "name": "Lise Meitner",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
-        //     "year_born": 1878,
-        //     "year_died": 1968,
-        //     "discovery": [
+        //     "date_of_birth": 1878,
+        //     "date_of_death": 1968,
+        //     "discoveries": [
         //         "New Isotopes and Radioactive Recoil",
         //         "Swashbuckling Science",
         //         "Protactinium’s Long-lived Isotope",
@@ -1096,9 +1157,9 @@ export const physicistsData = [
         //     "name": "Lord Kelvin",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
-        //     "year_born": 1824,
-        //     "year_died": 1907,
-        //     "discovery": [
+        //     "date_of_birth": 1824,
+        //     "date_of_death": 1907,
+        //     "discoveries": [
         //         "New Isotopes and Radioactive Recoil",
         //         "Swashbuckling Science",
         //         "Protactinium’s Long-lived Isotope",
@@ -1113,9 +1174,9 @@ export const physicistsData = [
         //     "name": "Luis Alvarez",
         //     "description": "This is a description for Isaac Newton",
         //     "nationality": "San Francisco, California",
-        //     "year_born": 1911,
-        //     "year_died": 1988,
-        //     "discovery": [
+        //     "date_of_birth": 1911,
+        //     "date_of_death": 1988,
+        //     "discoveries": [
         //         "The iridium layer",
         //         "Dinosaur death by meteorite impact",
         //         "Subatomic particle discoveries"
@@ -1128,9 +1189,9 @@ export const physicistsData = [
         //     "name": "Marie Curie",
         //     "description": "Description  for Marie Curie",
         //     "nationality": "Warsaw, Poland",
-        //     "year_born": 1867,
-        //     "year_died": 1934,
-        //     "discovery": [
+        //     "date_of_birth": 1867,
+        //     "date_of_death": 1934,
+        //     "discoveries": [
         //         "Marie Curie discovered two new chemical elements: radium and polonium",
         //         "She carried out the first research into the treatment of tumors with radiation",
         //         "She founded of the Curie Institutes, which are important medical research centers"
@@ -1143,9 +1204,9 @@ export const physicistsData = [
         //     "name": "Masatoshi Koshiba",
         //     "description": "Description  for Marie Curie",
         //     "nationality": "Warsaw, Poland",
-        //     "year_born": 1926,
-        //     "year_died": 2020,
-        //     "discovery": [
+        //     "date_of_birth": 1926,
+        //     "date_of_death": 2020,
+        //     "discoveries": [
         //         "Marie Curie discovered two new chemical elements: radium and polonium",
         //         "She carried out the first research into the treatment of tumors with radiation",
         //         "She founded of the Curie Institutes, which are important medical research centers"
@@ -1158,9 +1219,9 @@ export const physicistsData = [
         //     "name": "Max Born",
         //     "description": "Description  for Marie Curie",
         //     "nationality": "Warsaw, Poland",
-        //     "year_born": 1882,
-        //     "year_died": 1970,
-        //     "discovery": [
+        //     "date_of_birth": 1882,
+        //     "date_of_death": 1970,
+        //     "discoveries": [
         //         "Marie Curie discovered two new chemical elements: radium and polonium",
         //         "She carried out the first research into the treatment of tumors with radiation",
         //         "She founded of the Curie Institutes, which are important medical research centers"
@@ -1174,9 +1235,9 @@ export const physicistsData = [
         //     "description": "Was a German theoretical physicist who originated quantum theory.",
         //     "nationality": "Kiel, Schleswig [Germany]",
         //     "awards_and_honors": ["Copley Medal (1929)", "Nobel Prize (1918)"],
-        //     "year_born": 1858,
-        //     "year_died": 1947,
-        //     "discovery": [
+        //     "date_of_birth": 1858,
+        //     "date_of_death": 1947,
+        //     "discoveries": [
         //         "Planck\n's constant",
         //         "Planck\n's radiation law",
         //         "Quantum theory",
@@ -1190,10 +1251,10 @@ export const physicistsData = [
         //     "name": "Michael Faraday",
         //     "description": "Description for Michael Faraday",
         //     "nationality": "London, England, UK",
-        //     "year_born": 1791,
-        //     "year_died": 1867,
-        //     "discovery": [ 
-        //         "Discovery of Electromagnetic Rotation", 
+        //     "date_of_birth": 1791,
+        //     "date_of_death": 1867,
+        //     "discoveries": [ 
+        //         "discoveries of Electromagnetic Rotation", 
         //         "Gas Liquefaction and Refrigeration",  
         //         "Benzene",  
         //         "Electromagnetic Induction, Faraday’s Laws of Electrolysis",
@@ -1207,9 +1268,9 @@ export const physicistsData = [
         //     "name": "Michio Kaku",
         //     "description": "Description for Michael Faraday",
         //     "nationality": " San Jose, California",
-        //     "year_born": 1947,
-        //     "year_died": 186766,
-        //     "discovery": [ 
+        //     "date_of_birth": 1947,
+        //     "date_of_death": 186766,
+        //     "discoveries": [ 
         //         "Popularizer of science"
         //     ]
         // },
@@ -1220,9 +1281,9 @@ export const physicistsData = [
         //     "name": "Murray Gell-Mann",
         //     "description": "Description for Michael Faraday",
         //     "nationality": "London, England, UK.",
-        //     "year_born": 1929,
-        //     "year_died": 2019,
-        //     "discovery": [ 
+        //     "date_of_birth": 1929,
+        //     "date_of_death": 2019,
+        //     "discoveries": [ 
         //         "Popularizer of science"
         //     ]
         // },
@@ -1233,9 +1294,9 @@ export const physicistsData = [
         //     "name": "Nicolo Tartaglia",
         //     "description": "Description for Michael Faraday",
         //     "nationality": "London, England, UK.",
-        //     "year_born": 1500,
-        //     "year_died": 1557,
-        //    "discovery": [ 
+        //     "date_of_birth": 1500,
+        //     "date_of_death": 1557,
+        //    "discoveries": [ 
         //             "Popularizer of science"
         //     ]
         // },
@@ -1246,9 +1307,9 @@ export const physicistsData = [
         //     "name": "Neils Bohr",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Denmark’s capital city, Copenhagen",
-        //     "year_born": 1885,
-        //     "year_died": 1962,
-        //    "discovery": [ 
+        //     "date_of_birth": 1885,
+        //     "date_of_death": 1962,
+        //    "discoveries": [ 
         //             "He founded quantum mechanics",
         //             "Later, as a leading architect of the Copenhagen interpretation of quantum mechanics, he helped to reshape our understanding of how nature operates at the atomic scale"
         //     ]
@@ -1260,9 +1321,9 @@ export const physicistsData = [
         //     "name": "Nikola Tesla",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "London, England, UK.",
-        //     "year_born": 1856,
-        //     "year_died": 1943,
-        //     "discovery": [ 
+        //     "date_of_birth": 1856,
+        //     "date_of_death": 1943,
+        //     "discoveries": [ 
         //             "He founded quantum mechanics",
         //             "Later, as a leading architect of the Copenhagen interpretation of quantum mechanics, he helped to reshape our understanding of how nature operates at the atomic scale"
         //     ]
@@ -1274,9 +1335,9 @@ export const physicistsData = [
         //    "name": "Paul Dirac",
         //    "description": "Denmark’s capital city, Copenhagen",
         //    "nationality": "Bristol, England, UK",                  
-        //    "year_born": 1902,
-        //    "year_died": 1984,
-        //    "discovery": [ 
+        //    "date_of_birth": 1902,
+        //    "date_of_death": 1984,
+        //    "discoveries": [ 
         //             "Dirac founded quantum electrodynamics",
         //             "Accounting for the creation and annihilation of photons of light within atoms, and his Lagrangian formulation of quantum mechanics led to Richard Feynman’s path integrals"
         //     ]
@@ -1288,10 +1349,10 @@ export const physicistsData = [
         //     "name": "Pyotr Kapitsa",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",                  
-        //     "year_born": 1894,
-        //     "year_died": 1984,
-        //     "discovery": [ 
-        //              "Discovery of Superfluidity"
+        //     "date_of_birth": 1894,
+        //     "date_of_death": 1984,
+        //     "discoveries": [ 
+        //              "discoveries of Superfluidity"
         //      ]
         //  },
 
@@ -1301,10 +1362,10 @@ export const physicistsData = [
         //     "name": "Richard A. Muller",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",                  
-        //     "year_born": 1894,
-        //     "year_died": 1984,
-        //     "discovery": [ 
-        //              "Discovery of Superfluidity"
+        //     "date_of_birth": 1894,
+        //     "date_of_death": 1984,
+        //     "discoveries": [ 
+        //              "discoveries of Superfluidity"
         //      ]
         //  },
 
@@ -1314,10 +1375,10 @@ export const physicistsData = [
         //     "name": "Richard Feynman",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",                  
-        //     "year_born": 1918,
-        //     "year_died": 1988,
-        //     "discovery": [ 
-        //              "Discovery of Superfluidity"
+        //     "date_of_birth": 1918,
+        //     "date_of_death": 1988,
+        //     "discoveries": [ 
+        //              "discoveries of Superfluidity"
         //      ]
         //  },
 
@@ -1327,9 +1388,9 @@ export const physicistsData = [
         //     "name": "Robert Hooke",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Isle of Wight, England",                  
-        //     "year_born": 1635,
-        //     "year_died": 1703,
-        //     "discovery": [ 
+        //     "date_of_birth": 1635,
+        //     "date_of_death": 1703,
+        //     "discoveries": [ 
         //              "The Measurement of Time", 
         //              "Hooke’s Law", 
         //              "Micrographia and Microscopy", 
@@ -1344,9 +1405,9 @@ export const physicistsData = [
         //     "name": "Rodger Penrose",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Isle of Wight, England",                  
-        //     "year_born": 1635,
-        //     "year_died": 1703,
-        //     "discovery": [ 
+        //     "date_of_birth": 1635,
+        //     "date_of_death": 1703,
+        //     "discoveries": [ 
         //              "The Measurement of Time", 
         //              "Hooke’s Law", 
         //              "Micrographia and Microscopy", 
@@ -1361,9 +1422,9 @@ export const physicistsData = [
         //     "name": "S. N. Bose",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",                  
-        //     "year_born": 1635,
-        //     "year_died": 1974,
-        //     "discovery": [ 
+        //     "date_of_birth": 1635,
+        //     "date_of_death": 1974,
+        //     "discoveries": [ 
         //              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
         //      ]
         //  },
@@ -1374,9 +1435,9 @@ export const physicistsData = [
         //     "name": "Stephen Hawking",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",                  
-        //     "year_born": 1942,
-        //     "year_died": 2018,
-        //     "discovery": [ 
+        //     "date_of_birth": 1942,
+        //     "date_of_death": 2018,
+        //     "discoveries": [ 
         //              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
         //      ]
         //  },
@@ -1387,9 +1448,9 @@ export const physicistsData = [
         //     "name": "Steven Weinberg",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",                  
-        //     "year_born": 1933,
-        //     "year_died": 2021,
-        //     "discovery": [ 
+        //     "date_of_birth": 1933,
+        //     "date_of_death": 2021,
+        //     "discoveries": [ 
         //              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
         //      ]
         //  },
@@ -1400,9 +1461,9 @@ export const physicistsData = [
         //     "name": "SUBRAHMANYAN CHANDRASEKHAR",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",                  
-        //     "year_born": 1910,
-        //     "year_died": 1995,
-        //     "discovery": [ 
+        //     "date_of_birth": 1910,
+        //     "date_of_death": 1995,
+        //     "discoveries": [ 
         //              "He was an astrophysicist",
         //              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
         //      ]
@@ -1414,9 +1475,9 @@ export const physicistsData = [
         //     "name": "Thomas Young",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",                  
-        //     "year_born": 1773,
-        //     "year_died": 1829,
-        //     "discovery": [ 
+        //     "date_of_birth": 1773,
+        //     "date_of_death": 1829,
+        //     "discoveries": [ 
         //              "Subrahmanyan Chandrasekhar was an astrophysicist",
         //              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
         //      ]
@@ -1428,9 +1489,9 @@ export const physicistsData = [
         //     "name": "Vera Rubin",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",                  
-        //     "year_born": 1928,
-        //     "year_died": 2016,
-        //     "discovery": [ 
+        //     "date_of_birth": 1928,
+        //     "date_of_death": 2016,
+        //     "discoveries": [ 
         //              "Subrahmanyan Chandrasekhar was an astrophysicist",
         //              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
         //      ]
@@ -1443,9 +1504,9 @@ export const physicistsData = [
         //     "description": "Was a German physicist and philosopher who discovered a way to formulate quantum mechanics in terms of matrices",
         //     "nationality": "Wurzburg, Germany",
         //     "awards_and_honors": ["Nobel prize (1932)"],                  
-        //     "year_born": 1901,
-        //     "year_died": 1976,
-        //     "discovery": [ 
+        //     "date_of_birth": 1901,
+        //     "date_of_death": 1976,
+        //     "discoveries": [ 
         //              "complementarity principle",
         //              "matrix mechanics",
         //              "uncertainty principle"
@@ -1458,9 +1519,9 @@ export const physicistsData = [
         //     "name": "J. Willard Gibbs",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "New Haven, Connecticut, USA",                  
-        //     "year_born": 1839,
-        //     "year_died": 1903,
-        //     "discovery": [ 
+        //     "date_of_birth": 1839,
+        //     "date_of_death": 1903,
+        //     "discoveries": [ 
         //              "He contributed to Thermodynamics",
         //              "Discovered The Phase Rule",
         //              "Gibbs’ Thermodynamics on a Stamp",
@@ -1474,9 +1535,9 @@ export const physicistsData = [
         //     "name": "William Gilbert",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Colchester, England",                  
-        //     "year_born": 1544,
-        //     "year_died": 1603,
-        //     "discovery": [ 
+        //     "date_of_birth": 1544,
+        //     "date_of_death": 1603,
+        //     "discoveries": [ 
         //              "The Earth’s Interior is Magnetic",
         //              "He observed that static electricity is generated by friction, but magnetism exists independently of friction",
         //              "He discovered The First Electroscope, Using Earth’s Magnetism to Make Magnets, Recognizing that Magnetism is Caused by Internal Order"
@@ -1489,9 +1550,9 @@ export const physicistsData = [
         //     "name": "Wolfgang Pauli",
         //     "description": "Denmark’s capital city, Copenhagen",
         //     "nationality": "Colchester, England",                  
-        //     "year_born": 1900,
-        //     "year_died": 1958,
-        //     "discovery": [ 
+        //     "date_of_birth": 1900,
+        //     "date_of_death": 1958,
+        //     "discoveries": [ 
         //              "The Earth’s Interior is Magnetic",
         //              "He observed that static electricity is generated by friction, but magnetism exists independently of friction",
         //              "He discovered The First Electroscope, Using Earth’s Magnetism to Make Magnets, Recognizing that Magnetism is Caused by Internal Order"
@@ -1505,9 +1566,9 @@ export const physicistsData = [
         //     "description": "Was a German physicist and philosopher. Best known for his statement of the law of conservation of energy",
         //     "nationality": "Postdam, Prussia [Germany]",
         //     "awards_honors": [""],                  
-        //     "year_born": 1821,
-        //     "year_died": 1894,
-        //     "discovery": [ 
+        //     "date_of_birth": 1821,
+        //     "date_of_death": 1894,
+        //     "discoveries": [ 
         //              "physiology",
         //              "optics",
         //              "electrodynamics",
@@ -1520,12 +1581,12 @@ export const physicistsData = [
         // {
         //     "id": 92,
         //     "name": "Joseph Black",
-        //     "description": "Was a british chemist and physicist best known for the rediscovery of fixed air (carbon dioxide).",
+        //     "description": "Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
         //     "nationality": "Bordeaux, France",
         //     "awards_honors": [""],                  
-        //     "year_born": 1728,
-        //     "year_died": 1799,
-        //     "discovery": [ 
+        //     "date_of_birth": 1728,
+        //     "date_of_death": 1799,
+        //     "discoveries": [ 
         //              "latent heat",
         //              "bicarbonate",
         //              "carbon dioxide"

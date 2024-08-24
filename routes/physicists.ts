@@ -13,5 +13,10 @@ physicist.get("/random", (c) => {
     return c.json(physicistsData[Math.floor(Math.random() * physicistsData.length)])
 });
 
+// pass id and get a scientist
+// physicist.get("/:id", (c) => {
+//     const physicistData = c.req.param("id")
+// });
+
 
 export default physicist;

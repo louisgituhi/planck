@@ -1,10 +1,10 @@
 import { Hono } from "hono";
-import physicistRouter from "./routes/physicists"
+import scientistRouter from "./routes/physicists"
 
 const app = new Hono();
 
 
-app.route("/", physicistRouter)
+app.route("/", scientistRouter)
 
 Bun.serve({
     fetch: app.fetch,

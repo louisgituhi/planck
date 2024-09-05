@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const physicistSchema = z.array(
+const scientistSchema = z.array(
     z.object({
         id: z.number(),
         name: z.string(),
@@ -27,7 +27,7 @@ const physicistSchema = z.array(
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-export const physicistsData = [
+export const scientistsData = [
 
     // Aage Bohr 
     {
@@ -1595,4 +1595,4 @@ export const physicistsData = [
 
 ]
 
-physicistSchema.parse(physicistsData);
+scientistSchema.parse(scientistsData);

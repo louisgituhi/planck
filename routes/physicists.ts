@@ -16,7 +16,7 @@ physicist.get("/random", (c) => {
 // pass id and get a scientist
 physicist.get("/:id", (c) => {
     const scientistId = c.req.param("id");
-    const responseData  = scientistsData.find((scientist) => scientist.id == scientistId)
+    const responseData  = scientistsData.find((scientist) => scientist.id.toString() == scientistId)
     return c.json(responseData)
 })
 

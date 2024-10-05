@@ -554,7 +554,7 @@ export const scientistsData = [
         ],
         nobel_prize: [
             {
-                category: "Physics",
+                category: "Chemistry",
                 year: 1908,
                 study: "Radioactivity"
             }

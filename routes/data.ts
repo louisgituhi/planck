@@ -536,21 +536,33 @@ export const scientistsData = [
         ],
     },
 
-    // // Ernest Rutherford
-    // {
-    //     "id": 30,
-    //     "name": "Ernest Rutherford",
-    //     "description": "He was a New Zeland-born British physicist considered the greatest experimentalist since Michael Faraday.",
-    //     "nationality": "Spring Grove, New Zealand",
-    //     "awards_and_honors": ["Copley Medal (1922)", "Nobel Prize (1908)"],
-    //     "date_of_birth": 1871, 
-    //     "date_of_death": 1937,
-    //     "discoveries": [
-    //         "Atom", 
-    //         "Radioactivity",
-    //         "Rutherford model"
-    //     ]
-    // },
+    // Ernest Rutherford
+    {
+        id: 25,
+        name: "Ernest Rutherford",
+        nationality: "New Zealand",
+        description: "He was a New Zeland-born British physicist considered the greatest experimentalist since Michael Faraday.",
+        date_of_birth: "1871-08-30", 
+        date_of_death: "1937-10-19",
+        discoveries: [
+            "Atomic nucleus",
+            "Artificial Disintegration", 
+            "Radioactivity",
+            "Rutherford model",
+            "Alpha, Beta, and Gamma Radiation",
+            "Radioactive Half-Lives"
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 1908,
+                study: "Radioactivity"
+            }
+        ],
+        other_awards: [
+            "Copley Medal (1922)"
+        ],
+    },
 
     // // Ernest Walton
     // {

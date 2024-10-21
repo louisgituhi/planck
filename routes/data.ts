@@ -2,13 +2,13 @@ import { z } from "zod";
 
 const scientistSchema = z.array(
     z.object({
-        id: z.number(),
+        id: z.number({ message: "Id should be a number" }),
         name: z.string(),
         nationality: z.string(),
         description: z.string(),
-        date_of_birth: z.string().date(),
-        date_of_death: z.string().date().nullable(),
-        discoveries: z.array(z.string()),
+        date_of_birth: z.string().date("Date should follow the format of YYYY-MM-DD"),
+        date_of_death: z.string().date("Date should follow the format of YYYY-MM-DD").nullable(),
+        discoveries: z.array(z.string({ message: "Array items should be strings"})),
         nobel_prize: z.array(z.object({
             category: z.string(),
             year: z.number().gte(1901, { message: "Nobel prizes started being awarded in the year 1901" }),
@@ -564,19 +564,33 @@ export const scientistsData = [
         ],
     },
 
-    // // Ernest Walton
-    // {
-    //     "id": 31,
-    //     "name": "Ernest Walton",
-    //     "description": "lkdjhbvnwndbmsncldjfbcj",
-    //     "nationality": "Canton, South Dakota, USA",
-    //     "date_of_birth": 1871, 
-    //     "date_of_death": 1937,
-    //     "discoveries": [
-    //         "The Cyclotron", 
-    //         "Cancer Treatments"
-    //     ]
-    // },
+    // Ernest Walton
+    {
+        id: 26,
+        name: "Ernest Walton",
+        nationality: "Ireland",
+        description: "He is best known for his work with John Cockcroft to construct one of the earliest types of particle accelerator",
+        date_of_birth: "1903-10-06", 
+        date_of_death: "1995-06-25",
+        discoveries: [
+            "Cockcroft–Walton generator.",
+            "Splitting the atom", 
+            "Credited with being the first to disintegrate the lithium nucleus by bombardment with accelerated protons",
+            "Identifying helium nuclei in the products in 1930"
+        ],
+        nobel_prize: [
+            {
+                category: "Physics",
+                year: 1951,
+                study: "Splitting the atom"
+            }
+        ],
+        other_awards: [
+            "Hughes Medal (1938)",
+            "MRIA (1935)"
+        ],
+        
+    },
 
     // // Erwin Schrodinger
     // {

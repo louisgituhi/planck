@@ -18,15 +18,6 @@ const scientistSchema = z.array(
     })
 );
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-// contributing
-// 1. Each new object must have an Id following the current order 1, 2, 3 and so on
-// 2. Currently physicists in the BC era are not supported ie Aristotle etc
-// 3. For date_of_birth follow the format YYYY-MM-DD otherwise zod throws an error
-// 4. For default values in other_awards, nobel_prize or date of death (some are alive) use null 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 export const scientistsData = [
 
     // Aage Bohr 

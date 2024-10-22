@@ -20,11 +20,9 @@ const scientistSchema = z.array(
 			.array(
 				z.object({
 					category: z.string(),
-					year: z
-						.number()
-						.gte(1901, {
-							message: "Nobel prizes started being awarded in the year 1901",
-						}),
+					year: z.number().gte(1901, {
+						message: "Nobel prizes started being awarded in the year 1901",
+					}),
 					study: z.string(),
 				}),
 			)
@@ -594,51 +592,99 @@ export const scientistsData = [
 		other_awards: ["Hughes Medal (1938)", "MRIA (1935)"],
 	},
 
-	// // Erwin Schrodinger
-	// {
-	//     "id": 32,
-	//     "name": "Erwin Schrodinger",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Canton, South Dakota, USA",
-	//     "date_of_birth": 1887,
-	//     "date_of_death": 1961,
-	//     "discoveries": [
-	//         "The Cyclotron",
-	//         "Cancer Treatments"
-	//     ]
-	// },
+	// Erwin Schrodinger
+	{
+		id: 27,
+		name: "Erwin Rudolf Josef Alexander Schrodinger",
+		nationality: "Austrian",
+		description: "Recognized for postulating the Schrodinger equation.",
+		date_of_birth: "1887-08-12",
+		date_of_death: "1961-01-04",
+		discoveries: [
+			"Developed fundamental results in quantum theory",
+			"Postulated the Schrodinger equation that provided a way to calculate the wave function of a system",
+			"Coined the term Quantum Entanglement",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1933,
+				study: "Formulation of Schrodinger equation",
+			},
+		],
+		other_awards: [
+			"Haitinger Prize (1920)",
+			"Matteucci Medal (1927)",
+			"Max Planck Medal (1937)",
+			"Erwin Schrodinger Prize (1956)",
+			"Honorary membership of the Royal irish Academy (1931)",
+		],
+	},
 
-	// // Evangelista Torricelli
-	// {
-	//     "id": 33,
-	//     "name": "Evangelista Torricelli",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Canton, South Dakota, USA",
-	//     "date_of_birth": 1608,
-	//     "date_of_death": 1647,
-	//     "discoveries": [
-	//         "The Cyclotron",
-	//         "Cancer Treatments"
-	//     ]
-	// },
+	// Evangelista Torricelli
+	{
+		id: 28,
+		name: "Evangelista Torricelli",
+		nationality: "Italian",
+		description:
+			"An Italian physicist and mathematician and a student of Galileo.",
+		date_of_birth: "1608-10-15",
+		date_of_death: "1647-10-25",
+		discoveries: [
+			"Suction pumps and the Barometer",
+			"Torricelli's experiment",
+			"Torricelli's equation",
+			"Torricelli's law regarding the speed of fluid flowing out an opening",
+			"Torricelli's trumpet aka Gabriel's Trumpet",
+			"Torricellian vaccum",
+			"Cause of the wind",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Statue of Torricelli in gratitude to him (1868)",
+			"Asteroid 7437 Torricelli and a crater on the moon named in his honour",
+			"Genus of flowering plants named after him (1830)",
+		],
+	},
 
-	// // Francis Crick
-	// {
-	//     "id": 34,
-	//     "name": "Francis Crick",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Canton, South Dakota, USA",
-	//     "date_of_birth": 1916,
-	//     "date_of_death": 2004,
-	//     "discoveries": [
-	//         "The Cyclotron",
-	//         "Cancer Treatments"
-	//     ]
-	// },
+	// Francis Crick
+	{
+		id: 29,
+		name: "Francis Harry Compton Crick",
+		nationality: "British",
+		description:
+			"An English molecular biologist, biophysicist and neuroscientist",
+		date_of_birth: "1916-06-08",
+		date_of_death: "2004-07-28",
+		discoveries: [
+			"DNA structure",
+			"Central dogma",
+			"Consciousness",
+			"Adaptor hypothesis",
+		],
+		nobel_prize: [
+			{
+				category: "Physiology/Medicine",
+				year: 1962,
+				study: "DNA structure",
+			},
+		],
+		other_awards: [
+			"Albert Lasker Award (1960)",
+			"Gairdner Foundation International Award (1962)",
+			"Mendel Medal (1966)",
+			"Royal Medal (1972)",
+			"Copley Medal (1972)",
+			"Sir Hans Krebs Medal (1977)",
+			"Albert Medal (1987)",
+			"Golden Plate Award (1987)",
+			"Order of Merit (1991)",
+		],
+	},
 
 	// Frank Wilczek
 	{
-		id: 35,
+		id: 30,
 		name: "Frank Wilczek",
 		nationality: "U.S",
 		description:
@@ -648,7 +694,6 @@ export const scientistsData = [
 		discoveries: [
 			"Did research in supestring theory and coinventor of a new supestring model in 1987",
 			"Quantum Chromodynamics (QCD)",
-			"",
 		],
 		nobel_prize: [
 			{
@@ -664,20 +709,53 @@ export const scientistsData = [
 		],
 	},
 
-	// // Fred Hoyle
-	// {
-	//     "id": 36,
-	//     "name": "Fred Hoyle",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Gilstead, England, UK",
-	//     "date_of_birth": 1915,
-	//     "date_of_death": 2001,
-	//     "discoveries": [
-	//         "How the Stars Built the Chemical Elements – Stellar Nucleosynthesis",
-	//         "The Unlikely Existence of Carbon",
-	//         "The Age of the Universe, Panspermia"
-	//     ]
-	// },
+	// Fred Hoyle
+	{
+		id: 36,
+		name: "Sir Fred Hoyle",
+		nationality: "British",
+		description:
+			"Was an English astronomer who formulated the thoery of stellar nucleosynthesis",
+		date_of_birth: "1915-06-24",
+		date_of_death: "2001-08-20",
+		discoveries: [
+			"Coining th phrase 'Big Bang",
+			"Steady-state-theory",
+			"Stellar nucleosynthesis theory",
+			"Triple-Alpha process",
+			"Panspermia",
+			"Hoyle's fallacy",
+			"Hoyle's model",
+			"B2FH Paper",
+			"Hoyle-Narlikar theory",
+			"Bondi-Hoyle-Lyttleton",
+			"Accretion",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1974,
+				study: "Leading role in the discovery of pulsars",
+			},
+			{
+				category: "Physics",
+				year: 1983,
+				study:
+					"THeoretical and experimental studies of the nuclear reactions of importance in the formation of the chemical elements in the universe",
+			},
+		],
+		other_awards: [
+			"Gold Medal of the Royal Astronomical Society (1968)",
+			"Bakerian Lecture (1968)",
+			"Bruce Medal (1970)",
+			"Henry Norris Russell Lectureship (1971)",
+			"Knighthood (1972)",
+			"Royal Medal (1974)",
+			"Klumpke-Roberts Award (1977)",
+			"Balzan Prize (1994)",
+			"Crafoord Prize (1997)",
+		],
+	},
 
 	// // Galileo Galilei
 	// {

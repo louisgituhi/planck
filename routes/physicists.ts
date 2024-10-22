@@ -4,7 +4,7 @@ import { z } from "zod";
 
 const physicist = new Hono();
 
-// get all physicist
+// get all physicists
 physicist.get("/", (c) => {
 	return c.json(scientistsData);
 });

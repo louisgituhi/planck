@@ -16,6 +16,17 @@ physicist.get("/random", (c) => {
 	);
 });
 
+// not found error
+
+physicist.notFound((c) => {
+	return c.text("Could not find the scientist you are looking for", 404)
+})
+
+// error handling
+physicist.onError((err, c) => {
+	return c.text(`Error occurred ${err.message}: ${err.name}`, 500)
+});
+
 // get scientist by id
 const responseSchema = z.object({
 	id: z.number(),
@@ -24,6 +35,7 @@ const responseSchema = z.object({
 	date_of_birth: z.string().date(),
 	date_of_death: z.string().nullable(),
 	discoveries: z.array(z.string()).nullable(),
+	nobel_prize: z.array(z.string()).nullable(),
 	other_awards: z.array(z.string()).nullable(),
 });
 

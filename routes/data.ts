@@ -601,9 +601,28 @@ export const scientistsData = [
 		date_of_birth: "1887-08-12",
 		date_of_death: "1961-01-04",
 		discoveries: [
-			"Developed fundamental results in quantum theory",
-			"Postulated the Schrodinger equation that provided a way to calculate the wave function of a system",
-			"Coined the term Quantum Entanglement",
+			"Schrodinger equation",
+			"Shrodinger's cat",
+			"Cat state",
+			"Schrodinger method",
+			"Schrodinger group",
+			"Schrodinger picture",
+			"Schrodinger field",
+			"Rayleigh-Schrodinger pertubation",
+			"Robertson-Schrodinger uncertainty relations",
+			"Schrodinger-HJW theorem",
+			"Schrodinger's pure-affine theory",
+			"Coherent states",
+			"Energy level",
+			"Entropy and life",
+			"Negentropy",
+			"Interpretations of quantum mechanics",
+			"Qualia",
+			"Quantum Biology",
+			"Quantum Entanglement",
+			"Quantum Superposition",
+			"Quantum Steering",
+			"Zitterbewegung",
 		],
 		nobel_prize: [
 			{
@@ -711,7 +730,7 @@ export const scientistsData = [
 
 	// Fred Hoyle
 	{
-		id: 36,
+		id: 31,
 		name: "Sir Fred Hoyle",
 		nationality: "British",
 		description:
@@ -780,30 +799,29 @@ export const scientistsData = [
 	// },
 
 	// Georg Ohm
-	// {
-	//     "id": 38,
-	//     "name": "Georg Ohm",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Pisa, Italy",
-	//     "date_of_birth": 1789,
-	//     "date_of_death": 1854,
-	//     "discoveries": [
-	//         "Was the first person to study the sky with a telescope",
-	//         "Discovered the first moons ever known to orbit a planet other than Earth",
-	//         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-	//         "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-	//         "Discovered the rings of Saturn",
-	//         "Discovered our moon has mountains",
-	//         "Discovered that the Milky Way is made up of stars",
-	//         "Was the first person ever to see the planet Neptune",
-	//         "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-	//         " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-	//     ]
-	// },
+	{
+	    id: 32,
+	    name: "Georg Simon Ohm",
+		nationality: "German",
+		description:
+			"German physicist and mathematician",
+		date_of_birth: "1789-03-16",
+		date_of_death: "1854-07-06",
+		discoveries: [
+			"Ohm's law",
+			"Ohm's accoustic law",
+			"Ohm"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Copley medal (1841)",
+		],
+	
+	},
 
 	// Guglielmo Marconi
 	{
-		id: 39,
+		id: 33,
 		name: "Guglielmo Marconi",
 		nationality: "Italian",
 		description:
@@ -819,22 +837,6 @@ export const scientistsData = [
 			},
 		],
 		other_awards: null,
-		// "description": "lkdjhbvnwndbmsncldjfbcj",
-		// "nationality": "Pisa, Italy",
-		// "date_of_birth": 1874,
-		// "date_of_death": 1937,
-		// "discoveries": [
-		//     "Was the first person to study the sky with a telescope",
-		//     "Discovered the first moons ever known to orbit a planet other than Earth",
-		//     "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-		//     "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-		//     "Discovered the rings of Saturn",
-		//     "Discovered our moon has mountains",
-		//     "Discovered that the Milky Way is made up of stars",
-		//     "Was the first person ever to see the planet Neptune",
-		//     "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-		//     " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-		// ]
 	},
 
 	// Hans Bethe

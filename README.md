@@ -1,4 +1,4 @@
-# bun-hono
+# bun x hono
 
 # Install dependencies
 ```

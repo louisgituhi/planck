@@ -475,7 +475,7 @@ export const scientistsData = [
 	// Amalie Emmy Noether
 	{
 		id: 22,
-		name: "Emmy Noether",
+		name: "Amalie Emmy Noether",
 		nationality: "German",
 		description:
 			"German mathematician whose innovations in higher algebra gained her recognition as the most creative abstract algebraist of modern times",
@@ -776,52 +776,61 @@ export const scientistsData = [
 		],
 	},
 
-	// // Galileo Galilei
-	// {
-	//     "id": 37,
-	//     "name": "Galileo Galilei",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Pisa, Italy",
-	//     "date_of_birth": 1564,
-	//     "date_of_death": 1642,
-	//     "discoveries": [
-	//         "Was the first person to study the sky with a telescope",
-	//         "Discovered the first moons ever known to orbit a planet other than Earth",
-	//         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-	//         "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-	//         "Discovered the rings of Saturn",
-	//         "Discovered our moon has mountains",
-	//         "Discovered that the Milky Way is made up of stars",
-	//         "Was the first person ever to see the planet Neptune",
-	//         "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-	//         " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-	//     ]
-	// },
+	// Galileo Galilei
+	{
+		id: 32,
+		name: "Galileo di Vincenzo Bonaiuti de' Galilei",
+		nationality: "Italian",
+		description:
+			"commonly referred to as Galileo Galilei  or mononymously as Galileo, was an Italian (Florentine)[a] astronomer, physicist and engineer,sometimes described as a polymath",
+		date_of_birth: "1564-02-15",
+		date_of_death: "1642-01-08",
+		discoveries: [
+			"Celatone",
+			"Analytical dynamics",
+			"Frictionless plane",
+			"Galileo number",
+			"Galileo thermometer",
+			"Galileo's ship",
+			"Galileo's escapement",
+			"Galileo's experiment",
+			"Galileo's law of odd numbers",
+			"Galileo's objective lens",
+			"Galileo's paradox",
+			"Galileo's problem",
+			"Galileo's sector",
+			"Galilean equivalency principle",
+			"Galilean invariance",
+			"Galilean moons",
+			"Galilean telescope",
+			"Galilean transformation",
+			"Heliocentrism",
+			"Inertia",
+			"Pendulum clock",
+			"Phases of Venus",
+			"Rings of Saturn",
+			"Square-cube law",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	},
 
 	// Georg Ohm
 	{
-	    id: 32,
-	    name: "Georg Simon Ohm",
+		id: 33,
+		name: "Georg Simon Ohm",
 		nationality: "German",
-		description:
-			"German physicist and mathematician",
+		description: "German physicist and mathematician",
 		date_of_birth: "1789-03-16",
 		date_of_death: "1854-07-06",
-		discoveries: [
-			"Ohm's law",
-			"Ohm's accoustic law",
-			"Ohm"
-		],
+		discoveries: ["Ohm's law", "Ohm's accoustic law", "Ohm"],
 		nobel_prize: null,
-		other_awards: [
-			"Copley medal (1841)",
-		],
-	
+		other_awards: ["Copley medal (1841)"],
 	},
 
 	// Guglielmo Marconi
 	{
-		id: 33,
+		id: 34,
 		name: "Guglielmo Marconi",
 		nationality: "Italian",
 		description:
@@ -840,26 +849,52 @@ export const scientistsData = [
 	},
 
 	// Hans Bethe
-	// {
-	//     "id": 40,
-	//     "name": "Hans Bethe",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Pisa, Italy",
-	//     "date_of_birth": 1906,
-	//     "date_of_death": 2005,
-	//     "discoveries": [
-	//         "Was the first person to study the sky with a telescope",
-	//         "Discovered the first moons ever known to orbit a planet other than Earth",
-	//         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-	//         "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-	//         "Discovered the rings of Saturn",
-	//         "Discovered our moon has mountains",
-	//         "Discovered that the Milky Way is made up of stars",
-	//         "Was the first person ever to see the planet Neptune",
-	//         "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-	//         " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-	//     ]
-	// },
+	{
+		id: 35,
+		name: "Hans Albrecht Bethe",
+		nationality: "German-American",
+		description:
+			"He was a theoretical physicist who made major contributions to nuclear physics, astrophysics, quantum electrodynamics, and solid-state physics",
+		date_of_birth: "1906-07-02",
+		date_of_death: "2005-03-06",
+		discoveries: [
+			"Nuclear physics",
+			"Stellar nucleosynthesis",
+			"Quantum electrodynamics",
+			"Cavity perturbation theory",
+			"Crystal field theory",
+			"Bethe–Salpeter equation",
+			"Bethe-Slater curve",
+			"Bethe formula",
+			"Bethe-Heitler formula",
+			"Mott-Bethe formula",
+			"Bethe lattice",
+			"Bethe–Feynman formula",
+			"Bethe ansatz",
+			"Bethe–Weizsäcker formula",
+			"Bethe–Weizsäcker process",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1967,
+				study: "theory of stellar nucleosynthesis",
+			},
+		],
+		other_awards: [
+			"A. Cressy Morrison Prize (1939)",
+			"Henry Draper Medal (1947)",
+			"Franklin Medal (1959)",
+			"Eddington Medal (1961)",
+			"Enrico Fermi Award (1961)",
+			"Rumford Prize (1963)",
+			"Nat'l Medal of Science (1975)",
+			"Lomonosov Gold Medal (1989)",
+			"Oersted Medal (1993)",
+			"Bruce Medal (2001)",
+			"Benjamin Franklin Medal (2005)",
+		],
+	},
 
 	// Hans Christian Oersted
 	// {
@@ -922,20 +957,6 @@ export const scientistsData = [
 	//     "date_of_death": 1993,
 	//     "discoveries": [
 	//         "Earth Research"
-	//     ]
-	// },
-
-	// Irene Joliot-Curie
-	// {
-	//     "id": 45,
-	//     "name": "Irene Joliot-Curie",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "France’s capital city, Paris",
-	//     "date_of_birth": 1897,
-	//     "date_of_death": 1956,
-	//     "discoveries": [
-	//         "Almost Discovering the Neutron",
-	//         "Making the First Artificial Radioactive Elements"
 	//     ]
 	// },
 
@@ -1064,7 +1085,7 @@ export const scientistsData = [
 	//     ]
 	// },
 
-	// John Bardeen
+	// John Bardeen ==>
 	// {
 	//     "id": 52,
 	//     "name": "John Bardeen",

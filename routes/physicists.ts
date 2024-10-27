@@ -19,12 +19,12 @@ physicist.get("/random", (c) => {
 // not found error
 
 physicist.notFound((c) => {
-	return c.text("Could not find the scientist you are looking for", 404)
-})
+	return c.text("Could not find the scientist you are looking for", 404);
+});
 
 // error handling
 physicist.onError((err, c) => {
-	return c.text(`Error occurred ${err.message}: ${err.name}`, 500)
+	return c.text(`Error occurred ${err.message}: ${err.name}`, 500);
 });
 
 // get scientist by id

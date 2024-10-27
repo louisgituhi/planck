@@ -241,10 +241,20 @@ export const scientistsData = [
 		id: 10,
 		name: "Blaise Pascal",
 		nationality: "French",
-		description: "About Blaise Pascal",
+		description:
+			"French mathematician, physicist, inventor, philosopher, and Catholic writer.",
 		date_of_birth: "1623-06-19",
 		date_of_death: "1662-08-19",
-		discoveries: ["placeholder discoveries"],
+		discoveries: [
+			"Probability theory",
+			"Pascal distribution",
+			"Pascal's wager",
+			"Pascal's triangle",
+			"Pascal's law",
+			"Pascal's rule",
+			"Pascal's theorem",
+			"Pascal's calculator",
+		],
 		nobel_prize: null,
 		other_awards: null,
 	},
@@ -252,27 +262,46 @@ export const scientistsData = [
 	// Brian Greene
 	{
 		id: 11,
-		name: "Brian Greene",
-		nationality: "U.S",
-		description: "About Brian Greene",
+		name: "Brian Randolph Greene",
+		nationality: "American",
+		description: "American physicist known for his research on string theory",
 		date_of_birth: "1963-02-09",
 		date_of_death: null,
-		discoveries: ["placeholder discoveries"],
+		discoveries: [
+			"String theory",
+			"The Elegant Universe",
+			"The Fabric of the Cosmos",
+			"The Hidden Reality",
+		],
 		nobel_prize: null,
-		other_awards: null,
+		other_awards: ["Andrew Gemant Award (2003)"],
 	},
 
 	// C.V. Raman
 	{
 		id: 12,
-		name: "C.V. Raman",
+		name: "Sir Chandrasekhara Venkata Raman",
 		nationality: "Indian",
-		description: "About C.V. Raman",
+		description:
+			"Indian physicist known for his work in the field of light scattering.",
 		date_of_birth: "1888-11-07",
 		date_of_death: "1970-11-21",
-		discoveries: ["placeholder discoveries"],
-		nobel_prize: null,
-		other_awards: null,
+		discoveries: ["Raman scattering (Raman effect)", "Raman spectroscopy"],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1930,
+				study: "Raman effect or Raman scattering",
+			},
+		],
+		other_awards: [
+			"Fellow of the Royal Society (1924)",
+			"Matteucci Medal (1928)",
+			"Knight Bachelor (1930)",
+			"Hughes Medal (1930)",
+			"Bharat Ratna (1954)",
+			"Lenin Peace Prize (1957)",
+		],
 	},
 
 	// Carl Anderson
@@ -352,26 +381,76 @@ export const scientistsData = [
 	{
 		id: 16,
 		name: "Charles Hard Townes",
-		nationality: "U.S",
+		nationality: "American",
 		description: "About Charles Hard Townes",
 		date_of_birth: "1915-07-28",
 		date_of_death: "2015-01-27",
-		discoveries: ["placeholder discoveries"],
-		nobel_prize: null,
-		other_awards: null,
+		discoveries: [
+			"Masers",
+			"Lasers",
+			"Astrophysical maser",
+			"Infrared Spatial",
+			"Interferometer",
+			"Stimulated Brillouin scattering",
+			"Townes-Schawlow linewidth",
+			"Townes Solution",
+			"Autler–Townes effect",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1964,
+				study:
+					"Contributions to fundamental work in quantum electronics leading to the development of the maser and laser.",
+			},
+		],
+		other_awards: [
+			"Comstock Prize in Awards Physics (1958)",
+			"John J. Carty Award (1961)",
+			"Stuart Ballantine (1962)",
+			"Young Medal and Prize (1963)",
+			"IEEE Medal of Honor (1967)",
+			"Wilhelm Exner Medal (1970)",
+			"ForMemRS (1976)",
+			"Earle K. Plyler Prize for Molecular Spectroscopy (1977)",
+			"National Medal of Science (1982)",
+			"Lomonosov Gold Medal (2000)",
+			"Templeton Prize (2005)",
+			"Vannevar Bush Award (2006)",
+			"SPIE Gold Medal (2010)",
+			"Golden Goose Award (2012)",
+		],
 	},
 
 	// Chen Ning Yang
 	{
 		id: 17,
-		name: "Chen Ning Yang",
+		name: "Yang Chen-Ning",
 		nationality: "Chinese",
-		description: "About Chen Ning Yang",
-		date_of_birth: "1922-09-22",
+		description:
+			"Also known as C. N. Yang or by the English name Frank Yang, is a Chinese theoretical physicist who made significant contributions to statistical mechanics, integrable systems, gauge theory, and both particle physics and condensed matter physics",
+		date_of_birth: "1922-10-01",
 		date_of_death: null,
 		discoveries: ["placeholder discoveries"],
-		nobel_prize: null,
-		other_awards: null,
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1957,
+				study: "Parity violation theory",
+			},
+		],
+		other_awards: [
+			"Ten Outstanding Young Americans (1957)",
+			"Rumford Prize (1980)",
+			"National Medal of Science (1986)",
+			"Oskar Klein Memorial Lecture and Medal (1988)",
+			"Benjamin Franklin Medal for Distinguished Achievement in the Sciences of the American",
+			"Philosophical Society (1993)",
+			"Bower Award (1994)",
+			"Albert Einstein Medal (1995)",
+			"Lars Onsager Prize (1999)",
+			"King Faisal International Prize (2001)",
+		],
 	},
 
 	// Chien-Shiung Wu
@@ -379,12 +458,25 @@ export const scientistsData = [
 		id: 18,
 		name: "Chien-Shiung Wu",
 		nationality: "Chinese",
-		description: "About Chien-Shiung Wu",
-		date_of_birth: "1912-05-29",
+		description:
+			"Chinese-American particle and experimental physicist who made significant contributions in the fields of nuclear and particle physics",
+		date_of_birth: "1912-05-31",
 		date_of_death: "1997-02-16",
-		discoveries: ["placeholder discoveries"],
+		discoveries: [
+			"Manhattan Project",
+			"Nuclear fission",
+			"Wu experiment",
+			"Parity violation",
+			"Beta decay",
+			"Quantum entanglement",
+		],
 		nobel_prize: null,
-		other_awards: null,
+		other_awards: [
+			"Comstock Prize in Physics (1964)",
+			"Bonner Prize (1975)",
+			"National Medal of Science (1975)",
+			"Wolf Prize in Physics (1978)",
+		],
 	},
 
 	// Daniel Bernoulli
@@ -896,210 +988,321 @@ export const scientistsData = [
 		],
 	},
 
-	// Hans Christian Oersted
-	// {
-	//     "id": 41,
-	//     "name": "Hans Christian Oersted",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Pisa, Italy",
-	//     "date_of_birth": 1777,
-	//     "date_of_death": 1851,
-	//     "discoveries": [
-	//         "Was the first person to study the sky with a telescope",
-	//         "Discovered the first moons ever known to orbit a planet other than Earth",
-	//         "Jupiter’s four largest moons, which he discovered: Io, Europa, Ganymede, and Callisto, are together known as the Galilean Satellites in his honor",
-	//         "Discovered that Venus has phases like the moon, ranging from a thin crescent to full. This was the first practical, observational evidence that the sun sits at the center of the solar system",
-	//         "Discovered the rings of Saturn",
-	//         "Discovered our moon has mountains",
-	//         "Discovered that the Milky Way is made up of stars",
-	//         "Was the first person ever to see the planet Neptune",
-	//         "Established that, if there is no air resistance, everything falls to the ground at the same rate regardless of its weight",
-	//         " Established that when gravity accelerates any object, the object accelerates at a constant rate"
-	//     ]
-	// },
+	// Hans Christian Ørsted
+	{
+		id: 36,
+		name: "Hans Christian Ørsted",
+		nationality: "Danish",
+		description:
+			"A Danish physicist and chemist who discovered that electric currents create magnetic fields",
+		date_of_birth: "1777-08-14",
+		date_of_death: "1851-03-09",
+		discoveries: [
+			"Oersted's law",
+			"Discovery of aluminium",
+			"Thought experiment Oersted",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Copley Medal (1820)",
+			"ForMemRS (1821)",
+			"FRSE (1821)",
+			"Pour le Mérite (1842)",
+		],
+	},
 
 	// Heinrich Hertz
-	// {
-	//     "id": 42,
-	//     "name": "Heinrich Hertz",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "German port city of Hamburg",
-	//     "date_of_birth": 1857,
-	//     "date_of_death": 1894,
-	//     "discoveries": [
-	//         "He discovered Radio Waves and the Photoelectric Effect"
-	//     ]
-	// },
+	{
+		id: 42,
+		name: "Heinrich Rudolf Hertz",
+		nationality: "German",
+		description:
+			"German physicist who first conclusively proved the existence of the electromagnetic waves",
+		date_of_birth: "1857-02-22",
+		date_of_death: "1894-01-01",
+		discoveries: [
+			"Hertzian wave",
+			"Contact mechanics",
+			"Emagram",
+			"Parabollic antenna",
+			"Photoelectric effect",
+			"Hertzian cone",
+			"Hertzian dipole antenna",
+			"Hertzian oscillator",
+			"Hertzian vector",
+			"Hertzian-Knudsen equation",
+			"Hertz's principle of least curvature",
+		],
+		nobel_prize: null,
+		other_awards: ["Matteucci Medal Awards (1888)", "Rumford Medal (1890)"],
+	},
 
 	// Henry Moseley
-	// {
-	//     "id": 43,
-	//     "name": "Henry Moseley",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Weymouth, England, UK",
-	//     "date_of_birth": 1887,
-	//     "date_of_death": 1915,
-	//     "discoveries": [
-	//         "The True Basis of the Periodic Table",
-	//         "The Atomic Battery",
-	//         "Four New Chemical Elements",
-	//         "New Method of Identifying Elements"
-	//     ]
-	// },
+	{
+		id: 43,
+		name: "Henry Gwyn Jeffreys Moseley",
+		nationality: "English",
+		description:
+			"Physicist whose contribution to the science of physics was the justification from physical laws of\n" +
+			"the previous empirical and chemical concept of the atomic number",
+		date_of_birth: "1887-11-23",
+		date_of_death: "1915-08-10",
+		discoveries: ["Atomic number", "Moseley's law"],
+		nobel_prize: null,
+		other_awards: ["Matteucci Medal (1919)"],
+	},
 
 	// Inge Lehmann
-	// {
-	//     "id": 44,
-	//     "name": "Inge Lehmann",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Denmark’s capital city, Copenhagen",
-	//     "date_of_birth": 1888,
-	//     "date_of_death": 1993,
-	//     "discoveries": [
-	//         "Earth Research"
-	//     ]
-	// },
+	{
+		id: 44,
+		name: "Inge Lehmann",
+		nationality: "Danish",
+		description:
+			"Danish seismologist and geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth.",
+		date_of_birth: "1888-05-13",
+		date_of_death: "1993-02-21",
+		discoveries: ["Discovery of a solid inner core in earths crust"],
+		nobel_prize: null,
+		other_awards: ["William Bowie Medal (1971)"],
+	},
 
 	// Irene Joliot-Curie
-	// {
-	//     "id": 45,
-	//     "name": "Irene Joliot-Curie",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "France’s capital city, Paris",
-	//     "date_of_birth": 1897,
-	//     "date_of_death": 1956,
-	//     "discoveries": [
-	//         "Almost Discovering the Neutron",
-	//         "Making the First Artificial Radioactive Elements"
-	//     ]
-	// },
+	{
+		id: 45,
+		name: "Irène Joliot-Curie",
+		nationality: "French",
+		description:
+			"French chemist, physicist and politician, the elder daughter of Pierre Curie and Marie Skłodowska–Curie, and the wife of Frédéric Joliot-Curie.",
+		date_of_birth: "1897-09-12",
+		date_of_death: "1956-03-17",
+		discoveries: ["Discovery of induced radioactivity"],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1935,
+				study: "Discovery of induced radioactivity",
+			},
+		],
+		other_awards: null,
+	},
 
 	// Isaac Newton
-	// {
-	//     "id": 46,
-	//     "name": "Isaac Newton",
-	//     "description": "Was an English physicist and mathematician who was the culminating figure of the Scientific Revolution of the 17th century",
-	//     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
-	//     "awards_and_honors": ["Unavailable"],
-	//     "date_of_birth": 1643,
-	//     "date_of_death": 1727,
-	//     "discoveries": [
-	//         "Calculus",
-	//         "Universal Gravitation",
-	//         "Newton's laws of motion",
-	//         "Optics and Light (Reflection snd refraction)",
-	//         "Showed that Kepler’s laws of planetary motion are special cases of Newton’s universal gravitation",
-	//         "Proved that all objects moving through space under the influence of gravity must follow a path shaped in the form of one of the conic sections, such as a circle, an ellipse, or a parabola, hence explaining the paths all planets and comets follow",
-	//         "Showed that the tides are caused by gravitational interactions between the earth, the moon, and the sun",
-	//         "Predicted, correctly, that the earth is not perfectly spherical but is squashed into an oblate spheroid, larger around the equator than around the poles",
-	//         "Used mathematics to model the movement of fluids – from which the concept of a Newtonian fluid comes",
-	//         "Devised Newton’s Method for finding the roots of mathematical functions."
-	//     ]
-	// },
+	{
+		id: 46,
+		name: "Sir Isaac Newton",
+		nationality: "English",
+		description:
+			"English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.",
+		date_of_birth: "1642-10-25",
+		date_of_death: "1726-03-20",
+		discoveries: [
+			"Newton's laws of motion",
+			"Newtonian mechanics",
+			"Gravitional forces",
+			"Calculus",
+			"Optics",
+			"Binomial Series",
+			"Newton's method",
+			"Principia",
+			"Newton's law of cooling",
+			"Newtonian identities",
+			"Newton's metal",
+			"Newton line",
+			"Newton-Gauss Line",
+			"Newtonian fluid",
+		],
+		nobel_prize: null,
+		other_awards: ["FRS (1672)", "Bachelor (1705)"],
+	},
 
 	// J. J. Thompson
-	// {
-	//     "id": 47,
-	//     "name": "J. J. Thomson",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
-	//     "date_of_birth": 1856,
-	//     "date_of_death": 1940,
-	//     "discoveries": [
-	//         "Calculus",
-	//         "Universal Gravitation",
-	//         "Newton's laws of motion",
-	//         "Optics and Light",
-	//         "Showed that Kepler’s laws of planetary motion are special cases of Newton’s universal gravitation",
-	//         "Proved that all objects moving through space under the influence of gravity must follow a path shaped in the form of one of the conic sections, such as a circle, an ellipse, or a parabola, hence explaining the paths all planets and comets follow",
-	//         "Showed that the tides are caused by gravitational interactions between the earth, the moon, and the sun",
-	//         "Predicted, correctly, that the earth is not perfectly spherical but is squashed into an oblate spheroid, larger around the equator than around the poles",
-	//         "Used mathematics to model the movement of fluids – from which the concept of a Newtonian fluid comes",
-	//         "Devised Newton’s Method for finding the roots of mathematical functions."
-	//     ]
-	// },
+	{
+		id: 47,
+		name: "Sir Joseph John Thomson",
+		nationality: "British",
+		description:
+			"British physicist and Nobel Laureate in Physics, credited with the discovery of the electron",
+		date_of_birth: "1856-12-18",
+		date_of_death: "1940-08-30",
+		discoveries: [
+			"Plum pudding model",
+			"Discovery of electron",
+			"Discovery of isotopes",
+			"Mass spectrometer invention",
+			"Electromagnetic mass",
+			"First m/e measurement",
+			"Proposed first waveguide",
+			"Gibbs–Thomson equation",
+			"Thomson scattering",
+			"Thomson problem",
+			"Coining term 'delta ray",
+			"Coining term 'epsilon radiation'",
+			"Thomson (unit)",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1906,
+				study: "Conduction of electricity in gases",
+			},
+		],
+		other_awards: [
+			"Smith's Prize (1880)",
+			"Royal Medal (1894)",
+			"Hughes Medal (1902)",
+			"Elliott Cresson Medal (1910)",
+			"Copley Medal (1914)",
+			"Albert Medal (1915)",
+			"Franklin Medal (1922)",
+			"Faraday Medal (1925)",
+			"Dalton Medal (1931)",
+		],
+	},
 
 	// J. Robert Oppenheimer
-	// {
-	//     "id": 48,
-	//     "name": "J. Robert Oppenheimer",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Woolsthorpe-by-Colsterworth, Lincolnshire, England",
-	//     "date_of_birth": 1904,
-	//     "date_of_death": 1967,
-	//     "discoveries": [
-	//         "Calculus",
-	//         "Universal Gravitation",
-	//         "Newton's laws of motion",
-	//         "Optics and Light",
-	//         "Showed that Kepler’s laws of planetary motion are special cases of Newton’s universal gravitation",
-	//         "Proved that all objects moving through space under the influence of gravity must follow a path shaped in the form of one of the conic sections, such as a circle, an ellipse, or a parabola, hence explaining the paths all planets and comets follow",
-	//         "Showed that the tides are caused by gravitational interactions between the earth, the moon, and the sun",
-	//         "Predicted, correctly, that the earth is not perfectly spherical but is squashed into an oblate spheroid, larger around the equator than around the poles",
-	//         "Used mathematics to model the movement of fluids – from which the concept of a Newtonian fluid comes",
-	//         "Devised Newton’s Method for finding the roots of mathematical functions."
-	//     ]
-	// },
+	{
+		id: 48,
+		name: "Julius Robert Oppenheimer",
+		nationality: "American",
+		description:
+			"American theoretical physicist who served as the director of the Manhattan Project's Los Alamos Laboratory during World War II. Also know as father of the atomic bomb",
+		date_of_birth: "1904-04-22",
+		date_of_death: "1967-02-18",
+		discoveries: [
+			"Atomic bomb",
+			"Oppenheimer–Snyder model",
+			"Tolman–Oppenheimer–Volkoff equation",
+			"Tolman–Oppenheimer–Volkoff limit",
+			"Oppenheimer–Phillips process",
+			"Born–Oppenheimer approximation",
+		],
+		nobel_prize: null,
+		other_awards: ["Medal for Merit (1946)", "Enrico Fermi Award (1963)"],
+	},
 
 	// James Chadwick
-	// {
-	//     "id": 49,
-	//     "name": "James Chadwick",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Bollington, England",
-	//     "date_of_birth": 1891,
-	//     "date_of_death": 1974,
-	//     "discoveries": [
-	//         "James Chadwick discovered the neutron in 1932 and was awarded the Nobel Prize for Physics in 1935"
-	//     ]
-	// },
+	{
+		id: 49,
+		name: "Sir James Chadwick",
+		nationality: "American",
+		description:
+			"English physicist who was awarded the 1935 Nobel Prize in Physics for his discovery of the neutron in 1932",
+		date_of_birth: "1891-10-20",
+		date_of_death: "1974-07-24",
+		discoveries: [
+			"Discovery of the neutron",
+			"MAUD Committee Report",
+			"Manhattan Project",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1935,
+				study: "Discovery of the neutron",
+			},
+		],
+		other_awards: [
+			"Fellow of the Royal Society (1927)",
+			"Hughes Medal (1932)",
+			"Knight Bachelor (1945)",
+			"Melchett Medal (1946)",
+			"Copley Medal (1950)",
+			"Faraday Medal (1950)",
+			"Franklin Medal (1951)",
+			"Guthrie Medal and Prize (1967)",
+			"Member of the Order of the Companions of Honour (1970)",
+		],
+	},
 
 	// James Clerk Maxwell
-	// {
-	//     "id": 50,
-	//     "name": "James Clerk Maxwell",
-	//     "description": "Regarded by modern physicists as the scientist of the 19th century who had the greatest influence on 20th century physics",
-	//     "nationality": "Edinburgh, Scotland, UK",
-	//     "date_of_birth": 1831,
-	//     "date_of_death": 1879,
-	//     "discoveries": [
-	//         "Color in the Human Eye and Photography",
-	//         "Electromagnetism – The First Unification of Nature’s Forces",
-	//         "The Kinetic Theory of Gases and Statistical Physics"
-	//     ]
-	// },
+	{
+		id: 50,
+		name: "James Clerk Maxwell",
+		nationality: "Scottish",
+		description:
+			"Scottish physicist and mathematician who was responsible for the classical theory of electromagnetic radiation",
+		date_of_birth: "1831-06-13",
+		date_of_death: "1879-11-05",
+		discoveries: [
+			"Electromagnetism",
+			"Colour vision",
+			"Kinetic theory and thermodynamics",
+			"Control theory",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Smith's Prize (1854)",
+			"Adams Prize (1857)",
+			"Rumford Medal (1860)",
+			"FRS (1861)",
+			"Bakerian Medal (1866)",
+			"Keith Medal (1869–1871)",
+		],
+	},
 
 	// Johannes Kepler
-	// {
-	//     "id": 51,
-	//     "name": "Johannes Kepler",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 1571,
-	//     "date_of_death": 1630,
-	//     "discoveries": [
-	//         "The Tides",
-	//         "Optics",
-	//         "Kepler’s ‘Last Theorem",
-	//         "Logarithms"
-	//     ]
-	// },
+	{
+		id: 51,
+		name: "Johannes Kepler",
+		nationality: "German",
+		description:
+			"He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion",
+		date_of_birth: "1571-12-27",
+		date_of_death: "1630-11-15",
+		discoveries: [
+			"Kepler's laws of planetary motion",
+			"Kepler conjecture",
+			"Rudolphine Tables",
+			"Astronomia Nova",
+			"Mysterium Cosmographicum",
+			"Harmonice Mundi",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	},
 
-	// John Bardeen ==>
-	// {
-	//     "id": 52,
-	//     "name": "John Bardeen",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 1908,
-	//     "date_of_death": 1991,
-	//     "discoveries": [
-	//         "The Tides",
-	//         "Optics",
-	//         "Kepler’s ‘Last Theorem",
-	//         "Logarithms"
-	//     ]
-	// },
+	// John Bardeen
+	{
+		id: 52,
+		name: "John Bardeen",
+		nationality: "American",
+		description:
+			"He is the only person to be awarded the Nobel Prize in Physics twice: first in 1956 with William Shockley and Walter Brattain for the invention of the transistor; and again in 1972 with Leon N. Cooper and John Robert Schrieffer for a fundamental theory of conventional superconductivity known as the BCS theory.",
+		date_of_birth: "1908-05-23",
+		date_of_death: "1991-01-30",
+		discoveries: [
+			"Point-contact transistor",
+			"Field-effect transistor",
+			"BCS theory",
+			"Superconductivity",
+			"Surface physics",
+			"Deformation potential theory",
+			"Bardeen's formalism",
+			"Mattis–Bardeen theory",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1956,
+				study: "Invention of the transistor",
+			},
+			{
+				category: "Physics",
+				year: 1972,
+				study: "BCS theory.",
+			},
+		],
+		other_awards: [
+			"Stuart Ballantine medal (1952)",
+			"Oliver E. Buckley Solid State Prize (1954)",
+			"Fritz London Memorial Prize (1962)",
+			"National Medal of Science (1965)",
+			"IEEE Medal of Honor (1971)",
+			"ForMemRS (1973)",
+			"Franklin Medal (1975)",
+			"Lomonosov Gold Medal (1987)",
+		],
+	},
 
 	// John Cockcroft
 	// {

@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import { scientistsData } from "./data";
 import { z } from "zod";
+import { zValidator } from "@hono/zod-validator";
 
 const physicist = new Hono();
 
@@ -9,7 +10,6 @@ physicist.get("/", (c) => {
 	return c.json(scientistsData);
 });
 
-// get random physicist
 physicist.get("/random", (c) => {
 	return c.json(
 		scientistsData[Math.floor(Math.random() * scientistsData.length)],

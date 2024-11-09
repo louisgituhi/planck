@@ -1440,19 +1440,6 @@ export const scientistsData = [
 			"Wilhelm Exner Medal (1961)",
 		],
 	},
-	// {
-	//     "id": 53,
-	//     "name": "John Cockcroft",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Todmorden, Yorkshire, England, UK",
-	//     "date_of_birth": 1897,
-	//     "date_of_death": 1967,
-	//     "discoveries": [
-	//         "Won the 1951 Nobel Prize in Physics with his colleague Ernest Walton for producing the first artificial nuclear disintegration in history",
-	//         "Cockcroft & Walton designed and built the first ‘high energy’ particle accelerator",
-	//         "As a remarkable side-benefit, their experiment provided proof that Einstein’s mass-energy equivalence equation E = mc2 is correct",
-	//     ]
-	// },
 
 	// John Michell
 	// {

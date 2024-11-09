@@ -1408,6 +1408,38 @@ export const scientistsData = [
 	},
 
 	// John Cockcroft
+	{
+		id: 52,
+		name: "Sir John Douglas Cockcroft",
+		nationality: "English",
+		description:
+			"was an English physicist who shared with Ernest Walton the Nobel Prize in Physics in 1951 for splitting the atomic nucleus, and was instrumental in the development of nuclear power.",
+		date_of_birth: "1897-05-27",
+		date_of_death: "1967-09-18",
+		discoveries: ["Splitting the atom"],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1951,
+				study: "placeholder",
+			},
+		],
+		other_awards: [
+			"FRS (1936)",
+			"Hughes Medal (1938)",
+			"Order of the British Empire (1944)",
+			"Medal of Freedom (1947)",
+			"Knighthood (1948)",
+			"Order of the Bath (1953)",
+			"Royal Medal (1954)",
+			"Faraday Medal (1955)",
+			"Military Order of Christ (1955)",
+			"Order of Merit (1957)",
+			"Civil Order of Alfonso X, the Wise (1958)",
+			"Atoms for Peace Award (1961)",
+			"Wilhelm Exner Medal (1961)",
+		],
+	},
 	// {
 	//     "id": 53,
 	//     "name": "John Cockcroft",

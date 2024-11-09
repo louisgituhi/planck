@@ -185,15 +185,13 @@ export const scientistsData = [
 	// Amedeo Avogadro
 	{
 		id: 5,
-		name: "Amedeo Avogadro",
+		name: "Lorenzo Romano Amedeo Carlo Avogadro",
 		nationality: "Italian",
-		description: "About Amedeo Avogadro",
+		description:
+			"was an Italian scientist, most noted for his contribution to molecular theory now known as Avogadro's law, which states that equal volumes of gases under the same conditions of temperature and pressure will contain equal numbers of molecules.",
 		date_of_birth: "1776-08-09",
 		date_of_death: "1856-07-09",
-		discoveries: [
-			"Best known for his hypothesis that equal volumes of different gases contain an equal number of molecules, provided they are at the same temperature and pressure",
-			"Avogadro was also the first scientist to realize that elements could exist in the form of molecules rather than as individual atoms",
-		],
+		discoveries: ["Avogadro's constant", "Avogadro's law"],
 		nobel_prize: null,
 		other_awards: null,
 	},
@@ -214,17 +212,25 @@ export const scientistsData = [
 	// Andre-Marie Ampere
 	{
 		id: 6,
-		name: "Andre-Marie Ampere",
+		name: "André-Marie Ampère",
 		nationality: "French",
-		description: "About Andre-Marie Ampere",
+		description:
+			"was a French physicist and mathematician who was one of the founders of the science of classical electromagnetism, which he referred to as electrodynamics",
 		date_of_birth: "1775-01-20",
 		date_of_death: "1836-06-10",
 		discoveries: [
-			"Discovered that wires carrying electric current can attract and repel magnetically; founded electromagnetic theory",
-			"Formulated Ampere’s Law of electromagnetism and produced the best definition of electric current of his time",
+			"Ampère's circuital law",
+			"Ampère's force law",
+			"Ampère's right hand grip rule",
+			"Ampèrian loop model",
+			"Avogadro-Ampère hypothesis",
+			"Monge–Ampère equation",
+			"Discovery of fluorine",
+			"Needle telegraph",
+			"Solenoid",
 		],
 		nobel_prize: null,
-		other_awards: null,
+		other_awards: ["FRS (1827)"],
 	},
 
 	// Archimedes
@@ -258,16 +264,29 @@ export const scientistsData = [
 		id: 7,
 		name: "Arthur Holly Compton",
 		nationality: "U.S",
-		description: "About Arthur Holly Compton",
+		description:
+			"American physicist who won the Nobel Prize in Physics in 1927 for his 1923 discovery of the Compton effect, which demonstrated the particle nature of electromagnetic radiation.",
 		date_of_birth: "1892-09-10",
 		date_of_death: "1962-03-15",
 		discoveries: [
-			"Discovered that light can behave as a particle as well as a wave, and he coined the word 'photon' to describe this newly identified particle of light",
-			"Later, with his graduate student Luis Alvarez, Compton showed that cosmic rays contain positively charged particles",
-			"During World War 2, Compton played a crucial role in the development of the first atomic bombs",
+			"Compton scattering",
+			"Compton wavelength",
+			"Compton–Getting effect",
+			"Compton generator",
 		],
-		nobel_prize: null,
-		other_awards: null,
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1927,
+				study: "description",
+			},
+		],
+		other_awards: [
+			"Matteucci Medal (1930)",
+			"Franklin Medal (1940)",
+			"Hughes Medal (1940)",
+			"Medal for Merit (1946)",
+		],
 	},
 
 	// Benjamin Franklin
@@ -275,8 +294,9 @@ export const scientistsData = [
 		id: 8,
 		name: "Benjamin Franklin",
 		nationality: "U.S",
-		description: "About Benjamin Franklin",
-		date_of_birth: "1706-01-17",
+		description:
+			" was an American polymath: a leading writer, scientist, inventor, statesman, diplomat, printer, publisher and political philosopher.",
+		date_of_birth: "1705-01-17",
 		date_of_death: "1790-04-17",
 		discoveries: [
 			"He invented the Bifocal Spectacles",
@@ -293,12 +313,21 @@ export const scientistsData = [
 	// Bernhard Riemann
 	{
 		id: 9,
-		name: "Bernhard Riemann",
-		nationality: "Germany",
-		description: "About Bernhard Riemann",
+		name: "Georg Friedrich Bernhard Riemann",
+		nationality: "German",
+		description:
+			"was a German mathematician who made profound contributions to analysis, number theory, and differential geometry.",
 		date_of_birth: "1826-09-17",
 		date_of_death: "1866-07-20",
-		discoveries: ["placeholder discoveries"],
+		discoveries: [
+			"Free Riemann gas also called primon gas",
+			"Riemann invariant",
+			"Riemann–Cartan geometry",
+			"Riemann–Silberstein vector",
+			"Riemann-Lebovitz formulation",
+			"Riemann curvature tensor also called Riemann tensor",
+			"Riemann tensor (general relativity)",
+		],
 		nobel_prize: null,
 		other_awards: null,
 	},
@@ -376,15 +405,22 @@ export const scientistsData = [
 		id: 13,
 		name: "Carl David Anderson",
 		nationality: "U.S",
-		description: "About Carl David Anderson",
+		description:
+			"He is best known for his discovery of the positron in 1932, an achievement for which he received the 1936 Nobel Prize in Physics, and of the muon in 1936",
 		date_of_birth: "1905-09-03",
 		date_of_death: "1991-01-11",
 		discoveries: [
 			"Carl Anderson discovered the positron in 1932, proving the existence of antimatter",
 			"He discovered the muon in 1936",
 		],
-		nobel_prize: null,
-		other_awards: null,
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1936,
+				study: "Raman effect or Raman scattering",
+			},
+		],
+		other_awards: ["Elliott Cresson Medal (1937)"],
 	},
 
 	// Carl Friedrich Gauss

@@ -10,7 +10,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@hono-rate-limiter/redis": "^0.1.4",
     "@hono/zod-validator": "^0.4.1",
+    "@vercel/kv": "^3.0.0",
     "hono": "^4.3.4",
     "hono-rate-limiter": "^0.4.0",
     "zod": "^3.23.8"

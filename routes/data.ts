@@ -1460,39 +1460,38 @@ export const scientistsData = [
 
 	// John Philoponus
 	// {
-	//     "id": 55,
-	//     "name": "John Philoponus",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 490,
-	//     "date_of_death": 570,
-	//     "discoveries": [
-	//         "Made the first explicit statement that the force between two magnets is governed by an inverse square law",
-	//         "Suggested that black holes – he called them dark stars – could exist, proposing their masses could be so great that light could not escape from them",
-	//         "Proposed that earthquakes are caused by the movement of rocks miles below our planet’s surface and travel long distances as waves",
-	//         "Invented the torsion balance, allowing our planet’s mass to be determined for the first time",
-	//         "Used probability analysis to show that some star clusters, such as the Pleiades, are non-random, suggesting they are held together by gravity",
-	//         "Invented a method to produce cheap, permanent magnets artificially"
-	//     ]
-	// },
+	//     id: 55,
+	//     name: "John Philoponus",
+	// 	nationality: "Greek",
+	// 	description:
+	// 		"Considered 'one of the greatest unsung scientists of all time', he is the first person known to have proposed the existence of stellar bodies comparable to black holes, and the first to have suggested that earthquakes travelled in (seismic) waves.",
+	// 	date_of_birth: "1724-12-25",
+	// 	date_of_death: "1793-04-21",
+	// 	discoveries: [
+	// 		"Predicting the existence of black holes, seismology, manufacture of magnets, mass of the Earth",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// }
 
 	// John Wallis
-	// {
-	//     "id": 56,
-	//     "name": "John Wallis",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 1616,
-	//     "date_of_death": 1703,
-	//     "discoveries": [
-	//         "Made the first explicit statement that the force between two magnets is governed by an inverse square law",
-	//         "Suggested that black holes – he called them dark stars – could exist, proposing their masses could be so great that light could not escape from them",
-	//         "Proposed that earthquakes are caused by the movement of rocks miles below our planet’s surface and travel long distances as waves",
-	//         "Invented the torsion balance, allowing our planet’s mass to be determined for the first time",
-	//         "Used probability analysis to show that some star clusters, such as the Pleiades, are non-random, suggesting they are held together by gravity",
-	//         "Invented a method to produce cheap, permanent magnets artificially"
-	//     ]
-	// },
+	{
+		id: 56,
+		name: "John Wallis",
+		nationality: "Latin",
+		description:
+			"was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
+		date_of_birth: "1616-11-23",
+		date_of_death: "1703-10-28",
+		discoveries: [
+			"Wallis product",
+			"Inventing the symbol ∞",
+			"Extending Cavalieri's quadrature formula",
+			"Coining the term 'momentum'",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	},
 
 	// Joseph Henry
 	// {

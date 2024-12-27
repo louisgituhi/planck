@@ -1494,18 +1494,24 @@ export const scientistsData = [
 	},
 
 	// Joseph Henry
-	// {
-	//     "id": 57,
-	//     "name": "Joseph Henry",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Albany, New York, USA",
-	//     "date_of_birth": 1797,
-	//     "date_of_death": 1878,
-	//     "discoveries": [
-	//         "Using a magnet to produce electricity",
-	//         "Inductance and the The Telegraph"
-	//     ]
-	// },
+	{
+		id: 57,
+		name: "Joseph Henry",
+		nationality: "Latin",
+		description:
+			"American physicist and inventor who served as the first secretary of the Smithsonian Institution",
+		date_of_birth: "1797-12-17",
+		date_of_death: "1878-05-13",
+		discoveries: [
+			"Doorbell",
+			"Electromagnet",
+			"Electromagnetic induction",
+			"Relay",
+			"Henry (unit)",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	},
 
 	// Joseph-Louis Lagrange
 	// {

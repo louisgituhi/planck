@@ -25,9 +25,8 @@ physicist.get("/scientists/:scientist", (c) => {
 	if (!c.req.param("scientist")) {
 		return c.text("No scientist name provided");
 	}
-	const scientist = scientistsData.find(
-		(person) =>
-			person.name.toLowerCase() === c.req.param("scientist").toLowerCase(),
+	const scientist = scientistsData.find((person) =>
+		person.name.toLowerCase().includes(c.req.param("scientist").toLowerCase()),
 	);
 	return scientist ? c.json(scientist) : c.notFound();
 });

@@ -1478,9 +1478,9 @@ export const scientistsData = [
 	{
 		id: 56,
 		name: "John Wallis",
-		nationality: "Latin",
+		nationality: "English",
 		description:
-			"was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
+			"Was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
 		date_of_birth: "1616-11-23",
 		date_of_death: "1703-10-28",
 		discoveries: [
@@ -1580,59 +1580,75 @@ export const scientistsData = [
 	},
 
 	// Kip Thorne
-	//  {
-	//     "id": 59,
-	//     "name": "Kip Thorne",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 1736,
-	//     "date_of_death": 1813,
-	//     "discoveries": [
-	//         "Built on earlier work by Leonhard Euler to create the calculus of variations – he called it his ‘method of variations’",
-	//         "Introduced the ∂ notation and created the first partial differential equations",
-	//         "Gave the most generalized statement of the principle of least action of his era",
-	//         "Created an entirely new field of mechanics, Lagrangian mechanics, for both solids and fluids, based on the concept of virtual work and utilizing the Lagrangian function",
-	//         "Introduced the concept of generalized coordinates",
-	//         " Lagrangian mechanics can be used in any coordinate system – problems are simplified by choosing an appropriate one",
-	//         "Created the concept of potential: the gravitational field, for example, is a potential field",
-	//         "Discovered Lagrangian orbits",
-	//         "Solved century-old problems in number theory posed by Fermat that had defeated other mathematicians",
-	//         "Was a founder of group theory",
-	//         "Played a key role in the creation of the metric system of weights and measures",
-	//         "Tidal Locking & Libration of the Moon, Partial Differential Equations",
-	//         "Lagrangian Mechanics"
-	//     ]
-	// },
+	{
+		id: 59,
+		name: "Kip Stephen Thorne",
+		description:
+			"Is an American theoretical physicist and writer known for his contributions in gravitational physics and astrophysics.",
+		nationality: "American",
+		date_of_birth: "1940-06-01",
+		date_of_death: null,
+		discoveries: [
+			"Gravitational waves and LIGO",
+			"Black hole cosmology",
+			"Wormholes and time travel",
+			"Relativistic stars, multipole moments and other endeavors",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"American Academy of Arts and Sciences (1972)",
+			"National Academy of Sciences",
+			"Russian Academy of Sciences",
+			"American Philosophical Society.",
+		],
+	},
 
 	// Lawrence Bragg
-	// {
-	//     "id": 60,
-	//     "name": "Lawrence Bragg",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Adelaide, capital of the British colony of South Australia",
-	//     "date_of_birth": 1890,
-	//     "date_of_death": 1971,
-	//     "discoveries": [
-	//         "He discovered how to ‘see’ the positions of atoms in solids",
-	//         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
-	//         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
-	//     ]
-	// },
+	{
+		id: 60,
+		name: "Sir William Lawrence Bragg",
+		description:
+			"Also known as Lawrence Bragg, was an Australian-born British physicist and X-ray crystallographer, discoverer (1912) of Bragg's law of X-ray diffraction, which is basic for the determination of crystal structure. ",
+		nationality: "Australian",
+		date_of_birth: "1890-03-31",
+		date_of_death: "1971-07-01",
+		discoveries: ["X-rays and the Bragg equation", "Work on sound ranging"],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1915,
+				study: "Analysis of crystal structures by means of X-rays",
+			},
+		],
+		other_awards: [
+			"Hughes Medal (1931)",
+			"Royal Medal (1946)",
+			"Guthrie Lecture (1952)",
+			"Copley Medal (1966)",
+		],
+	},
 
 	// Lisa Randall
-	// {
-	//     "id": 61,
-	//     "name": "Lisa Randall",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Adelaide, capital of the British colony of South Australia",
-	//     "date_of_birth": 1890,
-	//     "date_of_death": 1971,
-	//     "discoveries": [
-	//         "He discovered how to ‘see’ the positions of atoms in solids",
-	//         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
-	//         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
-	//     ]
-	// },
+	{
+		id: 61,
+		name: "Lisa Randall",
+		description: " American theoretical physicist",
+		nationality: "American",
+		date_of_birth: "1962-06-18",
+		date_of_death: null,
+		discoveries: ["American theoretical physicist"],
+		nobel_prize: null,
+		other_awards: [
+			"J.J. Sakurai Prize for Theoretical Particle Physics 2019",
+			"Andrew Gemant Award, 2012",
+			"Golden Plate Award of the American Academy of Achievement, 2008",
+			"Lilienfeld Prize, 2007",
+			"E. A. Wood Science Writing Award, 2007",
+			"Klopsteg Memorial Award from the American Association of Physics Teachers (AAPT), 2006",
+			"Premio Caterina Tomassoni e Felice Pietro Chisesi, from the Sapienza University of Rome, 2003",
+			"National Science Foundation Young Investigator Award, 1992",
+		],
+	},
 
 	// Lise Meitner
 	// {

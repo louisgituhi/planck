@@ -170,17 +170,26 @@ export const scientistsData = [
 	},
 
 	// Alhazen -> BC ERA
-	// {
-	//     id: 5,
-	//     name: "Alhazen Ibn al-Haytham",
-	//     nationality: "Egyptian",
-	//     description: "About Alhazen",
-	//     date_of_birth: "1745-02-18",
-	//     date_of_death: "1827-03-05",
-	//     discoveries: [],
-	//     nobel_prize: [],
-	//     other_awards: []
-	// },
+	{
+	    id: 5,
+	    name: "Alhazen Ibn al-Haytham",
+	    nationality: "Egyptian",
+	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
+	    date_of_birth: "c.965",
+	    date_of_death: "c.1040",
+	    discoveries: [
+			"Optics (theory of light and vision)",
+			"Scientific method (empirical experimentation)",
+			"Camera obscura principles",
+			"Refraction and reflection laws",
+			"Anatomy of the eye (cornea, lens, optic nerve)",
+			"Alhazen's problem(mathematical optics)",
+			"Critique of Ptolemic astronomy",
+			"Early concepts of inertia and momentum"
+			],
+	    nobel_prize: null,
+	    other_awards: null,
+	},
 
 	// Amedeo Avogadro
 	{
@@ -1580,170 +1589,216 @@ export const scientistsData = [
 	},
 
 	// Kip Thorne
-	//  {
-	//     "id": 59,
-	//     "name": "Kip Thorne",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Weil der Stadt, which then lay in the Holy Roman Empire, and is now in Germany",
-	//     "date_of_birth": 1736,
-	//     "date_of_death": 1813,
-	//     "discoveries": [
-	//         "Built on earlier work by Leonhard Euler to create the calculus of variations – he called it his ‘method of variations’",
-	//         "Introduced the ∂ notation and created the first partial differential equations",
-	//         "Gave the most generalized statement of the principle of least action of his era",
-	//         "Created an entirely new field of mechanics, Lagrangian mechanics, for both solids and fluids, based on the concept of virtual work and utilizing the Lagrangian function",
-	//         "Introduced the concept of generalized coordinates",
-	//         " Lagrangian mechanics can be used in any coordinate system – problems are simplified by choosing an appropriate one",
-	//         "Created the concept of potential: the gravitational field, for example, is a potential field",
-	//         "Discovered Lagrangian orbits",
-	//         "Solved century-old problems in number theory posed by Fermat that had defeated other mathematicians",
-	//         "Was a founder of group theory",
-	//         "Played a key role in the creation of the metric system of weights and measures",
-	//         "Tidal Locking & Libration of the Moon, Partial Differential Equations",
-	//         "Lagrangian Mechanics"
-	//     ]
-	// },
+	  {
+	     "id": 59,
+	     "name": "Kip Thorne",
+	     "description": "American theoretical physicist renowned for his work in gravitational physics, astrophysics, and the detection of gravitational waves. Nobel laureate and LIGO pioneer.",
+	     "nationality": "American",
+	     "date_of_birth": 1940,
+	     "date_of_death": null,
+	     "discoveries": [
+			  "Key contributor to the LIGO project and first direct detection of gravitational waves (2015)",
+    "Theoretical predictions about black holes and relativistic stars",
+    "Thorne-Żytkow object hypothesis (hybrid star classification)",
+    "Gravitational wave physics and numerical relativity",
+    "Scientific consultant for the film *Interstellar* (wormhole/time-travel visualization)",
+    "Co-author of influential textbooks like *Gravitation* (with Misner and Wheeler)",
+    "Pioneering work on time machines and traversable wormholes in general relativity",
+    "Nobel Prize in Physics (2017) for decisive contributions to LIGO"
+		 ]
+	 },
 
 	// Lawrence Bragg
-	// {
-	//     "id": 60,
-	//     "name": "Lawrence Bragg",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Adelaide, capital of the British colony of South Australia",
-	//     "date_of_birth": 1890,
-	//     "date_of_death": 1971,
-	//     "discoveries": [
-	//         "He discovered how to ‘see’ the positions of atoms in solids",
-	//         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
-	//         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
-	//     ]
-	// },
+	 {
+	     "id": 60,
+	     "name": "Lawrence Bragg",
+	     "description": "British-Australian physicist and Nobel laureate renowned for pioneering X-ray crystallography. Youngest Nobel Prize recipient in Physics (1915)",
+	     "nationality": "British-Australian",
+	     "date_of_birth": 1890,
+	     "date_of_death": 1971,
+	     "discoveries": [
+			  "Bragg's Law (fundamental equation for X-ray diffraction in crystals)",
+    "Co-developed X-ray crystallography with his father, William Henry Bragg",
+    "Laid the foundation for determining atomic structures of crystals, minerals, and molecules",
+    "Critical contributions to understanding DNA structure (later used by Watson, Crick, and Franklin)",
+    "Applied X-ray diffraction to analyze proteins and inorganic materials",
+    "Developed sound-ranging techniques for artillery during World War I",
+    "Directed the Cavendish Laboratory, Cambridge, fostering breakthroughs in molecular biology",
+    "Authored influential works like *The Crystalline State* series"
+		 ]
+	 },
 
 	// Lisa Randall
-	// {
-	//     "id": 61,
-	//     "name": "Lisa Randall",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Adelaide, capital of the British colony of South Australia",
-	//     "date_of_birth": 1890,
-	//     "date_of_death": 1971,
-	//     "discoveries": [
-	//         "He discovered how to ‘see’ the positions of atoms in solids",
-	//         "His discoveries has had an enormous impact on chemistry, biology, and mineralogy",
-	//         "Bragg showed how X-rays passing through a crystal collect information allowing the crystal’s atomic structure to be deduced"
-	//     ]
-	// },
+	 {
+	     "id": 61,
+	     "name": "Lisa Randall",
+	     "description": "American theoretical physicist and cosmologist known for groundbreaking work on extra dimensions, particle physics, and dark matter. Professor at Harvard University and prolific science communicator",
+	     "nationality": "American",
+	     "date_of_birth": 1962,
+	     "date_of_death": null,
+	     "discoveries": [
+			 "Randall-Sundrum models (RS1 and RS2) – theoretical frameworks for warped extra dimensions",
+    "Pioneering research on supersymmetry, dark matter, and cosmological inflation",
+    "Proposed connections between collider physics and astrophysics (e.g., dark matter signals)",
+    "Authored influential books: *Warped Passages* (2005), *Dark Matter and the Dinosaurs* (2015)",
+    "Developed theories linking asteroid impacts to dark matter in the Milky Way",
+    "Advanced understanding of flavor hierarchies in particle physics via extra-dimensional models",
+    "Contributions to the Large Hadron Collider (LHC) research agenda",
+    "Advocate for interdisciplinary science bridging physics, astronomy, and biology"
+	     ]
+	 },
 
 	// Lise Meitner
-	// {
-	//     "id": 62,
-	//     "name": "Lise Meitner",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
-	//     "date_of_birth": 1878,
-	//     "date_of_death": 1968,
-	//     "discoveries": [
-	//         "New Isotopes and Radioactive Recoil",
-	//         "Swashbuckling Science",
-	//         "Protactinium’s Long-lived Isotope",
-	//         "Nuclear Fission",
-	//         "The Mother of the Atom Bomb"
-	//     ]
-	// },
+	 {
+	     "id": 62,
+	    "name": "Lise Meitner",
+	    "description": "Austrian-Swedish physicist who co-discovered nuclear fission, foundational to nuclear energy and atomic science. Overlooked for the Nobel Prize despite her critical theoretical contributions.",
+	    "nationality": "Austrian-Swedish",
+	    "date_of_birth": 1878,
+	    "date_of_death": 1968,
+	    "discoveries": [
+			"Co-discovered nuclear fission with Otto Hahn and Fritz Strassmann",
+    "Provided the first theoretical explanation of fission (term coined by her)",
+    "Identified the 'missing mass' in fission reactions, leading to the concept of nuclear chain reactions",
+    "Pioneered research on radioactive decay and beta radiation",
+    "Discovered the Meitner-Hupfeld effect (photon scattering at high energies)",
+    "Co-discovered the element protactinium with Otto Hahn",
+    "Advanced understanding of neutron absorption in uranium",
+    "Advocated for women in science and ethical use of nuclear technology"
+	       	    ]
+	},
 
 	// Lord Kelvin
-	// {
-	//     "id": 63,
-	//     "name": "Lord Kelvin",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
-	//     "date_of_birth": 1824,
-	//     "date_of_death": 1907,
-	//     "discoveries": [
-	//         "New Isotopes and Radioactive Recoil",
-	//         "Swashbuckling Science",
-	//         "Protactinium’s Long-lived Isotope",
-	//         "Nuclear Fission",
-	//         "The Mother of the Atom Bomb"
-	//     ]
-	// },
+	{
+	    "id": 63,
+	    "name": "Lord Kelvin",
+	    "description": "British mathematical physicist and engineer pivotal in thermodynamics, electromagnetism, and practical engineering. Renowned for formulating the Kelvin scale and advancing the laws of thermodynamics.",
+	    "nationality": "British",
+	    "date_of_birth": 1824,
+	    "date_of_death": 1907,
+	    "discoveries": [
+			 "Formulated the Kelvin scale of absolute temperature (SI unit 'kelvin' named in his honor)",
+    "Coined the term 'thermodynamics' and refined its first and second laws",
+    "Pioneered the mathematical analysis of electricity and magnetism (linked to James Clerk Maxwell's work)",
+    "Developed the dynamical theory of heat and concept of energy conservation",
+    "Directed the successful transatlantic telegraph cable project (1858–1866)",
+    "Introduced Kelvin's vortex theory of the atom",
+    "Analyzed Earth's age and heat dissipation (later disproven but influential in geology)",
+    "Designed the Kelvin water dropper and mirror galvanometer",
+    "Authored *Treatise on Natural Philosophy* (with Peter Tait), foundational to classical physics",
+    "Knighted for engineering achievements and elevated to peerage as Baron Kelvin"
+		]
+	},
 
 	// Luis Alvarez
-	// {
-	//     "id": 64,
-	//     "name": "Luis Alvarez",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "San Francisco, California",
-	//     "date_of_birth": 1911,
-	//     "date_of_death": 1988,
-	//     "discoveries": [
-	//         "The iridium layer",
-	//         "Dinosaur death by meteorite impact",
-	//         "Subatomic particle discoveries"
-	//     ]
-	// },
+	{
+	    "id": 64,
+	    "name": "Luis Alvarez",
+	    "description": "American experimental physicist, inventor, and Nobel laureate known for groundbreaking work in particle physics, radar technology, and the asteroid-impact theory of dinosaur extinction.",
+	    "nationality": "American",
+	    "date_of_birth": 1911,
+	    "date_of_death": 1988,
+	    "discoveries": [
+			"Co-developed the Alvarez hypothesis (with Walter Alvarez) linking the Cretaceous-Paleogene extinction to an asteroid impact",
+    "Nobel Prize in Physics (1968) for development of the hydrogen bubble chamber and discoveries in particle physics",
+    "Pioneered radar systems during WWII (Ground-Controlled Approach for aircraft landing)",
+    "Contributed to the Manhattan Project (detonation observer and explosives expert)",
+    "Discovered the 'Alvarez Parity' phenomenon in particle physics",
+    "Developed novel techniques for detecting subatomic particles using liquid hydrogen",
+    "Advanced muon-catalyzed fusion research",
+    "Coined the term 'Little Boy' for the atomic bomb dropped on Hiroshima",
+	"Used cosmic rays to search for hidden chambers in Egyptian pyramids (1960s)",
+    "Authored influential papers on geophysics, optics, and aviation technology",
+    "Held patents for radar navigation systems and color television technology"
+	        	    ]
+	},
 
 	// Marie Curie
-	// {
-	//     "id": 65,
-	//     "name": "Marie Curie",
-	//     "description": "Description  for Marie Curie",
-	//     "nationality": "Warsaw, Poland",
-	//     "date_of_birth": 1867,
-	//     "date_of_death": 1934,
-	//     "discoveries": [
-	//         "Marie Curie discovered two new chemical elements: radium and polonium",
-	//         "She carried out the first research into the treatment of tumors with radiation",
-	//         "She founded of the Curie Institutes, which are important medical research centers"
-	//     ]
-	// },
+	{
+	    "id": 65,
+	    "name": "Marie Curie",
+	    "description": "Polish physicist and chemist, pioneer in radioactivity research. First woman Nobel laureate and first person to win Nobel Prizes in two scientific fields (Physics and Chemistry)",
+	    "nationality": "Polish",
+	    "date_of_birth": 1867,
+	    "date_of_death": 1934,
+	    "discoveries": [
+			"Discovery of polonium and radium (first isolation of radioactive isotopes)",
+    "Pioneering research on radioactivity (term the coined)",
+    "First woman awarded a Nobel Prize (1903, Physics) for radiation studies",
+    "Second Nobel Prize (1911, Chemistry) for isolating pure radium",
+    "Development of mobile X-ray units ('Little Curies') during World War I",
+    "Established the theory of radioactive decay and atomic transmutation",
+    "Techniques for isolating radioactive isotopes for medical use",
+    "Founded the Curie Institutes in Paris and Warsaw, advancing cancer research",
+    "First female professor at the University of Paris (Sorbonne)",
+    "Early studies linking radiation to tumor treatment"
+	    ]
+	},
 
 	// Masatoshi Koshiba
-	// {
-	//     "id": 66,
-	//     "name": "Masatoshi Koshiba",
-	//     "description": "Description  for Marie Curie",
-	//     "nationality": "Warsaw, Poland",
-	//     "date_of_birth": 1926,
-	//     "date_of_death": 2020,
-	//     "discoveries": [
-	//         "Marie Curie discovered two new chemical elements: radium and polonium",
-	//         "She carried out the first research into the treatment of tumors with radiation",
-	//         "She founded of the Curie Institutes, which are important medical research centers"
-	//     ]
-	// },
+	{
+	    "id": 66,
+	    "name": "Masatoshi Koshiba",
+	    "description": "Japanese physicist and Nobel laureate renowned for pioneering neutrino astronomy. His work revolutionized the detection and understanding of neutrinos, fundamental particles in the universe.",
+	    "nationality": "Japanese",
+	    "date_of_birth": 1926,
+	    "date_of_death": 2020,
+	    "discoveries": [
+			"Nobel Prize in Physics (2002) for detecting cosmic neutrinos and contributions to astrophysics",
+    "Designed and led the Kamiokande and Super-Kamiokande neutrino observatories",
+    "First detection of neutrinos from the Sun (solar neutrinos), confirming the solar fusion process",
+    "Observed neutrinos from Supernova 1987A, providing the first direct evidence of stellar collapse",
+    "Confirmed neutrino oscillations, proving neutrinos have mass (key to the Standard Model of particle physics)",
+    "Advanced the field of neutrino astronomy, enabling study of cosmic events via neutrino detection",
+    "Mentored future leaders in particle physics and astrophysics",
+    "Advocated for international collaboration in large-scale physics experiments",
+    "Authored influential works on particle physics and astrophysics"
+	    ]
+	},
 
-	// Max Born
-	// {
-	//     "id": 67,
-	//     "name": "Max Born",
-	//     "description": "Description  for Marie Curie",
-	//     "nationality": "Warsaw, Poland",
-	//     "date_of_birth": 1882,
-	//     "date_of_death": 1970,
-	//     "discoveries": [
-	//         "Marie Curie discovered two new chemical elements: radium and polonium",
-	//         "She carried out the first research into the treatment of tumors with radiation",
-	//         "She founded of the Curie Institutes, which are important medical research centers"
-	//     ]
-	// },
+//	Max Born
+	{
+	    "id": 67,
+	    "name": "Max Born",
+	    "description": "German-British physicist and mathematician, foundational to quantum mechanics. Nobel laureate for his statistical interpretation of the wave function.",
+	    "nationality": "German-British",
+	    "date_of_birth": 1882,
+	    "date_of_death": 1970,
+	    "discoveries": [
+			"Nobel Prize in Physics (1954) for the statistical interpretation of quantum mechanics",
+    "Developed the Born rule, linking wave functions to probabilities of particle positions",
+    "Pioneered matrix mechanics (with Werner Heisenberg and Pascual Jordan), a foundation of quantum theory",
+    "Introduced the concept of the Born approximation in scattering theory",
+    "Coined the term 'quantum mechanics'",
+    "Advanced the theory of crystal lattices and lattice dynamics",
+    "Mentored future Nobel laureates, including Werner Heisenberg and Wolfgang Pauli",
+    "Advocated for the ethical use of science and nuclear disarmament",
+    "Authored influential texts like *Atomic Physics* and *Principles of Optics* (with Emil Wolf)",
+    "Played a key role in the development of quantum electrodynamics (QED)"
+		]
+	},
 
 	// Max Planck
-	// {
-	//     "id": 68,
-	//     "name": "Max Planck",
-	//     "description": "Was a German theoretical physicist who originated quantum theory.",
-	//     "nationality": "Kiel, Schleswig [Germany]",
-	//     "awards_and_honors": ["Copley Medal (1929)", "Nobel Prize (1918)"],
-	//     "date_of_birth": 1858,
-	//     "date_of_death": 1947,
-	//     "discoveries": [
-	//         "Planck\n's constant",
-	//         "Planck\n's radiation law",
-	//         "Quantum theory",
-	//         "Black body radiation"
-	//     ]
-	// },
+	{
+	    "id": 68,
+	    "name": "Max Planck",
+	    "description": "",
+	    "nationality": "",
+	    "date_of_birth": 1858,
+	    "date_of_death": 1947,
+	    "discoveries": [
+			"Nobel Prize in Physics (1918) for the discovery of energy quanta",
+    "Formulated Planck's law of black-body radiation, introducing the quantum of action (Planck constant, h)",
+    "Laid the foundation for quantum mechanics with the concept of quantized energy",
+    "Derived the Planck-Einstein relation (E = hν), linking energy to frequency",
+    "Developed the concept of entropy and its role in thermodynamics",
+    "Pioneered the study of quantum theory, influencing Einstein, Bohr, and Heisenberg",
+    "Introduced the idea of zero-point energy",
+    "Played a key role in the development of the theory of heat radiation",
+    "Advocated for the unity of physics and the philosophical implications of quantum theory",
+    "Founded the Kaiser Wilhelm Society (now Max Planck Society), a leading scientific institution"
+	    ]
+	},
 
 	// Michael Faraday
 	// {
@@ -2078,20 +2133,25 @@ export const scientistsData = [
 	//  },
 
 	// Joseph Black
-	// {
-	//     "id": 92,
-	//     "name": "Joseph Black",
-	//     "description": "Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
-	//     "nationality": "Bordeaux, France",
-	//     "awards_honors": [""],
-	//     "date_of_birth": 1728,
-	//     "date_of_death": 1799,
-	//     "discoveries": [
-	//              "latent heat",
-	//              "bicarbonate",
-	//              "carbon dioxide"
-	//      ]
-	//  },
+	 {
+	    "id": 92,
+	    "name": "Joseph Black",
+	    "description": "Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
+	    "nationality": "Bordeaux, France",
+	    "awards_honors": [""],
+	    "date_of_birth": 1728,
+	    "date_of_death": 1799,
+	    "discoveries": [
+			"Discovered carbon dioxide (fixed air) and its properties",
+    "Introduced the concept of latent heat, explaining phase changes in matter",
+    "Developed the theory of specific heat, advancing calorimetry",
+    "Pioneered quantitative methods in chemistry, laying groundwork for modern chemical analysis",
+    "Demonstrated that carbon dioxide is produced by respiration and combustion",
+    "Discovered magnesium and its compounds",
+    "Studied the properties of alkalis and acids, contributing to the understanding of chemical reactions",
+    "Influenced James Watt's improvements to the steam engine through his work on heat"
+		]
+	 },
 ];
 
 scientistSchema.parse(scientistsData);

@@ -170,26 +170,26 @@ export const scientistsData = [
 	},
 
 	// Alhazen -> BC ERA
-	{
-	    id: 5,
-	    name: "Alhazen Ibn al-Haytham",
-	    nationality: "Egyptian",
-	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
-	    date_of_birth: "c.965",
-	    date_of_death: "c.1040",
-	    discoveries: [
-			"Optics (theory of light and vision)",
-			"Scientific method (empirical experimentation)",
-			"Camera obscura principles",
-			"Refraction and reflection laws",
-			"Anatomy of the eye (cornea, lens, optic nerve)",
-			"Alhazen's problem(mathematical optics)",
-			"Critique of Ptolemic astronomy",
-			"Early concepts of inertia and momentum"
-			],
-	    nobel_prize: null,
-	    other_awards: null,
-	},
+// 	{
+// 	    id: 5,
+// 	    name: "Alhazen Ibn al-Haytham",
+// 	    nationality: "Egyptian",
+// 	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
+// 	    date_of_birth: "c.965",
+// 	    date_of_death: "c.1040",
+// 	    discoveries: [
+// 			"Optics (theory of light and vision)",
+// 			"Scientific method (empirical experimentation)",
+// 			"Camera obscura principles",
+// 			"Refraction and reflection laws",
+// 			"Anatomy of the eye (cornea, lens, optic nerve)",
+// 			"Alhazen's problem(mathematical optics)",
+// 			"Critique of Ptolemic astronomy",
+// 			"Early concepts of inertia and momentum"
+// 			],
+// 	    nobel_prize: null,
+// 	    other_awards: null,
+// 	},
 
 	// Amedeo Avogadro
 	{
@@ -1487,9 +1487,9 @@ export const scientistsData = [
 	{
 		id: 56,
 		name: "John Wallis",
-		nationality: "Latin",
+		nationality: "English",
 		description:
-			"was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
+			"Was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
 		date_of_birth: "1616-11-23",
 		date_of_death: "1703-10-28",
 		discoveries: [
@@ -1607,88 +1607,160 @@ export const scientistsData = [
     "Nobel Prize in Physics (2017) for decisive contributions to LIGO"
 		 ]
 	 },
+	{
+		id: 59,
+		name: "Kip Stephen Thorne",
+		description:
+			"Is an American theoretical physicist and writer known for his contributions in gravitational physics and astrophysics.",
+		nationality: "American",
+		date_of_birth: "1940-06-01",
+		date_of_death: null,
+		discoveries: [
+			"Gravitational waves and LIGO",
+			"Black hole cosmology",
+			"Wormholes and time travel",
+			"Relativistic stars, multipole moments and other endeavors",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"American Academy of Arts and Sciences (1972)",
+			"National Academy of Sciences",
+			"Russian Academy of Sciences",
+			"American Philosophical Society.",
+		],
+	},
 
 	// Lawrence Bragg
-	 {
-	     "id": 60,
-	     "name": "Lawrence Bragg",
-	     "description": "British-Australian physicist and Nobel laureate renowned for pioneering X-ray crystallography. Youngest Nobel Prize recipient in Physics (1915)",
-	     "nationality": "British-Australian",
-	     "date_of_birth": 1890,
-	     "date_of_death": 1971,
-	     "discoveries": [
-			  "Bragg's Law (fundamental equation for X-ray diffraction in crystals)",
-    "Co-developed X-ray crystallography with his father, William Henry Bragg",
-    "Laid the foundation for determining atomic structures of crystals, minerals, and molecules",
-    "Critical contributions to understanding DNA structure (later used by Watson, Crick, and Franklin)",
-    "Applied X-ray diffraction to analyze proteins and inorganic materials",
-    "Developed sound-ranging techniques for artillery during World War I",
-    "Directed the Cavendish Laboratory, Cambridge, fostering breakthroughs in molecular biology",
-    "Authored influential works like *The Crystalline State* series"
-		 ]
-	 },
+	{
+		id: 60,
+		name: "Sir William Lawrence Bragg",
+		description:
+			"Also known as Lawrence Bragg, was an Australian-born British physicist and X-ray crystallographer, discoverer (1912) of Bragg's law of X-ray diffraction, which is basic for the determination of crystal structure. ",
+		nationality: "Australian",
+		date_of_birth: "1890-03-31",
+		date_of_death: "1971-07-01",
+		discoveries: ["X-rays and the Bragg equation", "Work on sound ranging"],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1915,
+				study: "Analysis of crystal structures by means of X-rays",
+			},
+		],
+		other_awards: [
+			"Hughes Medal (1931)",
+			"Royal Medal (1946)",
+			"Guthrie Lecture (1952)",
+			"Copley Medal (1966)",
+		],
+	},
 
 	// Lisa Randall
-	 {
-	     "id": 61,
-	     "name": "Lisa Randall",
-	     "description": "American theoretical physicist and cosmologist known for groundbreaking work on extra dimensions, particle physics, and dark matter. Professor at Harvard University and prolific science communicator",
-	     "nationality": "American",
-	     "date_of_birth": 1962,
-	     "date_of_death": null,
-	     "discoveries": [
-			 "Randall-Sundrum models (RS1 and RS2) – theoretical frameworks for warped extra dimensions",
-    "Pioneering research on supersymmetry, dark matter, and cosmological inflation",
-    "Proposed connections between collider physics and astrophysics (e.g., dark matter signals)",
-    "Authored influential books: *Warped Passages* (2005), *Dark Matter and the Dinosaurs* (2015)",
-    "Developed theories linking asteroid impacts to dark matter in the Milky Way",
-    "Advanced understanding of flavor hierarchies in particle physics via extra-dimensional models",
-    "Contributions to the Large Hadron Collider (LHC) research agenda",
-    "Advocate for interdisciplinary science bridging physics, astronomy, and biology"
-	     ]
-	 },
+	{
+		id: 61,
+		name: "Lisa Randall",
+		description: " American theoretical physicist",
+		nationality: "American",
+		date_of_birth: "1962-06-18",
+		date_of_death: null,
+		discoveries: ["American theoretical physicist"],
+		nobel_prize: null,
+		other_awards: [
+			"J.J. Sakurai Prize for Theoretical Particle Physics 2019",
+			"Andrew Gemant Award, 2012",
+			"Golden Plate Award of the American Academy of Achievement, 2008",
+			"Lilienfeld Prize, 2007",
+			"E. A. Wood Science Writing Award, 2007",
+			"Klopsteg Memorial Award from the American Association of Physics Teachers (AAPT), 2006",
+			"Premio Caterina Tomassoni e Felice Pietro Chisesi, from the Sapienza University of Rome, 2003",
+			"National Science Foundation Young Investigator Award, 1992",
+		],
+	},
 
 	// Lise Meitner
-	 {
-	     "id": 62,
-	    "name": "Lise Meitner",
-	    "description": "Austrian-Swedish physicist who co-discovered nuclear fission, foundational to nuclear energy and atomic science. Overlooked for the Nobel Prize despite her critical theoretical contributions.",
-	    "nationality": "Austrian-Swedish",
-	    "date_of_birth": 1878,
-	    "date_of_death": 1968,
-	    "discoveries": [
-			"Co-discovered nuclear fission with Otto Hahn and Fritz Strassmann",
-    "Provided the first theoretical explanation of fission (term coined by her)",
-    "Identified the 'missing mass' in fission reactions, leading to the concept of nuclear chain reactions",
-    "Pioneered research on radioactive decay and beta radiation",
-    "Discovered the Meitner-Hupfeld effect (photon scattering at high energies)",
-    "Co-discovered the element protactinium with Otto Hahn",
-    "Advanced understanding of neutron absorption in uranium",
-    "Advocated for women in science and ethical use of nuclear technology"
-	       	    ]
-	},
-
-	// Lord Kelvin
 	{
-	    "id": 63,
-	    "name": "Lord Kelvin",
-	    "description": "British mathematical physicist and engineer pivotal in thermodynamics, electromagnetism, and practical engineering. Renowned for formulating the Kelvin scale and advancing the laws of thermodynamics.",
-	    "nationality": "British",
-	    "date_of_birth": 1824,
-	    "date_of_death": 1907,
-	    "discoveries": [
-			 "Formulated the Kelvin scale of absolute temperature (SI unit 'kelvin' named in his honor)",
-    "Coined the term 'thermodynamics' and refined its first and second laws",
-    "Pioneered the mathematical analysis of electricity and magnetism (linked to James Clerk Maxwell's work)",
-    "Developed the dynamical theory of heat and concept of energy conservation",
-    "Directed the successful transatlantic telegraph cable project (1858–1866)",
-    "Introduced Kelvin's vortex theory of the atom",
-    "Analyzed Earth's age and heat dissipation (later disproven but influential in geology)",
-    "Designed the Kelvin water dropper and mirror galvanometer",
-    "Authored *Treatise on Natural Philosophy* (with Peter Tait), foundational to classical physics",
-    "Knighted for engineering achievements and elevated to peerage as Baron Kelvin"
-		]
+		id: 62,
+		name: "Lise Meitner",
+		description:
+			" Austrian-Swedish nuclear physicist who was instrumental in the discovery of nuclear fission",
+		nationality: "Austrian",
+		date_of_birth: "1878-11-07",
+		date_of_death: "1968-10-27",
+		discoveries: ["Nuclear fission", "Transmutation", "Beta radiation"],
+		nobel_prize: null,
+		other_awards: null,
 	},
+  {
+		id: 63,
+		name: "William Thomson, 1st Baron Kelvin",
+		description: "British mathematician, mathematical physicist and engineer.",
+		nationality: "British",
+		date_of_birth: "1824-06-26",
+		date_of_death: "1907-12-17",
+		discoveries: [
+			"Thermoelectric Thomson effect",
+			"Kelvin bridge (also known as Thomson bridge)",
+			"Kelvin functions",
+			"Kelvin–Helmholtz instability",
+			"Kelvin–Helmholtz luminosity",
+			"Kelvin–Helmholtz mechanism",
+			"Kelvin–Voigt material",
+			"Joule–Thomson effect",
+			"Kelvin sensing",
+			"Kelvin transform in potential theory",
+			"Kelvin wake pattern",
+			"Kelvin water dropper",
+			"Kelvin wave",
+			"Kelvin's heat death paradox",
+			"Kelvin's circulation theorem",
+			"Kelvin–Stokes theorem",
+			"Kelvin–Varley divider",
+			"The SI unit of temperature, kelvin",
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Fellow of the Royal Society of Edinburgh, 1847.",
+			"Keith Medal, 1864.",
+			"Gunning Victoria Jubilee Prize, 1887.",
+			"President, 1873–1878, 1886–1890, 1895–1907.",
+			"Foreign member of the Royal Swedish Academy of Sciences, 1851.",
+			"Fellow of the Royal Society, 1851.",
+			"Royal Medal, 1856.",
+			"Copley Medal, 1883.",
+			"President, 1890–1895.",
+			"Hon. Member of the Royal College of Preceptors (College of Teachers), 1858.",
+			"Hon. Member of the Institution of Engineers and Shipbuilders in Scotland, 1859.",
+			"Knighted 1866.",
+			"Commander of the Imperial Order of the Rose (Brazil), 1873. ",
+			"Commander of the Legion of Honour (France), 1881.",
+			"Grand Officer of the Legion of Honour, 1889.",
+			"Knight of the Prussian Order Pour le Mérite, 1884.",
+			"Commander of the Order of Leopold (Belgium), 1890.",
+			"Baron Kelvin, of Largs in the County of Ayr, 1892.",
+			"Knight Grand Cross of the Victorian Order, 1896.",
+			"Honorary degree Legum doctor (LL.D.), Yale University, 5 May 1902.",
+			"One of the first members of the Order of Merit, 1902.",
+			"Privy Counsellor, 11 August 1902.",
+			"Honorary degree Doctor mathematicae from the Royal Frederick University on 6 September 1902",
+			"First international recipient of John Fritz Medal, 1905.",
+			"Order of the First Class of the Sacred Treasure of Japan, 1901.",
+		],
+	},
+	// {
+	//     "id": 63,
+	//     "name": "Lord Kelvin",
+	//     "description": "This is a description for Isaac Newton",
+	//     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
+	//     "date_of_birth": 1824,
+	//     "date_of_death": 1907,
+	//     "discoveries": [
+	//         "New Isotopes and Radioactive Recoil",
+	//         "Swashbuckling Science",
+	//         "Protactinium’s Long-lived Isotope",
+	//         "Nuclear Fission",
+	//         "The Mother of the Atom Bomb"
+	//     ]
+	// },
 
 	// Luis Alvarez
 	{

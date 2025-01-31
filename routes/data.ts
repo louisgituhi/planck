@@ -170,26 +170,26 @@ export const scientistsData = [
 	},
 
 	// Alhazen -> BC ERA
-// 	{
-// 	    id: 5,
-// 	    name: "Alhazen Ibn al-Haytham",
-// 	    nationality: "Egyptian",
-// 	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
-// 	    date_of_birth: "c.965",
-// 	    date_of_death: "c.1040",
-// 	    discoveries: [
-// 			"Optics (theory of light and vision)",
-// 			"Scientific method (empirical experimentation)",
-// 			"Camera obscura principles",
-// 			"Refraction and reflection laws",
-// 			"Anatomy of the eye (cornea, lens, optic nerve)",
-// 			"Alhazen's problem(mathematical optics)",
-// 			"Critique of Ptolemic astronomy",
-// 			"Early concepts of inertia and momentum"
-// 			],
-// 	    nobel_prize: null,
-// 	    other_awards: null,
-// 	},
+	// 	{
+	// 	    id: 5,
+	// 	    name: "Alhazen Ibn al-Haytham",
+	// 	    nationality: "Egyptian",
+	// 	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
+	// 	    date_of_birth: "c.965",
+	// 	    date_of_death: "c.1040",
+	// 	    discoveries: [
+	// 			"Optics (theory of light and vision)",
+	// 			"Scientific method (empirical experimentation)",
+	// 			"Camera obscura principles",
+	// 			"Refraction and reflection laws",
+	// 			"Anatomy of the eye (cornea, lens, optic nerve)",
+	// 			"Alhazen's problem(mathematical optics)",
+	// 			"Critique of Ptolemic astronomy",
+	// 			"Early concepts of inertia and momentum"
+	// 			],
+	// 	    nobel_prize: null,
+	// 	    other_awards: null,
+	// 	},
 
 	// Amedeo Avogadro
 	{
@@ -1418,7 +1418,7 @@ export const scientistsData = [
 
 	// John Cockcroft
 	{
-		id: 52,
+		id: 53,
 		name: "Sir John Douglas Cockcroft",
 		nationality: "English",
 		description:
@@ -1453,7 +1453,7 @@ export const scientistsData = [
 	// John Michell
 
 	{
-		id: 53,
+		id: 54,
 		name: "John Michell",
 		nationality: "English",
 		description:
@@ -1587,26 +1587,6 @@ export const scientistsData = [
 		nobel_prize: null,
 		other_awards: null,
 	},
-
-	// Kip Thorne
-	  {
-	     "id": 59,
-	     "name": "Kip Thorne",
-	     "description": "American theoretical physicist renowned for his work in gravitational physics, astrophysics, and the detection of gravitational waves. Nobel laureate and LIGO pioneer.",
-	     "nationality": "American",
-	     "date_of_birth": 1940,
-	     "date_of_death": null,
-	     "discoveries": [
-			  "Key contributor to the LIGO project and first direct detection of gravitational waves (2015)",
-    "Theoretical predictions about black holes and relativistic stars",
-    "Thorne-Żytkow object hypothesis (hybrid star classification)",
-    "Gravitational wave physics and numerical relativity",
-    "Scientific consultant for the film *Interstellar* (wormhole/time-travel visualization)",
-    "Co-author of influential textbooks like *Gravitation* (with Misner and Wheeler)",
-    "Pioneering work on time machines and traversable wormholes in general relativity",
-    "Nobel Prize in Physics (2017) for decisive contributions to LIGO"
-		 ]
-	 },
 	{
 		id: 59,
 		name: "Kip Stephen Thorne",
@@ -1680,7 +1660,7 @@ export const scientistsData = [
 	// Lise Meitner
 	{
 		id: 62,
-		name: "Lise Meitner",
+		name: "Elise Meitner",
 		description:
 			" Austrian-Swedish nuclear physicist who was instrumental in the discovery of nuclear fission",
 		nationality: "Austrian",
@@ -1690,7 +1670,8 @@ export const scientistsData = [
 		nobel_prize: null,
 		other_awards: null,
 	},
-  {
+
+	{
 		id: 63,
 		name: "William Thomson, 1st Baron Kelvin",
 		description: "British mathematician, mathematical physicist and engineer.",
@@ -1746,130 +1727,130 @@ export const scientistsData = [
 			"Order of the First Class of the Sacred Treasure of Japan, 1901.",
 		],
 	},
-	// {
-	//     "id": 63,
-	//     "name": "Lord Kelvin",
-	//     "description": "This is a description for Isaac Newton",
-	//     "nationality": "Vienna, capital of the Austro-Hungarian Empire",
-	//     "date_of_birth": 1824,
-	//     "date_of_death": 1907,
-	//     "discoveries": [
-	//         "New Isotopes and Radioactive Recoil",
-	//         "Swashbuckling Science",
-	//         "Protactinium’s Long-lived Isotope",
-	//         "Nuclear Fission",
-	//         "The Mother of the Atom Bomb"
-	//     ]
-	// },
 
 	// Luis Alvarez
 	{
-	    "id": 64,
-	    "name": "Luis Alvarez",
-	    "description": "American experimental physicist, inventor, and Nobel laureate known for groundbreaking work in particle physics, radar technology, and the asteroid-impact theory of dinosaur extinction.",
-	    "nationality": "American",
-	    "date_of_birth": 1911,
-	    "date_of_death": 1988,
-	    "discoveries": [
+		id: 64,
+		name: "Luis Walter Alvarez",
+		description:
+			"American experimental physicist, inventor, and Nobel laureate known for groundbreaking work in particle physics, radar technology, and the asteroid-impact theory of dinosaur extinction.",
+		nationality: "American",
+		date_of_birth: "1911-06-03",
+		date_of_death: "1988-09-01",
+		discoveries: [
 			"Co-developed the Alvarez hypothesis (with Walter Alvarez) linking the Cretaceous-Paleogene extinction to an asteroid impact",
-    "Nobel Prize in Physics (1968) for development of the hydrogen bubble chamber and discoveries in particle physics",
-    "Pioneered radar systems during WWII (Ground-Controlled Approach for aircraft landing)",
-    "Contributed to the Manhattan Project (detonation observer and explosives expert)",
-    "Discovered the 'Alvarez Parity' phenomenon in particle physics",
-    "Developed novel techniques for detecting subatomic particles using liquid hydrogen",
-    "Advanced muon-catalyzed fusion research",
-    "Coined the term 'Little Boy' for the atomic bomb dropped on Hiroshima",
-	"Used cosmic rays to search for hidden chambers in Egyptian pyramids (1960s)",
-    "Authored influential papers on geophysics, optics, and aviation technology",
-    "Held patents for radar navigation systems and color television technology"
-	        	    ]
+			"Nobel Prize in Physics (1968) for development of the hydrogen bubble chamber and discoveries in particle physics",
+			"Pioneered radar systems during WWII (Ground-Controlled Approach for aircraft landing)",
+			"Contributed to the Manhattan Project (detonation observer and explosives expert)",
+			"Discovered the 'Alvarez Parity' phenomenon in particle physics",
+			"Developed novel techniques for detecting subatomic particles using liquid hydrogen",
+			"Advanced muon-catalyzed fusion research",
+			"Coined the term 'Little Boy' for the atomic bomb dropped on Hiroshima",
+			"Used cosmic rays to search for hidden chambers in Egyptian pyramids (1960s)",
+			"Authored influential papers on geophysics, optics, and aviation technology",
+			"Held patents for radar navigation systems and color television technology",
+		],
+		nobel_prize: null,
+		other_awards: null,
 	},
 
 	// Marie Curie
 	{
-	    "id": 65,
-	    "name": "Marie Curie",
-	    "description": "Polish physicist and chemist, pioneer in radioactivity research. First woman Nobel laureate and first person to win Nobel Prizes in two scientific fields (Physics and Chemistry)",
-	    "nationality": "Polish",
-	    "date_of_birth": 1867,
-	    "date_of_death": 1934,
-	    "discoveries": [
+		id: 65,
+		name: "Maria Salomea Skłodowska-Curie",
+		description:
+			"Polish physicist and chemist, pioneer in radioactivity research. First woman Nobel laureate and first person to win Nobel Prizes in two scientific fields (Physics and Chemistry)",
+		nationality: "Polish",
+		date_of_birth: "1867-11-07",
+		date_of_death: "1934-07-04",
+		discoveries: [
 			"Discovery of polonium and radium (first isolation of radioactive isotopes)",
-    "Pioneering research on radioactivity (term the coined)",
-    "First woman awarded a Nobel Prize (1903, Physics) for radiation studies",
-    "Second Nobel Prize (1911, Chemistry) for isolating pure radium",
-    "Development of mobile X-ray units ('Little Curies') during World War I",
-    "Established the theory of radioactive decay and atomic transmutation",
-    "Techniques for isolating radioactive isotopes for medical use",
-    "Founded the Curie Institutes in Paris and Warsaw, advancing cancer research",
-    "First female professor at the University of Paris (Sorbonne)",
-    "Early studies linking radiation to tumor treatment"
-	    ]
+			"Pioneering research on radioactivity (term the coined)",
+			"First woman awarded a Nobel Prize (1903, Physics) for radiation studies",
+			"Second Nobel Prize (1911, Chemistry) for isolating pure radium",
+			"Development of mobile X-ray units ('Little Curies') during World War I",
+			"Established the theory of radioactive decay and atomic transmutation",
+			"Techniques for isolating radioactive isotopes for medical use",
+			"Founded the Curie Institutes in Paris and Warsaw, advancing cancer research",
+			"First female professor at the University of Paris (Sorbonne)",
+			"Early studies linking radiation to tumor treatment",
+		],
+		nobel_prize: null,
+		other_awards: null,
 	},
 
 	// Masatoshi Koshiba
 	{
-	    "id": 66,
-	    "name": "Masatoshi Koshiba",
-	    "description": "Japanese physicist and Nobel laureate renowned for pioneering neutrino astronomy. His work revolutionized the detection and understanding of neutrinos, fundamental particles in the universe.",
-	    "nationality": "Japanese",
-	    "date_of_birth": 1926,
-	    "date_of_death": 2020,
-	    "discoveries": [
+		id: 66,
+		name: "Masatoshi Koshiba",
+		description:
+			"Japanese physicist and Nobel laureate renowned for pioneering neutrino astronomy. His work revolutionized the detection and understanding of neutrinos, fundamental particles in the universe.",
+		nationality: "Japanese",
+		date_of_birth: "1926-09-19",
+		date_of_death: "2020-11-12",
+		discoveries: [
 			"Nobel Prize in Physics (2002) for detecting cosmic neutrinos and contributions to astrophysics",
-    "Designed and led the Kamiokande and Super-Kamiokande neutrino observatories",
-    "First detection of neutrinos from the Sun (solar neutrinos), confirming the solar fusion process",
-    "Observed neutrinos from Supernova 1987A, providing the first direct evidence of stellar collapse",
-    "Confirmed neutrino oscillations, proving neutrinos have mass (key to the Standard Model of particle physics)",
-    "Advanced the field of neutrino astronomy, enabling study of cosmic events via neutrino detection",
-    "Mentored future leaders in particle physics and astrophysics",
-    "Advocated for international collaboration in large-scale physics experiments",
-    "Authored influential works on particle physics and astrophysics"
-	    ]
+			"Designed and led the Kamiokande and Super-Kamiokande neutrino observatories",
+			"First detection of neutrinos from the Sun (solar neutrinos), confirming the solar fusion process",
+			"Observed neutrinos from Supernova 1987A, providing the first direct evidence of stellar collapse",
+			"Confirmed neutrino oscillations, proving neutrinos have mass (key to the Standard Model of particle physics)",
+			"Advanced the field of neutrino astronomy, enabling study of cosmic events via neutrino detection",
+			"Mentored future leaders in particle physics and astrophysics",
+			"Advocated for international collaboration in large-scale physics experiments",
+			"Authored influential works on particle physics and astrophysics",
+		],
+		nobel_prize: null,
+		other_awards: null,
 	},
 
-//	Max Born
+	//	Max Born
 	{
-	    "id": 67,
-	    "name": "Max Born",
-	    "description": "German-British physicist and mathematician, foundational to quantum mechanics. Nobel laureate for his statistical interpretation of the wave function.",
-	    "nationality": "German-British",
-	    "date_of_birth": 1882,
-	    "date_of_death": 1970,
-	    "discoveries": [
+		id: 67,
+		name: "Max Born",
+		description:
+			"German-British physicist and mathematician, foundational to quantum mechanics. Nobel laureate for his statistical interpretation of the wave function.",
+		nationality: "German-British",
+		date_of_birth: "1882-12-11",
+		date_of_death: "1970-01-05",
+		discoveries: [
 			"Nobel Prize in Physics (1954) for the statistical interpretation of quantum mechanics",
-    "Developed the Born rule, linking wave functions to probabilities of particle positions",
-    "Pioneered matrix mechanics (with Werner Heisenberg and Pascual Jordan), a foundation of quantum theory",
-    "Introduced the concept of the Born approximation in scattering theory",
-    "Coined the term 'quantum mechanics'",
-    "Advanced the theory of crystal lattices and lattice dynamics",
-    "Mentored future Nobel laureates, including Werner Heisenberg and Wolfgang Pauli",
-    "Advocated for the ethical use of science and nuclear disarmament",
-    "Authored influential texts like *Atomic Physics* and *Principles of Optics* (with Emil Wolf)",
-    "Played a key role in the development of quantum electrodynamics (QED)"
-		]
+			"Developed the Born rule, linking wave functions to probabilities of particle positions",
+			"Pioneered matrix mechanics (with Werner Heisenberg and Pascual Jordan), a foundation of quantum theory",
+			"Introduced the concept of the Born approximation in scattering theory",
+			"Coined the term 'quantum mechanics'",
+			"Advanced the theory of crystal lattices and lattice dynamics",
+			"Mentored future Nobel laureates, including Werner Heisenberg and Wolfgang Pauli",
+			"Advocated for the ethical use of science and nuclear disarmament",
+			"Authored influential texts like *Atomic Physics* and *Principles of Optics* (with Emil Wolf)",
+			"Played a key role in the development of quantum electrodynamics (QED)",
+		],
+		nobel_prize: null,
+		other_awards: null,
 	},
 
 	// Max Planck
 	{
-	    "id": 68,
-	    "name": "Max Planck",
-	    "description": "",
-	    "nationality": "",
-	    "date_of_birth": 1858,
-	    "date_of_death": 1947,
-	    "discoveries": [
+		id: 68,
+		name: "Max Karl Ernst Ludwig Planck ",
+		description:
+			"German theoretical physicist whose discovery of energy quanta won him the Nobel Prize in Physics in 1918",
+		nationality: "German",
+		date_of_birth: "1858-04-23",
+		date_of_death: "1947-10-04",
+		discoveries: [
 			"Nobel Prize in Physics (1918) for the discovery of energy quanta",
-    "Formulated Planck's law of black-body radiation, introducing the quantum of action (Planck constant, h)",
-    "Laid the foundation for quantum mechanics with the concept of quantized energy",
-    "Derived the Planck-Einstein relation (E = hν), linking energy to frequency",
-    "Developed the concept of entropy and its role in thermodynamics",
-    "Pioneered the study of quantum theory, influencing Einstein, Bohr, and Heisenberg",
-    "Introduced the idea of zero-point energy",
-    "Played a key role in the development of the theory of heat radiation",
-    "Advocated for the unity of physics and the philosophical implications of quantum theory",
-    "Founded the Kaiser Wilhelm Society (now Max Planck Society), a leading scientific institution"
-	    ]
+			"Formulated Planck's law of black-body radiation, introducing the quantum of action (Planck constant, h)",
+			"Laid the foundation for quantum mechanics with the concept of quantized energy",
+			"Derived the Planck-Einstein relation (E = hν), linking energy to frequency",
+			"Developed the concept of entropy and its role in thermodynamics",
+			"Pioneered the study of quantum theory, influencing Einstein, Bohr, and Heisenberg",
+			"Introduced the idea of zero-point energy",
+			"Played a key role in the development of the theory of heat radiation",
+			"Advocated for the unity of physics and the philosophical implications of quantum theory",
+			"Founded the Kaiser Wilhelm Society (now Max Planck Society), a leading scientific institution",
+		],
+		nobel_prize: null,
+		other_awards: null,
 	},
 
 	// Michael Faraday
@@ -2205,25 +2186,27 @@ export const scientistsData = [
 	//  },
 
 	// Joseph Black
-	 {
-	    "id": 92,
-	    "name": "Joseph Black",
-	    "description": "Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
-	    "nationality": "Bordeaux, France",
-	    "awards_honors": [""],
-	    "date_of_birth": 1728,
-	    "date_of_death": 1799,
-	    "discoveries": [
+	{
+		id: 92,
+		name: "Joseph Black",
+		description:
+			"Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
+		nationality: "British",
+		date_of_birth: "1728-04-16",
+		date_of_death: "1799-12-06",
+		discoveries: [
 			"Discovered carbon dioxide (fixed air) and its properties",
-    "Introduced the concept of latent heat, explaining phase changes in matter",
-    "Developed the theory of specific heat, advancing calorimetry",
-    "Pioneered quantitative methods in chemistry, laying groundwork for modern chemical analysis",
-    "Demonstrated that carbon dioxide is produced by respiration and combustion",
-    "Discovered magnesium and its compounds",
-    "Studied the properties of alkalis and acids, contributing to the understanding of chemical reactions",
-    "Influenced James Watt's improvements to the steam engine through his work on heat"
-		]
-	 },
+			"Introduced the concept of latent heat, explaining phase changes in matter",
+			"Developed the theory of specific heat, advancing calorimetry",
+			"Pioneered quantitative methods in chemistry, laying groundwork for modern chemical analysis",
+			"Demonstrated that carbon dioxide is produced by respiration and combustion",
+			"Discovered magnesium and its compounds",
+			"Studied the properties of alkalis and acids, contributing to the understanding of chemical reactions",
+			"Influenced James Watt's improvements to the steam engine through his work on heat",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	},
 ];
 
 scientistSchema.parse(scientistsData);

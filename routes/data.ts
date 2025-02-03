@@ -2039,29 +2039,54 @@ export const scientistsData = [
 
 	// Stephen Hawking
 	// {
-	//     "id": 82,
-	//     "name": "Stephen Hawking",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",
-	//     "date_of_birth": 1942,
-	//     "date_of_death": 2018,
-	//     "discoveries": [
+	//     id: 82,
+	//     name: "Stephen Hawking",
+	//     description: "Denmark’s capital city, Copenhagen",
+	//     nationality: "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",
+	//     date_of_birth: 1942,
+	//     date_of_death: 2018,
+	//     discoveries: [
 	//              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
 	//      ]
 	//  },
 
 	// Steven Weinberg
-	// {
-	//     "id": 83,
-	//     "name": "Steven Weinberg",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",
-	//     "date_of_birth": 1933,
-	//     "date_of_death": 2021,
-	//     "discoveries": [
-	//              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
-	//      ]
-	//  },
+	{
+	    id: 83,
+	    name: "Steven Weinberg",
+		nationality: "American",
+	    description: "American theoretical physicist and Nobel laureate, known for his contributions to the unification of the weak force and electromagnetism, and for his work on the Standard Model of particle physics",
+	    date_of_birth: "1933-05-03",
+	    date_of_death: "2021-07-23",
+	    discoveries: [
+			"Formulated the electroweak theory, unifying the weak force and electromagnetism",
+			"Predicted the existence of the W and Z bosons and the Higgs mechanism",
+			"Co-developed the Standard Model of particle physics",
+			"Contributed to the understanding of quantum field theory and symmetry breaking",
+			"Authored *The Quantum Theory of Fields*, a foundational text in theoretical physics",
+			"Studied the cosmological constant problem and dark energy",
+			"Proposed the Weinberg angle, a key parameter in the electroweak theory",
+			"Made significant contributions to the theory of quantum chromodynamics (QCD)",
+			"Advocated for the reductionist approach in physics"
+	     ],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1979,
+				study: "contributions to the theory of the unified weak and electromagnetic interaction between elementary particles"
+			}
+		],
+		other_awards: [
+			"National Medal of Science (1991)",
+			"Albert Einstein Medal (1979)",
+			"James Joyce Award (2009)",
+			"Benjamin Franklin Medal (2004)",
+			"Foreign Member of the Royal Society (London)",
+			"Honorary doctorates from numerous universities",
+			"Legacy honored through the Steven Weinberg Award (American Physical Society)",
+			"Authored popular science books, including *The First Three Minutes* and *Dreams of a Final Theory*"
+		]
+	 },
 
 	// SUBRAHMANYAN CHANDRASEKHAR
 	{

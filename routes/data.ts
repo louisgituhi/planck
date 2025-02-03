@@ -2064,46 +2064,104 @@ export const scientistsData = [
 	//  },
 
 	// SUBRAHMANYAN CHANDRASEKHAR
-	// {
-	//     "id": 84,
-	//     "name": "SUBRAHMANYAN CHANDRASEKHAR",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",
-	//     "date_of_birth": 1910,
-	//     "date_of_death": 1995,
-	//     "discoveries": [
-	//              "He was an astrophysicist",
-	//              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
-	//      ]
-	//  },
+	{
+	    id: 84,
+	    name: "SUBRAHMANYAN CHANDRASEKHAR",
+		nationality: "Indian-American",
+	    description: "Indian-American astrophysicist and Nobel laureate, known for his work on stellar structure, black holes, and the Chandrasekhar limit. A pioneer in theoretical astrophysics",
+	    date_of_birth: "1910-10-19",
+	    date_of_death: "1995-08-21",
+	    discoveries: [
+			"Discovered the Chandrasekhar limit (1.4 solar masses), determining the fate of white dwarfs",
+			"Developed the theory of stellar structure and evolution",
+			"Pioneered the study of black holes and relativistic astrophysics",
+			"Investigated the dynamics of stellar systems and radiative transfer",
+			"Contributed to the theory of hydrodynamic and hydromagnetic stability",
+			"Studied the mathematical theory of black holes and singularities",
+			"Authored *An Introduction to the Study of Stellar Structure* and *The Mathematical Theory of Black Holes*",
+			"Made significant contributions to the understanding of white dwarfs, neutron stars, and supernovae"
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1983,
+				study: "theoretical studies of the physical processes important to the structure and evolution of stars"
+			}
+		],
+		other_awards: [
+			"National Medal of Science (1966)",
+			"Copley Medal (1984)",
+			"Royal Medal (1962)",
+			"Henry Norris Russell Lectureship (1949)",
+			"Padma Vibhushan (India's second-highest civilian award, 1968)",
+			"Gold Medal of the Royal Astronomical Society (1953)",
+			"Honorary doctorates from numerous universities",
+			"Chandra X-ray Observatory named in his honor",
+			"Legacy honored through the Chandrasekhar Prize (American Physical Society)"
+		]
+	 },
 
 	// Thomas Young
-	// {
-	//     "id": 85,
-	//     "name": "Thomas Young",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",
-	//     "date_of_birth": 1773,
-	//     "date_of_death": 1829,
-	//     "discoveries": [
-	//              "Subrahmanyan Chandrasekhar was an astrophysicist",
-	//              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
-	//      ]
-	//  },
+	{
+	    id: 85,
+	    name: "Thomas Young",
+		nationality: "British",
+	    description: "British polymath, physicist, and physician, known for his contributions to wave theory of light, vision, and deciphering the Rosetta Stone. A pioneer in multiple scientific fields.",
+	    date_of_birth: "1773-06-13",
+	    date_of_death: "1829-05-10",
+	    discoveries: [
+			"Demonstrated the wave nature of light through the double-slit experiment",
+			"Proposed the Young-Helmholtz theory of color vision (trichromatic theory)",
+			"Deciphered parts of the Rosetta Stone, laying the groundwork for understanding Egyptian hieroglyphs",
+			"Introduced the concept of energy in its modern scientific sense",
+			"Studied elasticity and defined Young's modulus, a measure of material stiffness",
+			"Investigated the mechanics of the eye and vision, including astigmatism",
+			"Contributed to the understanding of surface tension and capillary action",
+			"Authored *A Course of Lectures on Natural Philosophy and the Mechanical Arts*",
+			"Pioneered the field of physiological optics"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Fellow of the Royal Society (1794)",
+			"Bakerian Lecture (1801, 1803, 1805)",
+			"Royal Society's Rumford Medal (1802)",
+			"Foreign Member of the Royal Swedish Academy of Sciences",
+			"Honorary doctorates from several universities",
+			"Legacy honored through the Thomas Young Medal and Prize (Institute of Physics)",
+			"Considered one of the last true polymaths"
+		]
+	 },
 
 	// Vera Rubin
-	// {
-	//     "id": 86,
-	//     "name": "Vera Rubin",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Lahore, British India. (Lahore is now in Pakistan.)",
-	//     "date_of_birth": 1928,
-	//     "date_of_death": 2016,
-	//     "discoveries": [
-	//              "Subrahmanyan Chandrasekhar was an astrophysicist",
-	//              "He discovered that massive stars can collapse under their own gravity to reach enormous or even infinite densities. Today we call these collapsed stars neutron stars and black holes"
-	//      ]
-	//  },
+	{
+	    id: 86,
+	    name: "Vera Rubin",
+		nationality: "American",
+	    description: "American astronomer who pioneered work on galaxy rotation rates, providing key evidence for the existence of dark matter. A trailblazer for women in science",
+	    date_of_birth: "1928-07-23",
+	    date_of_death: "2016-12-25",
+	    discoveries: [
+			"Provided observational evidence for dark matter through galaxy rotation curves",
+			"Discovered the discrepancy between predicted and observed galactic rotation rates (Rubin-Ford effect)",
+			"Pioneered the study of galaxy dynamics and large-scale structure in the universe",
+			"Advocated for the existence of dark matter as a major component of the universe",
+			"Studied the distribution of galaxies and their motions, contributing to cosmology",
+			"Authored influential papers on galaxy clustering and dark matter",
+			"Mentored numerous women in astronomy and advocated for gender equality in science"
+     ],
+		nobel_prize: [],
+		other_awards: [
+			"National Medal of Science (1993)",
+		"Gold Medal of the Royal Astronomical Society (1996)",
+		"Bruce Medal (2003)",
+		"Gruber Prize in Cosmology (2002)",
+		"James Craig Watson Medal (2004)",
+		"Henry Norris Russell Lectureship (1994)",
+		"Honorary doctorates from numerous universities",
+		"Vera Rubin Observatory (under construction in Chile) named in her honor",
+		"Legacy honored through the Vera Rubin Early Career Award (American Astronomical Society)"
+		]
+	 },
 
 	// Werner Karl Heisenberg
 	{

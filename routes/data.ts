@@ -1991,64 +1991,134 @@ export const scientistsData = [
 	//  },
 
 	// Robert Hooke
-	// {
-	//     "id": 79,
-	//     "name": "Robert Hooke",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Isle of Wight, England",
-	//     "date_of_birth": 1635,
-	//     "date_of_death": 1703,
-	//     "discoveries": [
-	//              "The Measurement of Time",
-	//              "Hooke’s Law",
-	//              "Micrographia and Microscopy",
-	//              "Micrographia and Paleontology",
-	//              "The Force of Gravity"
-	//      ]
-	//  },
+	{
+	    id: 79,
+	    name: "Robert Hooke",
+		nationality: "English",
+	    description: "English natural philosopher, architect, and polymath, known for his contributions to physics, biology, and microscopy. A key figure in the Scientific Revolution.",
+	    date_of_birth: "1635-07-18",
+	    date_of_death: "1703-03-03",
+	    discoveries: [
+			"Discovered Hooke's Law of elasticity, describing the behavior of springs",
+			"Pioneered the use of the microscope, coining the term 'cell' in biology",
+			"Published *Micrographia*, a groundbreaking work on microscopy and biology",
+			"Studied the nature of light and wave theory, influencing later work on optics",
+			"Contributed to the design of scientific instruments, including the compound microscope",
+			"Proposed a wave theory of light and studied diffraction",
+			"Made significant contributions to astronomy, including the study of comets and planets",
+			"Designed buildings and structures, including the Royal Observatory at Greenwich",
+			"Advocated for the scientific method and experimental philosophy"
+	     ],
+		nobel_prize: null,
+		other_awards: [
+			"Fellow of the Royal Society (1663)",
+			"Curator of Experiments for the Royal Society (1662–1677)",
+			"Gresham Professor of Geometry (1665–1703)",
+			"Legacy honored through the Hooke Medal (British Society for the History of Science)",
+			"Considered one of the most influential scientists of the 17th century"
+		]
+	 },
 
 	// Rodger Penrose
-	// {
-	//     "id": 80,
-	//     "name": "Rodger Penrose",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Isle of Wight, England",
-	//     "date_of_birth": 1635,
-	//     "date_of_death": 1703,
-	//     "discoveries": [
-	//              "The Measurement of Time",
-	//              "Hooke’s Law",
-	//              "Micrographia and Microscopy",
-	//              "Micrographia and Paleontology",
-	//              "The Force of Gravity"
-	//      ]
-	//  },
+	{
+	    id: 80,
+	    name: "Rodger Penrose",
+		nationality: "British",
+	    description: "British mathematical physicist, mathematician, and philosopher of science, renowned for his work on general relativity, black holes, and the nature of consciousness. Nobel laureate in Physics.",
+	    date_of_birth: "1931-08-08",
+	    date_of_death: null,
+	    discoveries: [
+			"Proved the Penrose-Hawking singularity theorems, showing singularities are inevitable in general relativity",
+			"Developed the theory of black hole formation and the cosmic censorship conjecture",
+			"Invented Penrose tilings, aperiodic patterns with fivefold symmetry",
+			"Proposed the Penrose process, a mechanism to extract energy from rotating black holes",
+			"Contributed to twistor theory, a framework for unifying quantum mechanics and general relativity",
+			"Studied the nature of spacetime and the geometry of the universe",
+			"Authored *The Road to Reality*, a comprehensive guide to the laws of physics",
+			"Explored the relationship between physics and consciousness in *The Emperor's New Mind*",
+			"Made significant contributions to the study of gravitational waves and cosmology"
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 2020,
+				study: "discovery that black hole formation is a robust prediction of the general theory of relativity"
+			}
+		],
+		other_awards: [
+			"Wolf Prize in Physics (1988)",
+			"Copley Medal (2008)",
+			"Royal Medal (1985)",
+			"Albert Einstein Medal (1990)",
+			"Fellow of the Royal Society (1972)",
+			"Honorary doctorates from numerous universities",
+			"Knighted for services to science (1994)",
+			"Legacy honored through the Penrose Institute, exploring physics and consciousness"
+		]
+	 },
 
 	// S. N. Bose
-	// {
-	//     "id": 81,
-	//     "name": "S. N. Bose",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",
-	//     "date_of_birth": 1635,
-	//     "date_of_death": 1974,
-	//     "discoveries": [
-	//              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
-	//      ]
-	//  },
+	{
+	    id: 81,
+	    name: "S. N. Bose",
+		nationality: "Indian",
+	    description: "Indian physicist and mathematician, best known for his work on quantum mechanics and the development of Bose-Einstein statistics. The class of particles known as bosons is named in his honor",
+	    date_of_birth: "1894-01-01",
+	    date_of_death: "1974-02-04",
+	    discoveries: [
+			"Developed Bose-Einstein statistics, describing the behavior of bosons",
+			"Collaborated with Albert Einstein to predict the Bose-Einstein condensate",
+			"Pioneered the study of quantum mechanics and statistical mechanics",
+			"Contributed to the theory of the photon gas and blackbody radiation",
+			"Authored the foundational paper on quantum statistics, sent to Einstein for validation",
+			"Studied the properties of X-rays and crystallography",
+			"Made significant contributions to the understanding of unified field theories",
+			"Advocated for the development of science education in India"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Padma Vibhushan (India's second-highest civilian award, 1954)",
+			"Fellow of the Royal Society (1958)",
+			"Honorary doctorates from numerous universities",
+			"Legacy honored through the naming of bosons (particles obeying Bose-Einstein statistics)",
+			"S.N. Bose National Centre for Basic Sciences (Kolkata) named in his honor",
+			"Considered one of the founders of quantum statistics"
+		]
+	 },
 
 	// Stephen Hawking
-	// {
-	//     id: 82,
-	//     name: "Stephen Hawking",
-	//     description: "Denmark’s capital city, Copenhagen",
-	//     nationality: "British India’s capital city, Calcutta, Bengal Presidency. Today the city is known as Kolkata, located in the Indian state of West Bengal",
-	//     date_of_birth: 1942,
-	//     date_of_death: 2018,
-	//     discoveries: [
-	//              "S. N. Bose founded quantum statistics in 1924 when he discovered a new way to derive Planck’s radiation law"
-	//      ]
-	//  },
+	{
+	    id: 82,
+	    name: "Stephen Hawking",
+		nationality: "British",
+	    description: "British theoretical physicist, cosmologist, and author, renowned for his work on black holes, general relativity, and quantum mechanics. A cultural icon for his contributions to science and his resilience in the face of ALS.",
+	    date_of_birth: "1942-01-08",
+	    date_of_death: "2018-03-14",
+	    discoveries: [
+			"Predicted that black holes emit radiation (Hawking radiation)",
+			"Proposed the no-boundary condition for the origin of the universe",
+			"Contributed to the understanding of singularities in general relativity",
+			"Studied the thermodynamics of black holes and the information paradox",
+			"Authored *A Brief History of Time*, one of the most popular science books of all time",
+			"Developed the theory of cosmic inflation and the multiverse",
+			"Collaborated on the Penrose-Hawking singularity theorems",
+			"Explored the relationship between quantum mechanics and general relativity",
+			"Made significant contributions to the study of the early universe and cosmology"
+	     ],
+		nobel_prize: null,
+		other_awards: [
+			"Albert Einstein Medal (1979)",
+			"Wolf Prize in Physics (1988)",
+			"Copley Medal (2006)",
+			"Presidential Medal of Freedom (2009)",
+			"Special Breakthrough Prize in Fundamental Physics (2013)",
+			"Fellow of the Royal Society (1974)",
+			"Honorary doctorates from numerous universities",
+			"Legacy honored through the Stephen Hawking Medal for Science Communication",
+			"Stephen Hawking Fellowship (University of Cambridge)",
+			"Considered one of the most influential scientists of the modern era"
+		]
+	 },
 
 	// Steven Weinberg
 	{
@@ -2177,14 +2247,14 @@ export const scientistsData = [
 		nobel_prize: [],
 		other_awards: [
 			"National Medal of Science (1993)",
-		"Gold Medal of the Royal Astronomical Society (1996)",
-		"Bruce Medal (2003)",
-		"Gruber Prize in Cosmology (2002)",
-		"James Craig Watson Medal (2004)",
-		"Henry Norris Russell Lectureship (1994)",
-		"Honorary doctorates from numerous universities",
-		"Vera Rubin Observatory (under construction in Chile) named in her honor",
-		"Legacy honored through the Vera Rubin Early Career Award (American Astronomical Society)"
+			"Gold Medal of the Royal Astronomical Society (1996)",
+			"Bruce Medal (2003)",
+			"Gruber Prize in Cosmology (2002)",
+			"James Craig Watson Medal (2004)",
+			"Henry Norris Russell Lectureship (1994)",
+			"Honorary doctorates from numerous universities",
+			"Vera Rubin Observatory (under construction in Chile) named in her honor",
+			"Legacy honored through the Vera Rubin Early Career Award (American Astronomical Society)"
 		]
 	 },
 
@@ -2198,30 +2268,30 @@ export const scientistsData = [
 	    date_of_death: "1976-02-01",
 	    discoveries: [
 			"Formulated the uncertainty principle, a cornerstone of quantum mechanics",
-		"Developed matrix mechanics, the first complete formulation of quantum mechanics",
-		"Contributed to the development of quantum field theory",
-		"Proposed the isospin concept in nuclear physics",
-		"Worked on the theory of ferromagnetism and the neutron-proton model of the nucleus",
-		"Played a key role in the Copenhagen interpretation of quantum mechanics",
-		"Authored influential works like *The Physical Principles of the Quantum Theory*",
-		"Contributed to the understanding of turbulence in fluid dynamics",
-		"Developed the S-matrix theory in particle physics"
+			"Developed matrix mechanics, the first complete formulation of quantum mechanics",
+			"Contributed to the development of quantum field theory",
+			"Proposed the isospin concept in nuclear physics",
+			"Worked on the theory of ferromagnetism and the neutron-proton model of the nucleus",
+			"Played a key role in the Copenhagen interpretation of quantum mechanics",
+			"Authored influential works like *The Physical Principles of the Quantum Theory*",
+			"Contributed to the understanding of turbulence in fluid dynamics",
+			"Developed the S-matrix theory in particle physics"
 	     ],
 		nobel_prize: [
 			{
 				"category": "Physics",
-			"year": 1932,
-			"study": "creation of quantum mechanics, particularly the uncertainty principle"
+				"year": 1932,
+				"study": "creation of quantum mechanics, particularly the uncertainty principle"
 			}
 		],
 		other_awards: [
 			"Max Planck Medal (1933)",
-		"Matteucci Medal (1929)",
-		"Pour le Mérite for Sciences and Arts (1957)",
-		"Foreign Member of the Royal Society (London)",
-		"Honorary doctorates from numerous universities",
-		"Werner Heisenberg Medal (awarded by the Alexander von Humboldt Foundation)",
-		"Legacy honored through the Heisenberg Prize (German Research Foundation)"
+			"Matteucci Medal (1929)",
+			"Pour le Mérite for Sciences and Arts (1957)",
+			"Foreign Member of the Royal Society (London)",
+			"Honorary doctorates from numerous universities",
+			"Werner Heisenberg Medal (awarded by the Alexander von Humboldt Foundation)",
+			"Legacy honored through the Heisenberg Prize (German Research Foundation)"
 		]
 	 },
 
@@ -2331,24 +2401,24 @@ export const scientistsData = [
 	    date_of_death: "1894-09-08",
 	    discoveries: [
 			"Formulated the law of conservation of energy (First Law of Thermodynamics)",
-		"Pioneered the study of nerve impulses and the speed of neural transmission",
-		"Developed the theory of color vision (Young-Helmholtz trichromatic theory)",
-		"Invented the ophthalmoscope, revolutionizing eye medicine",
-		"Studied acoustics and the physics of sound, including the Helmholtz resonator",
-		"Advanced the understanding of fluid dynamics and vortex motion",
-		"Contributed to the principle of least action in mechanics",
-		"Investigated the perception of sound and music, laying groundwork for psychoacoustics",
-		"Authored seminal works like *On the Conservation of Force* and *Handbook of Physiological Optics*"
+			"Pioneered the study of nerve impulses and the speed of neural transmission",
+			"Developed the theory of color vision (Young-Helmholtz trichromatic theory)",
+			"Invented the ophthalmoscope, revolutionizing eye medicine",
+			"Studied acoustics and the physics of sound, including the Helmholtz resonator",
+			"Advanced the understanding of fluid dynamics and vortex motion",
+			"Contributed to the principle of least action in mechanics",
+			"Investigated the perception of sound and music, laying groundwork for psychoacoustics",
+			"Authored seminal works like *On the Conservation of Force* and *Handbook of Physiological Optics*"
 		],
 		nobel_prize: null,
 		other_awards: [
 			"Copley Medal (1873)",
-		"Pour le Mérite for Sciences and Arts (1873)",
-		"Foreign Member of the Royal Society (London)",
-		"Helmholtz Medal (established in his honor by the German Physical Society)",
-		"Honorary doctorates from numerous universities",
-		"Helmholtz Association of German Research Centres named in his honor",
-		"Helmholtz-Zentrum Berlin (research institute) named in his honor"
+			"Pour le Mérite for Sciences and Arts (1873)",
+			"Foreign Member of the Royal Society (London)",
+			"Helmholtz Medal (established in his honor by the German Physical Society)",
+			"Honorary doctorates from numerous universities",
+			"Helmholtz Association of German Research Centres named in his honor",
+			"Helmholtz-Zentrum Berlin (research institute) named in his honor"
 		]
 	 },
 

@@ -1938,57 +1938,144 @@ export const scientistsData = [
 	// },
 
 	// Paul Dirac
-	// {
-	//    "id": 75,
-	//    "name": "Paul Dirac",
-	//    "description": "Denmark’s capital city, Copenhagen",
-	//    "nationality": "Bristol, England, UK",
-	//    "date_of_birth": 1902,
-	//    "date_of_death": 1984,
-	//    "discoveries": [
-	//             "Dirac founded quantum electrodynamics",
-	//             "Accounting for the creation and annihilation of photons of light within atoms, and his Lagrangian formulation of quantum mechanics led to Richard Feynman’s path integrals"
-	//     ]
-	// },
+	{
+		id: 75,
+		name: "Paul Dirac",
+		nationality: "British",
+		description: "British theoretical physicist and Nobel laureate, known for his foundational contributions to quantum mechanics and quantum electrodynamics. Formulated the Dirac equation, predicting antimatter",
+	   date_of_birth: "1902-08-08",
+	   date_of_death: "1984-10-20",
+	   discoveries: [
+		   "Formulated the Dirac equation, unifying quantum mechanics and special relativity",
+			"Predicted the existence of antimatter (positrons)",
+			"Developed the theory of quantum electrodynamics (QED)",
+			"Introduced the concept of Dirac spinors and the Dirac delta function",
+			"Pioneered the use of bra-ket notation in quantum mechanics",
+			"Contributed to the development of the path integral formulation of quantum mechanics",
+			"Authored *The Principles of Quantum Mechanics*, a foundational text in physics",
+			"Studied magnetic monopoles and their implications for quantum theory"
+	    ],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1933,
+				study: "discovery of new productive forms of atomic theory"
+			}
+		],
+		other_awards: [
+			"Royal Medal (1939)",
+			"Copley Medal (1952)",
+			"Max Planck Medal (1952)",
+			"Fellow of the Royal Society (1930)",
+			"Honorary doctorates from numerous universities",
+			"Legacy honored through the Dirac Medal (ICTP)",
+			"Considered one of the founders of modern quantum mechanics"
+		]
+	},
 
 	// Pyotr Kapitsa
-	// {
-	//     "id": 76,
-	//     "name": "Pyotr Kapitsa",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",
-	//     "date_of_birth": 1894,
-	//     "date_of_death": 1984,
-	//     "discoveries": [
-	//              "discoveries of Superfluidity"
-	//      ]
-	//  },
+	{
+	    id: 76,
+	    name: "Pyotr Kapitsa",
+		nationality: "Russian",
+	    description: "Soviet physicist and Nobel laureate, known for his work in low-temperature physics and the discovery of superfluidity in liquid helium. A pioneer in cryogenics and strong magnetic fields.",
+	    date_of_birth: "1894-07-08",
+	    date_of_death: "1984-04-08",
+	    discoveries: [
+			"Discovered superfluidity in liquid helium-4 (1937)",
+			"Developed innovative techniques for producing strong magnetic fields",
+			"Pioneered the study of high-intensity microwave electronics",
+			"Invented the Kapitza-Dirac effect, demonstrating electron diffraction by light",
+			"Studied the properties of liquid helium and its phase transitions",
+			"Contributed to the development of cryogenic engineering and low-temperature physics",
+			"Authored foundational works on plasma physics and superconductivity",
+			"Founded the Institute for Physical Problems in Moscow"
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1978,
+				study: "basic inventions and discoveries in the area of low-temperature physics"
+			}
+		],
+		other_awards: [
+			"Lomonosov Gold Medal (1959)",
+			"Rutherford Medal and Prize (1966)",
+			"Order of Lenin (multiple times)",
+			"Foreign Member of the Royal Society (London)",
+			"Honorary doctorates from numerous universities",
+			"Legacy honored through the Kapitza Institute in Moscow",
+			"Considered one of the founders of modern low-temperature physics"
+		]
+	 },
 
 	// Richard A. Muller
-	// {
-	//     "id": 77,
-	//     "name": "Richard A. Muller",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",
-	//     "date_of_birth": 1894,
-	//     "date_of_death": 1984,
-	//     "discoveries": [
-	//              "discoveries of Superfluidity"
-	//      ]
-	//  },
+	{
+	    id: 77,
+	    name: "Richard A. Muller",
+		nationality: "American",
+	    description: "American physicist known for his work in climate science, astrophysics, and geophysics. Founder of the Berkeley Earth project, which analyzes global temperature data, and a prominent science communicator",
+	    date_of_birth: "1944-01-06",
+	    date_of_death: null,
+	    discoveries: [
+	             "Co-founded the Berkeley Earth project to refine and validate global climate temperature records",
+			"Proposed the Nemesis hypothesis, suggesting a stellar companion to the Sun influencing comet dynamics",
+			"Conducted pioneering research on dark matter distribution in the Milky Way",
+			"Developed methods for analyzing cosmic microwave background radiation anisotropies",
+			"Authored influential works on climate science, including *Physics for Future Presidents*",
+			"Investigated the causes of mass extinctions and asteroid impacts",
+			"Contributed to the understanding of radioisotope dating techniques",
+			"Advanced public understanding of energy and climate through accessible science writing"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"MacArthur Fellowship (Genius Grant, 1982)",
+			"Leo Szilard Award for Physics in the Public Interest (1984)",
+			"Fellow of the American Physical Society",
+			"Professor Emeritus at the University of California, Berkeley",
+			"Author of popular science books: *Physics for Future Presidents* and *The Instant Physicist*",
+			"Legacy honored through the Berkeley Earth initiative's global climate analyses"
+		]
+	 },
 
 	// Richard Feynman
-	// {
-	//     "id": 78,
-	//     "name": "Richard Feynman",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Kronstadt, an island fortress near Saint Petersburg, capital of the Russian Empire",
-	//     "date_of_birth": 1918,
-	//     "date_of_death": 1988,
-	//     "discoveries": [
-	//              "discoveries of Superfluidity"
-	//      ]
-	//  },
+	{
+	    id: 78,
+	    name: "Richard Feynman",
+		nationality: "American",
+	    description: "American theoretical physicist, Nobel laureate, and charismatic science communicator. Revolutionized quantum electrodynamics (QED), developed Feynman diagrams, and contributed to particle physics, superfluidity, and quantum computing",
+	    date_of_birth: "1918-05-11",
+	    date_of_death: "1988-02-15",
+	    discoveries: [
+			"Formulated quantum electrodynamics (QED), explaining interactions between light and matter",
+			"Invented Feynman diagrams, a visual tool for particle interactions",
+			"Developed the path integral formulation of quantum mechanics",
+			"Explained superfluidity in liquid helium",
+			"Proposed the parton model, advancing quark theory",
+			"Co-authored the Feynman Lectures on Physics, a landmark in physics education",
+			"Investigated the Challenger disaster as part of the Rogers Commission",
+			"Pioneered concepts in quantum computing (Feynman's version of the Church-Turing thesis)",
+			"Worked on the Manhattan Project, contributing to atomic bomb development"
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1965,
+				study: "fundamental work in quantum electrodynamics, with profound consequences for particle physics"
+			}
+		],
+		other_awards: [
+			"Albert Einstein Award (1954)",
+			"Oersted Medal (1972)",
+			"National Medal of Science (1979)",
+			"Foreign Member of the Royal Society (London)",
+			"Ernest Orlando Lawrence Award (1962)",
+			"Honorary doctorates from over 30 universities",
+			"Named one of the 'Ten Greatest Physicists of All Time' by Physics World",
+			"Legacy honored through the Feynman Prize in Nanotechnology",
+			"Authored popular science books: *Surely You're Joking, Mr. Feynman!* and *What Do You Care What Other People Think?*"
+		]
+	 },
 
 	// Robert Hooke
 	{

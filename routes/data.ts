@@ -1854,88 +1854,185 @@ export const scientistsData = [
 	},
 
 	// Michael Faraday
-	// {
-	//     "id": 69,
-	//     "name": "Michael Faraday",
-	//     "description": "Description for Michael Faraday",
-	//     "nationality": "London, England, UK",
-	//     "date_of_birth": 1791,
-	//     "date_of_death": 1867,
-	//     "discoveries": [
-	//         "discoveries of Electromagnetic Rotation",
-	//         "Gas Liquefaction and Refrigeration",
-	//         "Benzene",
-	//         "Electromagnetic Induction, Faraday’s Laws of Electrolysis",
-	//         "Invention of the Faraday Cage and Faraday Effect: a magneto-optical effect"
-	//     ]
-	// },
+	{
+	    id: 69,
+	    name: "Michael Faraday",
+		nationality: "British",
+	    description: "British scientist who made groundbreaking contributions to electromagnetism and electrochemistry, laying the foundation for electric power technology.",
+	    date_of_birth: "1791-09-22",
+	    date_of_death: "1867-08-25",
+	    discoveries: [
+			"Electromagnetic induction",
+			"Electrolysis laws",
+			"Diamagnetism",
+			"Faraday effect (interaction between light and magnetism)",
+			"Faraday cage (shielding effect of conductors)",
+			"Relationship between electricity and magnetism",
+			"Discovered benzene",
+			"Developed early concepts of electric and magnetic fields"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Royal Medal (1835, 1846)",
+			"Copley Medal (1832, 1838)",
+			"Rumford Medal (1846)",
+			"Albert Medal (1866)",
+			"Foreign Member of the Royal Society"
+		]
+	},
 
 	// Michio Kaku
-	// {
-	//     "id": 70,
-	//     "name": "Michio Kaku",
-	//     "description": "Description for Michael Faraday",
-	//     "nationality": " San Jose, California",
-	//     "date_of_birth": 1947,
-	//     "date_of_death": 186766,
-	//     "discoveries": [
-	//         "Popularizer of science"
-	//     ]
-	// },
+	{
+	    id: 70,
+	    name: "Michio Kaku",
+		nationality: "American",
+	    description: "American theoretical physicist, futurist, and popular science communicator known for his work in string field theory and his efforts to make science accessible to the public.",
+	    date_of_birth: "1947-01-24",
+	    date_of_death: null,
+	    discoveries: [
+	        "Contributions to string field theory",
+			"Developed the first functional string field theory equations",
+			"Explored higher-dimensional space-time in theoretical physics",
+			"Popularized the concept of a 'Theory of Everything'",
+			"Advocated for the potential of parallel universes and the multiverse"
+	    ],
+		nobel_prize: null,
+		other_awards: [
+			"Kloppesteg Memorial Award",
+			"Sir Arthur Clarke Award for Science Communication",
+			"Isaac Asimov Science Award"
+		]
+
+	},
 
 	// Murray Gell-Mann
-	// {
-	//     "id": 71,
-	//     "name": "Murray Gell-Mann",
-	//     "description": "Description for Michael Faraday",
-	//     "nationality": "London, England, UK.",
-	//     "date_of_birth": 1929,
-	//     "date_of_death": 2019,
-	//     "discoveries": [
-	//         "Popularizer of science"
-	//     ]
-	// },
+	{
+	    id: 71,
+	    name: "Murray Gell-Mann",
+		nationality: "American",
+	    description: "American physicist who was instrumental in the development of the quark model, greatly advancing the field of particle physics",
+	    date_of_birth: "1929-09-15",
+	    date_of_death: "2019-05-24",
+	    discoveries: [
+			"Quark model",
+			"Eightfold Way (classification of hadrons)",
+			"Quantum chromodynamics (QCD)",
+			"Gell-Mann matrices",
+			"Current algebra",
+			"Strangeness (quantum number in particle physics)",
+			"Renormalization group",
+			"Totalitarian principle ('Everything not forbidden is compulsory')",
+			"Deep connections between fundamental physics and complexity theory"
+	    ],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1969,
+				study: "contributions and discoveries concerning the classification of elementary particles and their interactions"
+			}
+		],
+		other_awards: [
+			"Albert Einstein Award (1959)",
+			"Ernest Orlando Lawrence Award (1966)",
+			"Franklin Medal (1967)",
+			"National Medal of Science (1988)",
+			"Max Planck Medal (1997)",
+			"Foreign Member of the Royal Society (ForMemRS, 1978)"
+		]
+	},
 
 	// Nicolo Tartaglia
-	// {
-	//     "id": 72,
-	//     "name": "Nicolo Tartaglia",
-	//     "description": "Description for Michael Faraday",
-	//     "nationality": "London, England, UK.",
-	//     "date_of_birth": 1500,
-	//     "date_of_death": 1557,
-	//    "discoveries": [
-	//             "Popularizer of science"
-	//     ]
-	// },
+	{
+	    id: 72,
+	    name: "Nicolo Tartaglia",
+		nationality: "Italian",
+	    description: "Italian mathematician, engineer, and ballistics expert. Known for solving cubic equations and his contributions to the science of ballistics and mechanics during the Renaissance.",
+	    date_of_birth: "1499-12-13",
+	    date_of_death: "1557-12-13",
+	    discoveries: [
+			"Developed a method for solving cubic equations (Tartaglia's formula)",
+			"Pioneered the study of ballistics and projectile motion",
+			"Authored *Nova Scientia*, a foundational work on the science of ballistics",
+			"Translated and preserved ancient Greek mathematical texts, including Euclid's *Elements*",
+			"Contributed to the understanding of mechanics and geometry",
+			"Studied the trajectories of cannonballs and other projectiles",
+			"Introduced mathematical rigor to the study of artillery and fortifications"
+	    ],
+		nobel_prize: null,
+		other_awards: [
+			"Legacy honored through the Tartaglia crater on the Moon",
+			"Recognized as a key figure in the Renaissance revival of mathematics and science",
+			"His work influenced later mathematicians like Gerolamo Cardano and Galileo Galilei"
+		]
+	},
 
 	// Neils Bohr
-	// {
-	//     "id": 73,
-	//     "name": "Neils Bohr",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "Denmark’s capital city, Copenhagen",
-	//     "date_of_birth": 1885,
-	//     "date_of_death": 1962,
-	//    "discoveries": [
-	//             "He founded quantum mechanics",
-	//             "Later, as a leading architect of the Copenhagen interpretation of quantum mechanics, he helped to reshape our understanding of how nature operates at the atomic scale"
-	//     ]
-	// },
+	{
+	    id: 73,
+	    name: "Neils Bohr",
+		nationality: "Danish",
+	    description: "Danish physicist and Nobel laureate, foundational to quantum mechanics and atomic theory. Developed the Bohr model of the atom and contributed to the Copenhagen interpretation of quantum mechanics",
+	    date_of_birth: "1885-10-07",
+	    date_of_death: "1962-11-18",
+	    discoveries: [
+			"Developed the Bohr model of the atom, explaining electron orbits and energy levels",
+			"Introduced the concept of complementarity in quantum mechanics",
+			"Co-founded the Copenhagen interpretation of quantum mechanics",
+			"Explained atomic spectra and the hydrogen atom's emission lines",
+			"Contributed to the theory of nuclear fission and the liquid drop model",
+			"Played a key role in the Manhattan Project's early stages",
+			"Founded the Niels Bohr Institute in Copenhagen",
+			"Authored influential works on atomic structure and quantum theory"
+	    ],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1922,
+				study: "investigations of atomic structure and radiation"
+			}
+		],
+		other_awards: [
+			"Max Planck Medal (1930)",
+			"Copley Medal (1938)",
+			"Franklin Medal (1926)",
+			"Order of the Elephant (Denmark's highest honor, 1947)",
+			"Foreign Member of the Royal Society (London)",
+			"Honorary doctorates from over 30 universities",
+			"Legacy honored through the Bohr model, Bohr radius, and Niels Bohr Institute",
+			"Considered one of the founders of modern quantum mechanics"
+		]
+	},
 
 	// Nikola Tesla
-	// {
-	//     "id": 74,
-	//     "name": "Nikola Tesla",
-	//     "description": "Denmark’s capital city, Copenhagen",
-	//     "nationality": "London, England, UK.",
-	//     "date_of_birth": 1856,
-	//     "date_of_death": 1943,
-	//     "discoveries": [
-	//             "He founded quantum mechanics",
-	//             "Later, as a leading architect of the Copenhagen interpretation of quantum mechanics, he helped to reshape our understanding of how nature operates at the atomic scale"
-	//     ]
-	// },
+	{
+	    id: 74,
+	    name: "Nikola Tesla",
+		nationality: "Serbian-American",
+	    description: "Serbian-American inventor, electrical engineer, and futurist. Pioneer of alternating current (AC) electrical systems, wireless communication, and numerous groundbreaking innovations in electromagnetism and energy transmission",
+	    date_of_birth: "1856-07-10",
+	    date_of_death: "1943-01-07",
+	    discoveries: [
+			"Designed the modern alternating current (AC) electricity supply system",
+			"Invented the Tesla coil (foundational to wireless technology and radio transmission)",
+			"Developed principles of wireless communication and radio technology",
+			"Patented the induction motor and transformer",
+			"Pioneered X-ray imaging experiments and high-frequency currents",
+			"Proposed wireless energy transmission (Wardenclyffe Tower project)",
+			"Invented remote control technology (teleautomaton)",
+			"Designed the Tesla turbine and bladeless turbine engine",
+			"Advocated for global wireless communication and renewable energy systems"
+	    ],
+		nobel_prize: null,
+		other_awards: [
+			"Edison Medal (1917)",
+			"Order of St. Sava (Serbia, 1892)",
+			"Elliott Cresson Medal (1894)",
+			"John Scott Medal (1934)",
+			"Honorary doctorates from Columbia and Zagreb Universities",
+			"Unit of magnetic flux density (tesla) named in his honor",
+			"Inducted into the National Inventors Hall of Fame (1975)",
+		]
+	},
 
 	// Paul Dirac
 	{

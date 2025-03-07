@@ -1,3 +1,4 @@
+name = "planck"
 main = "./routes/physicists.ts"
 
 compatibility_date = "2025-03-07"

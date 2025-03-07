@@ -1,7 +1,30 @@
 import { Hono } from "hono";
+import { cloudflareRateLimiter } from "@hono-rate-limiter/cloudflare";
 import { scientistsData } from "./data";
 
-const physicist = new Hono();
+type AppType = {
+	Variables: {
+		rateLimit: boolean;
+	};
+	Bindings: {
+		RATE_LIMITER: RateLimit;
+	};
+};
+
+const physicist = new Hono<AppType>().use(
+	cloudflareRateLimiter<AppType>({
+		rateLimitBinding: (c) => c.env.RATE_LIMITER,
+		keyGenerator: (c) => c.req.header("cf-connecting-ip") ?? "",
+	}),
+);
+
+// Apply the rate limiting middleware to all requests.
+// const phycist = new Hono<AppType>().use(
+// 	cloudflareRateLimiter<AppType>({
+// 	  rateLimitBinding: (c) => c.env.RATE_LIMITER,
+// 	  keyGenerator: (c) => c.req.header("cf-connecting-ip") ?? "", // Method to generate custom identifiers for clients.
+// 	})
+//   );
 
 // home page of scientists
 physicist.get("/", (c) => {

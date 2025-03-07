@@ -1,4 +1,6 @@
-main = "./index.ts"
+main = "./routes/physicists.ts"
+
+compatibility_date = "2025-03-07"
 
 # The rate limiting API is in open beta.
 

@@ -2,6 +2,9 @@
   "name": "bun-hono",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "deploy": "bunx wrangler deploy"
+  },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"

@@ -1,10 +1,17 @@
 import { z } from "zod";
 
+enum CategoryEnum {
+	physicist = "physicist",
+	biologist = "biologist",
+	chemists = "chemist",
+}
+
 const scientistSchema = z.array(
 	z.object({
 		id: z.number({ message: "Id should be a number" }),
 		name: z.string(),
 		nationality: z.string(),
+		category: z.nativeEnum(CategoryEnum),
 		description: z.string(),
 		date_of_birth: z
 			.string()
@@ -37,6 +44,7 @@ export const scientistsData = [
 		id: 1,
 		name: "Aage N Bohr",
 		nationality: "Danish",
+		category: "physicist",
 		description:
 			"Aage Bohr was awarded the Nobel Prize in Physics in 1975 for his work detailing the structure of the atomic nucleus",
 		date_of_birth: "1922-06-19",
@@ -57,6 +65,7 @@ export const scientistsData = [
 		id: 2,
 		name: "Abdus Salam",
 		nationality: "Indian",
+		category: "physicist",
 		description: "was a Pakistani theoretical physicist",
 		date_of_birth: "1926-01-29",
 		date_of_death: "1996-11-21",
@@ -98,6 +107,7 @@ export const scientistsData = [
 		id: 3,
 		name: "Albert Einstein",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"German-born theoretical physicist who is widely held as one of the most influential scientists. Best known for developing the theory of relativity",
 		date_of_birth: "1879-03-14",
@@ -145,6 +155,7 @@ export const scientistsData = [
 		id: 4,
 		name: "Alessandro Giuseppe Antonio Anastasio Volta",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"was an Italian physicist and chemist who was a pioneer of electricity and power",
 		date_of_birth: "1745-02-18",
@@ -196,6 +207,7 @@ export const scientistsData = [
 		id: 5,
 		name: "Lorenzo Romano Amedeo Carlo Avogadro",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"was an Italian scientist, most noted for his contribution to molecular theory now known as Avogadro's law, which states that equal volumes of gases under the same conditions of temperature and pressure will contain equal numbers of molecules.",
 		date_of_birth: "1776-08-09",
@@ -223,6 +235,7 @@ export const scientistsData = [
 		id: 6,
 		name: "André-Marie Ampère",
 		nationality: "French",
+		category: "physicist",
 		description:
 			"was a French physicist and mathematician who was one of the founders of the science of classical electromagnetism, which he referred to as electrodynamics",
 		date_of_birth: "1775-01-20",
@@ -273,6 +286,7 @@ export const scientistsData = [
 		id: 7,
 		name: "Arthur Holly Compton",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			"American physicist who won the Nobel Prize in Physics in 1927 for his 1923 discovery of the Compton effect, which demonstrated the particle nature of electromagnetic radiation.",
 		date_of_birth: "1892-09-10",
@@ -303,6 +317,7 @@ export const scientistsData = [
 		id: 8,
 		name: "Benjamin Franklin",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			" was an American polymath: a leading writer, scientist, inventor, statesman, diplomat, printer, publisher and political philosopher.",
 		date_of_birth: "1705-01-17",
@@ -324,6 +339,7 @@ export const scientistsData = [
 		id: 9,
 		name: "Georg Friedrich Bernhard Riemann",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"was a German mathematician who made profound contributions to analysis, number theory, and differential geometry.",
 		date_of_birth: "1826-09-17",
@@ -346,6 +362,7 @@ export const scientistsData = [
 		id: 10,
 		name: "Blaise Pascal",
 		nationality: "French",
+		category: "physicist",
 		description:
 			"French mathematician, physicist, inventor, philosopher, and Catholic writer.",
 		date_of_birth: "1623-06-19",
@@ -369,6 +386,7 @@ export const scientistsData = [
 		id: 11,
 		name: "Brian Randolph Greene",
 		nationality: "American",
+		category: "physicist",
 		description: "American physicist known for his research on string theory",
 		date_of_birth: "1963-02-09",
 		date_of_death: null,
@@ -387,6 +405,7 @@ export const scientistsData = [
 		id: 12,
 		name: "Sir Chandrasekhara Venkata Raman",
 		nationality: "Indian",
+		category: "physicist",
 		description:
 			"Indian physicist known for his work in the field of light scattering.",
 		date_of_birth: "1888-11-07",
@@ -414,6 +433,7 @@ export const scientistsData = [
 		id: 13,
 		name: "Carl David Anderson",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			"He is best known for his discovery of the positron in 1932, an achievement for which he received the 1936 Nobel Prize in Physics, and of the muon in 1936",
 		date_of_birth: "1905-09-03",
@@ -437,6 +457,7 @@ export const scientistsData = [
 		id: 14,
 		name: "Carl Friedrich Gauss",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"Was a German mathematician, generally regarded as one of the greatest mathematicians of all time.",
 		date_of_birth: "1777-04-30",
@@ -468,6 +489,7 @@ export const scientistsData = [
 		id: 15,
 		name: "Charles Glover Barkla",
 		nationality: "English",
+		category: "physicist",
 		description: "About Charles Glover Barkla",
 		date_of_birth: "1877-06-07",
 		date_of_death: "1944-10-23",
@@ -494,6 +516,7 @@ export const scientistsData = [
 		id: 16,
 		name: "Charles Hard Townes",
 		nationality: "American",
+		category: "physicist",
 		description: "About Charles Hard Townes",
 		date_of_birth: "1915-07-28",
 		date_of_death: "2015-01-27",
@@ -539,6 +562,7 @@ export const scientistsData = [
 		id: 17,
 		name: "Yang Chen-Ning",
 		nationality: "Chinese",
+		category: "physicist",
 		description:
 			"Also known as C. N. Yang or by the English name Frank Yang, is a Chinese theoretical physicist who made significant contributions to statistical mechanics, integrable systems, gauge theory, and both particle physics and condensed matter physics",
 		date_of_birth: "1922-10-01",
@@ -570,6 +594,7 @@ export const scientistsData = [
 		id: 18,
 		name: "Chien-Shiung Wu",
 		nationality: "Chinese",
+		category: "physicist",
 		description:
 			"Chinese-American particle and experimental physicist who made significant contributions in the fields of nuclear and particle physics",
 		date_of_birth: "1912-05-31",
@@ -596,6 +621,7 @@ export const scientistsData = [
 		id: 19,
 		name: "Daniel Bernoulli",
 		nationality: "Swiss",
+		category: "physicist",
 		description:
 			"Most distinguished of the second generation of the Bernoulli family os Swiss mathematicians.",
 		date_of_birth: "1700-02-08",
@@ -615,6 +641,7 @@ export const scientistsData = [
 		id: 20,
 		name: "David Gross",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			"Graduted from Hebrew University of Jerusalem in 1962 and received a Ph.D in physics from University of California.",
 		date_of_birth: "1941-02-19",
@@ -641,6 +668,7 @@ export const scientistsData = [
 		id: 21,
 		name: "David Hilbert",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"German mathematician who reduced geometry to a series of axioms and contributed to the establishment of the formalistic foundations of mathematics.",
 		date_of_birth: "1862-01-23",
@@ -681,6 +709,7 @@ export const scientistsData = [
 		id: 22,
 		name: "Amalie Emmy Noether",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"German mathematician whose innovations in higher algebra gained her recognition as the most creative abstract algebraist of modern times",
 		date_of_birth: "1882-03-23",
@@ -699,6 +728,7 @@ export const scientistsData = [
 		id: 23,
 		name: "Enrico Fermi",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"Was an Italian born American scientist who was one of the chief architects of the nuclear age.",
 		date_of_birth: "1901-09-29",
@@ -725,6 +755,7 @@ export const scientistsData = [
 		id: 24,
 		name: "Ernest Orlando Lawrence",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			"Was an American phycist who invented the cyclotron, the first particle accelerator",
 		date_of_birth: "1901-08-08",
@@ -749,6 +780,7 @@ export const scientistsData = [
 		id: 25,
 		name: "Ernest Rutherford",
 		nationality: "New Zealand",
+		category: "physicist",
 		description:
 			"He was a New Zeland-born British physicist considered the greatest experimentalist since Michael Faraday.",
 		date_of_birth: "1871-08-30",
@@ -776,6 +808,7 @@ export const scientistsData = [
 		id: 26,
 		name: "Ernest Walton",
 		nationality: "Ireland",
+		category: "physicist",
 		description:
 			"He is best known for his work with John Cockcroft to construct one of the earliest types of particle accelerator",
 		date_of_birth: "1903-10-06",
@@ -801,6 +834,7 @@ export const scientistsData = [
 		id: 27,
 		name: "Erwin Rudolf Josef Alexander Schrodinger",
 		nationality: "Austrian",
+		category: "physicist",
 		description: "Recognized for postulating the Schrodinger equation.",
 		date_of_birth: "1887-08-12",
 		date_of_death: "1961-01-04",
@@ -849,6 +883,7 @@ export const scientistsData = [
 		id: 28,
 		name: "Evangelista Torricelli",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"An Italian physicist and mathematician and a student of Galileo.",
 		date_of_birth: "1608-10-15",
@@ -875,6 +910,7 @@ export const scientistsData = [
 		id: 29,
 		name: "Francis Harry Compton Crick",
 		nationality: "British",
+		category: "physicist",
 		description:
 			"An English molecular biologist, biophysicist and neuroscientist",
 		date_of_birth: "1916-06-08",
@@ -910,6 +946,7 @@ export const scientistsData = [
 		id: 30,
 		name: "Frank Wilczek",
 		nationality: "U.S",
+		category: "physicist",
 		description:
 			"Contributed to the study of questions relating to cosmology, condensed matter physics and blackholes",
 		date_of_birth: "1951-05-15",
@@ -937,6 +974,7 @@ export const scientistsData = [
 		id: 31,
 		name: "Sir Fred Hoyle",
 		nationality: "British",
+		category: "physicist",
 		description:
 			"Was an English astronomer who formulated the thoery of stellar nucleosynthesis",
 		date_of_birth: "1915-06-24",
@@ -985,6 +1023,7 @@ export const scientistsData = [
 		id: 32,
 		name: "Galileo di Vincenzo Bonaiuti de' Galilei",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"commonly referred to as Galileo Galilei  or mononymously as Galileo, was an Italian (Florentine)[a] astronomer, physicist and engineer,sometimes described as a polymath",
 		date_of_birth: "1564-02-15",
@@ -1024,6 +1063,7 @@ export const scientistsData = [
 		id: 33,
 		name: "Georg Simon Ohm",
 		nationality: "German",
+		category: "physicist",
 		description: "German physicist and mathematician",
 		date_of_birth: "1789-03-16",
 		date_of_death: "1854-07-06",
@@ -1037,6 +1077,7 @@ export const scientistsData = [
 		id: 34,
 		name: "Guglielmo Marconi",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"Worked on the development of shortwave wireless communication.",
 		date_of_birth: "1874-04-25",
@@ -1057,6 +1098,7 @@ export const scientistsData = [
 		id: 35,
 		name: "Hans Albrecht Bethe",
 		nationality: "German-American",
+		category: "physicist",
 		description:
 			"He was a theoretical physicist who made major contributions to nuclear physics, astrophysics, quantum electrodynamics, and solid-state physics",
 		date_of_birth: "1906-07-02",
@@ -1105,6 +1147,7 @@ export const scientistsData = [
 		id: 36,
 		name: "Hans Christian Ørsted",
 		nationality: "Danish",
+		category: "physicist",
 		description:
 			"A Danish physicist and chemist who discovered that electric currents create magnetic fields",
 		date_of_birth: "1777-08-14",
@@ -1128,6 +1171,7 @@ export const scientistsData = [
 		id: 42,
 		name: "Heinrich Rudolf Hertz",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"German physicist who first conclusively proved the existence of the electromagnetic waves",
 		date_of_birth: "1857-02-22",
@@ -1154,6 +1198,7 @@ export const scientistsData = [
 		id: 43,
 		name: "Henry Gwyn Jeffreys Moseley",
 		nationality: "English",
+		category: "physicist",
 		description:
 			"Physicist whose contribution to the science of physics was the justification from physical laws of\n" +
 			"the previous empirical and chemical concept of the atomic number",
@@ -1169,6 +1214,7 @@ export const scientistsData = [
 		id: 44,
 		name: "Inge Lehmann",
 		nationality: "Danish",
+		category: "physicist",
 		description:
 			"Danish seismologist and geophysicist who is known for her discovery in 1936 of the solid inner core that exists within the molten outer core of the Earth.",
 		date_of_birth: "1888-05-13",
@@ -1183,6 +1229,7 @@ export const scientistsData = [
 		id: 45,
 		name: "Irène Joliot-Curie",
 		nationality: "French",
+		category: "physicist",
 		description:
 			"French chemist, physicist and politician, the elder daughter of Pierre Curie and Marie Skłodowska–Curie, and the wife of Frédéric Joliot-Curie.",
 		date_of_birth: "1897-09-12",
@@ -1203,6 +1250,7 @@ export const scientistsData = [
 		id: 46,
 		name: "Sir Isaac Newton",
 		nationality: "English",
+		category: "physicist",
 		description:
 			"English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.",
 		date_of_birth: "1642-10-25",
@@ -1232,6 +1280,7 @@ export const scientistsData = [
 		id: 47,
 		name: "Sir Joseph John Thomson",
 		nationality: "British",
+		category: "physicist",
 		description:
 			"British physicist and Nobel Laureate in Physics, credited with the discovery of the electron",
 		date_of_birth: "1856-12-18",
@@ -1276,6 +1325,7 @@ export const scientistsData = [
 		id: 48,
 		name: "Julius Robert Oppenheimer",
 		nationality: "American",
+		category: "physicist",
 		description:
 			"American theoretical physicist who served as the director of the Manhattan Project's Los Alamos Laboratory during World War II. Also know as father of the atomic bomb",
 		date_of_birth: "1904-04-22",
@@ -1297,6 +1347,7 @@ export const scientistsData = [
 		id: 49,
 		name: "Sir James Chadwick",
 		nationality: "American",
+		category: "physicist",
 		description:
 			"English physicist who was awarded the 1935 Nobel Prize in Physics for his discovery of the neutron in 1932",
 		date_of_birth: "1891-10-20",
@@ -1331,6 +1382,7 @@ export const scientistsData = [
 		id: 50,
 		name: "James Clerk Maxwell",
 		nationality: "Scottish",
+		category: "physicist",
 		description:
 			"Scottish physicist and mathematician who was responsible for the classical theory of electromagnetic radiation",
 		date_of_birth: "1831-06-13",
@@ -1357,6 +1409,7 @@ export const scientistsData = [
 		id: 51,
 		name: "Johannes Kepler",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"He is a key figure in the 17th-century Scientific Revolution, best known for his laws of planetary motion",
 		date_of_birth: "1571-12-27",
@@ -1378,6 +1431,7 @@ export const scientistsData = [
 		id: 52,
 		name: "John Bardeen",
 		nationality: "American",
+		category: "physicist",
 		description:
 			"He is the only person to be awarded the Nobel Prize in Physics twice: first in 1956 with William Shockley and Walter Brattain for the invention of the transistor; and again in 1972 with Leon N. Cooper and John Robert Schrieffer for a fundamental theory of conventional superconductivity known as the BCS theory.",
 		date_of_birth: "1908-05-23",
@@ -1421,6 +1475,7 @@ export const scientistsData = [
 		id: 53,
 		name: "Sir John Douglas Cockcroft",
 		nationality: "English",
+		category: "physicist",
 		description:
 			"was an English physicist who shared with Ernest Walton the Nobel Prize in Physics in 1951 for splitting the atomic nucleus, and was instrumental in the development of nuclear power.",
 		date_of_birth: "1897-05-27",
@@ -1456,6 +1511,7 @@ export const scientistsData = [
 		id: 54,
 		name: "John Michell",
 		nationality: "English",
+		category: "physicist",
 		description:
 			"Considered 'one of the greatest unsung scientists of all time', he is the first person known to have proposed the existence of stellar bodies comparable to black holes, and the first to have suggested that earthquakes travelled in (seismic) waves.",
 		date_of_birth: "1724-12-25",
@@ -1488,6 +1544,7 @@ export const scientistsData = [
 		id: 56,
 		name: "John Wallis",
 		nationality: "English",
+		category: "physicist",
 		description:
 			"Was an English clergyman and mathematician, who is given partial credit for the development of infinitesimal calculus.",
 		date_of_birth: "1616-11-23",
@@ -1507,6 +1564,7 @@ export const scientistsData = [
 		id: 57,
 		name: "Joseph Henry",
 		nationality: "American",
+		category: "physicist",
 		description:
 			"American physicist and inventor who served as the first secretary of the Smithsonian Institution",
 		date_of_birth: "1797-12-17",
@@ -1527,6 +1585,7 @@ export const scientistsData = [
 		id: 58,
 		name: "Joseph-Louis Lagrange",
 		nationality: "Italian",
+		category: "physicist",
 		description:
 			"was an Italian mathematician, physicist and astronomer, later naturalized French. He made significant contributions to the fields of analysis, number theory, and both classical and celestial mechanics.",
 		date_of_birth: "1736-01-25",
@@ -1590,9 +1649,10 @@ export const scientistsData = [
 	{
 		id: 59,
 		name: "Kip Stephen Thorne",
+		nationality: "American",
+		category: "physicist",
 		description:
 			"Is an American theoretical physicist and writer known for his contributions in gravitational physics and astrophysics.",
-		nationality: "American",
 		date_of_birth: "1940-06-01",
 		date_of_death: null,
 		discoveries: [
@@ -1614,9 +1674,10 @@ export const scientistsData = [
 	{
 		id: 60,
 		name: "Sir William Lawrence Bragg",
+		nationality: "Australian",
+		category: "physicist",
 		description:
 			"Also known as Lawrence Bragg, was an Australian-born British physicist and X-ray crystallographer, discoverer (1912) of Bragg's law of X-ray diffraction, which is basic for the determination of crystal structure. ",
-		nationality: "Australian",
 		date_of_birth: "1890-03-31",
 		date_of_death: "1971-07-01",
 		discoveries: ["X-rays and the Bragg equation", "Work on sound ranging"],
@@ -1639,8 +1700,9 @@ export const scientistsData = [
 	{
 		id: 61,
 		name: "Lisa Randall",
-		description: " American theoretical physicist",
 		nationality: "American",
+		category: "physicist",
+		description: " American theoretical physicist",
 		date_of_birth: "1962-06-18",
 		date_of_death: null,
 		discoveries: ["American theoretical physicist"],
@@ -1661,9 +1723,10 @@ export const scientistsData = [
 	{
 		id: 62,
 		name: "Elise Meitner",
+		nationality: "Austrian",
+		category: "physicist",
 		description:
 			" Austrian-Swedish nuclear physicist who was instrumental in the discovery of nuclear fission",
-		nationality: "Austrian",
 		date_of_birth: "1878-11-07",
 		date_of_death: "1968-10-27",
 		discoveries: ["Nuclear fission", "Transmutation", "Beta radiation"],
@@ -1674,8 +1737,9 @@ export const scientistsData = [
 	{
 		id: 63,
 		name: "William Thomson, 1st Baron Kelvin",
-		description: "British mathematician, mathematical physicist and engineer.",
 		nationality: "British",
+		category: "physicist",
+		description: "British mathematician, mathematical physicist and engineer.",
 		date_of_birth: "1824-06-26",
 		date_of_death: "1907-12-17",
 		discoveries: [
@@ -1732,9 +1796,10 @@ export const scientistsData = [
 	{
 		id: 64,
 		name: "Luis Walter Alvarez",
+		nationality: "American",
+		category: "physicist",
 		description:
 			"American experimental physicist, inventor, and Nobel laureate known for groundbreaking work in particle physics, radar technology, and the asteroid-impact theory of dinosaur extinction.",
-		nationality: "American",
 		date_of_birth: "1911-06-03",
 		date_of_death: "1988-09-01",
 		discoveries: [
@@ -1758,9 +1823,10 @@ export const scientistsData = [
 	{
 		id: 65,
 		name: "Maria Salomea Skłodowska-Curie",
+		nationality: "Polish",
+		category: "physicist",
 		description:
 			"Polish physicist and chemist, pioneer in radioactivity research. First woman Nobel laureate and first person to win Nobel Prizes in two scientific fields (Physics and Chemistry)",
-		nationality: "Polish",
 		date_of_birth: "1867-11-07",
 		date_of_death: "1934-07-04",
 		discoveries: [
@@ -1783,9 +1849,10 @@ export const scientistsData = [
 	{
 		id: 66,
 		name: "Masatoshi Koshiba",
+		nationality: "Japanese",
+		category: "physicist",
 		description:
 			"Japanese physicist and Nobel laureate renowned for pioneering neutrino astronomy. His work revolutionized the detection and understanding of neutrinos, fundamental particles in the universe.",
-		nationality: "Japanese",
 		date_of_birth: "1926-09-19",
 		date_of_death: "2020-11-12",
 		discoveries: [
@@ -1807,9 +1874,10 @@ export const scientistsData = [
 	{
 		id: 67,
 		name: "Max Born",
+		nationality: "German-British",
+		category: "physicist",
 		description:
 			"German-British physicist and mathematician, foundational to quantum mechanics. Nobel laureate for his statistical interpretation of the wave function.",
-		nationality: "German-British",
 		date_of_birth: "1882-12-11",
 		date_of_death: "1970-01-05",
 		discoveries: [
@@ -1832,9 +1900,10 @@ export const scientistsData = [
 	{
 		id: 68,
 		name: "Max Karl Ernst Ludwig Planck ",
+		nationality: "German",
+		category: "physicist",
 		description:
 			"German theoretical physicist whose discovery of energy quanta won him the Nobel Prize in Physics in 1918",
-		nationality: "German",
 		date_of_birth: "1858-04-23",
 		date_of_death: "1947-10-04",
 		discoveries: [
@@ -1855,13 +1924,15 @@ export const scientistsData = [
 
 	// Michael Faraday
 	{
-	    id: 69,
-	    name: "Michael Faraday",
+		id: 69,
+		name: "Michael Faraday",
 		nationality: "British",
-	    description: "British scientist who made groundbreaking contributions to electromagnetism and electrochemistry, laying the foundation for electric power technology.",
-	    date_of_birth: "1791-09-22",
-	    date_of_death: "1867-08-25",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"British scientist who made groundbreaking contributions to electromagnetism and electrochemistry, laying the foundation for electric power technology.",
+		date_of_birth: "1791-09-22",
+		date_of_death: "1867-08-25",
+		discoveries: [
 			"Electromagnetic induction",
 			"Electrolysis laws",
 			"Diamagnetism",
@@ -1869,7 +1940,7 @@ export const scientistsData = [
 			"Faraday cage (shielding effect of conductors)",
 			"Relationship between electricity and magnetism",
 			"Discovered benzene",
-			"Developed early concepts of electric and magnetic fields"
+			"Developed early concepts of electric and magnetic fields",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -1877,43 +1948,46 @@ export const scientistsData = [
 			"Copley Medal (1832, 1838)",
 			"Rumford Medal (1846)",
 			"Albert Medal (1866)",
-			"Foreign Member of the Royal Society"
-		]
+			"Foreign Member of the Royal Society",
+		],
 	},
 
 	// Michio Kaku
 	{
-	    id: 70,
-	    name: "Michio Kaku",
+		id: 70,
+		name: "Michio Kaku",
 		nationality: "American",
-	    description: "American theoretical physicist, futurist, and popular science communicator known for his work in string field theory and his efforts to make science accessible to the public.",
-	    date_of_birth: "1947-01-24",
-	    date_of_death: null,
-	    discoveries: [
-	        "Contributions to string field theory",
+		category: "physicist",
+		description:
+			"American theoretical physicist, futurist, and popular science communicator known for his work in string field theory and his efforts to make science accessible to the public.",
+		date_of_birth: "1947-01-24",
+		date_of_death: null,
+		discoveries: [
+			"Contributions to string field theory",
 			"Developed the first functional string field theory equations",
 			"Explored higher-dimensional space-time in theoretical physics",
 			"Popularized the concept of a 'Theory of Everything'",
-			"Advocated for the potential of parallel universes and the multiverse"
-	    ],
+			"Advocated for the potential of parallel universes and the multiverse",
+		],
 		nobel_prize: null,
 		other_awards: [
 			"Kloppesteg Memorial Award",
 			"Sir Arthur Clarke Award for Science Communication",
-			"Isaac Asimov Science Award"
-		]
-
+			"Isaac Asimov Science Award",
+		],
 	},
 
 	// Murray Gell-Mann
 	{
-	    id: 71,
-	    name: "Murray Gell-Mann",
+		id: 71,
+		name: "Murray Gell-Mann",
 		nationality: "American",
-	    description: "American physicist who was instrumental in the development of the quark model, greatly advancing the field of particle physics",
-	    date_of_birth: "1929-09-15",
-	    date_of_death: "2019-05-24",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"American physicist who was instrumental in the development of the quark model, greatly advancing the field of particle physics",
+		date_of_birth: "1929-09-15",
+		date_of_death: "2019-05-24",
+		discoveries: [
 			"Quark model",
 			"Eightfold Way (classification of hadrons)",
 			"Quantum chromodynamics (QCD)",
@@ -1922,14 +1996,15 @@ export const scientistsData = [
 			"Strangeness (quantum number in particle physics)",
 			"Renormalization group",
 			"Totalitarian principle ('Everything not forbidden is compulsory')",
-			"Deep connections between fundamental physics and complexity theory"
-	    ],
+			"Deep connections between fundamental physics and complexity theory",
+		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1969,
-				study: "contributions and discoveries concerning the classification of elementary particles and their interactions"
-			}
+				study:
+					"contributions and discoveries concerning the classification of elementary particles and their interactions",
+			},
 		],
 		other_awards: [
 			"Albert Einstein Award (1959)",
@@ -1937,44 +2012,48 @@ export const scientistsData = [
 			"Franklin Medal (1967)",
 			"National Medal of Science (1988)",
 			"Max Planck Medal (1997)",
-			"Foreign Member of the Royal Society (ForMemRS, 1978)"
-		]
+			"Foreign Member of the Royal Society (ForMemRS, 1978)",
+		],
 	},
 
 	// Nicolo Tartaglia
 	{
-	    id: 72,
-	    name: "Nicolo Tartaglia",
+		id: 72,
+		name: "Nicolo Tartaglia",
 		nationality: "Italian",
-	    description: "Italian mathematician, engineer, and ballistics expert. Known for solving cubic equations and his contributions to the science of ballistics and mechanics during the Renaissance.",
-	    date_of_birth: "1499-12-13",
-	    date_of_death: "1557-12-13",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Italian mathematician, engineer, and ballistics expert. Known for solving cubic equations and his contributions to the science of ballistics and mechanics during the Renaissance.",
+		date_of_birth: "1499-12-13",
+		date_of_death: "1557-12-13",
+		discoveries: [
 			"Developed a method for solving cubic equations (Tartaglia's formula)",
 			"Pioneered the study of ballistics and projectile motion",
 			"Authored *Nova Scientia*, a foundational work on the science of ballistics",
 			"Translated and preserved ancient Greek mathematical texts, including Euclid's *Elements*",
 			"Contributed to the understanding of mechanics and geometry",
 			"Studied the trajectories of cannonballs and other projectiles",
-			"Introduced mathematical rigor to the study of artillery and fortifications"
-	    ],
+			"Introduced mathematical rigor to the study of artillery and fortifications",
+		],
 		nobel_prize: null,
 		other_awards: [
 			"Legacy honored through the Tartaglia crater on the Moon",
 			"Recognized as a key figure in the Renaissance revival of mathematics and science",
-			"His work influenced later mathematicians like Gerolamo Cardano and Galileo Galilei"
-		]
+			"His work influenced later mathematicians like Gerolamo Cardano and Galileo Galilei",
+		],
 	},
 
 	// Neils Bohr
 	{
-	    id: 73,
-	    name: "Neils Bohr",
+		id: 73,
+		name: "Neils Bohr",
 		nationality: "Danish",
-	    description: "Danish physicist and Nobel laureate, foundational to quantum mechanics and atomic theory. Developed the Bohr model of the atom and contributed to the Copenhagen interpretation of quantum mechanics",
-	    date_of_birth: "1885-10-07",
-	    date_of_death: "1962-11-18",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Danish physicist and Nobel laureate, foundational to quantum mechanics and atomic theory. Developed the Bohr model of the atom and contributed to the Copenhagen interpretation of quantum mechanics",
+		date_of_birth: "1885-10-07",
+		date_of_death: "1962-11-18",
+		discoveries: [
 			"Developed the Bohr model of the atom, explaining electron orbits and energy levels",
 			"Introduced the concept of complementarity in quantum mechanics",
 			"Co-founded the Copenhagen interpretation of quantum mechanics",
@@ -1982,14 +2061,14 @@ export const scientistsData = [
 			"Contributed to the theory of nuclear fission and the liquid drop model",
 			"Played a key role in the Manhattan Project's early stages",
 			"Founded the Niels Bohr Institute in Copenhagen",
-			"Authored influential works on atomic structure and quantum theory"
-	    ],
+			"Authored influential works on atomic structure and quantum theory",
+		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1922,
-				study: "investigations of atomic structure and radiation"
-			}
+				study: "investigations of atomic structure and radiation",
+			},
 		],
 		other_awards: [
 			"Max Planck Medal (1930)",
@@ -1999,19 +2078,21 @@ export const scientistsData = [
 			"Foreign Member of the Royal Society (London)",
 			"Honorary doctorates from over 30 universities",
 			"Legacy honored through the Bohr model, Bohr radius, and Niels Bohr Institute",
-			"Considered one of the founders of modern quantum mechanics"
-		]
+			"Considered one of the founders of modern quantum mechanics",
+		],
 	},
 
 	// Nikola Tesla
 	{
-	    id: 74,
-	    name: "Nikola Tesla",
+		id: 74,
+		name: "Nikola Tesla",
 		nationality: "Serbian-American",
-	    description: "Serbian-American inventor, electrical engineer, and futurist. Pioneer of alternating current (AC) electrical systems, wireless communication, and numerous groundbreaking innovations in electromagnetism and energy transmission",
-	    date_of_birth: "1856-07-10",
-	    date_of_death: "1943-01-07",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Serbian-American inventor, electrical engineer, and futurist. Pioneer of alternating current (AC) electrical systems, wireless communication, and numerous groundbreaking innovations in electromagnetism and energy transmission",
+		date_of_birth: "1856-07-10",
+		date_of_death: "1943-01-07",
+		discoveries: [
 			"Designed the modern alternating current (AC) electricity supply system",
 			"Invented the Tesla coil (foundational to wireless technology and radio transmission)",
 			"Developed principles of wireless communication and radio technology",
@@ -2020,8 +2101,8 @@ export const scientistsData = [
 			"Proposed wireless energy transmission (Wardenclyffe Tower project)",
 			"Invented remote control technology (teleautomaton)",
 			"Designed the Tesla turbine and bladeless turbine engine",
-			"Advocated for global wireless communication and renewable energy systems"
-	    ],
+			"Advocated for global wireless communication and renewable energy systems",
+		],
 		nobel_prize: null,
 		other_awards: [
 			"Edison Medal (1917)",
@@ -2031,7 +2112,7 @@ export const scientistsData = [
 			"Honorary doctorates from Columbia and Zagreb Universities",
 			"Unit of magnetic flux density (tesla) named in his honor",
 			"Inducted into the National Inventors Hall of Fame (1975)",
-		]
+		],
 	},
 
 	// Paul Dirac
@@ -2039,25 +2120,27 @@ export const scientistsData = [
 		id: 75,
 		name: "Paul Dirac",
 		nationality: "British",
-		description: "British theoretical physicist and Nobel laureate, known for his foundational contributions to quantum mechanics and quantum electrodynamics. Formulated the Dirac equation, predicting antimatter",
-	   date_of_birth: "1902-08-08",
-	   date_of_death: "1984-10-20",
-	   discoveries: [
-		   "Formulated the Dirac equation, unifying quantum mechanics and special relativity",
+		category: "physicist",
+		description:
+			"British theoretical physicist and Nobel laureate, known for his foundational contributions to quantum mechanics and quantum electrodynamics. Formulated the Dirac equation, predicting antimatter",
+		date_of_birth: "1902-08-08",
+		date_of_death: "1984-10-20",
+		discoveries: [
+			"Formulated the Dirac equation, unifying quantum mechanics and special relativity",
 			"Predicted the existence of antimatter (positrons)",
 			"Developed the theory of quantum electrodynamics (QED)",
 			"Introduced the concept of Dirac spinors and the Dirac delta function",
 			"Pioneered the use of bra-ket notation in quantum mechanics",
 			"Contributed to the development of the path integral formulation of quantum mechanics",
 			"Authored *The Principles of Quantum Mechanics*, a foundational text in physics",
-			"Studied magnetic monopoles and their implications for quantum theory"
-	    ],
+			"Studied magnetic monopoles and their implications for quantum theory",
+		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1933,
-				study: "discovery of new productive forms of atomic theory"
-			}
+				study: "discovery of new productive forms of atomic theory",
+			},
 		],
 		other_awards: [
 			"Royal Medal (1939)",
@@ -2066,19 +2149,21 @@ export const scientistsData = [
 			"Fellow of the Royal Society (1930)",
 			"Honorary doctorates from numerous universities",
 			"Legacy honored through the Dirac Medal (ICTP)",
-			"Considered one of the founders of modern quantum mechanics"
-		]
+			"Considered one of the founders of modern quantum mechanics",
+		],
 	},
 
 	// Pyotr Kapitsa
 	{
-	    id: 76,
-	    name: "Pyotr Kapitsa",
+		id: 76,
+		name: "Pyotr Kapitsa",
 		nationality: "Russian",
-	    description: "Soviet physicist and Nobel laureate, known for his work in low-temperature physics and the discovery of superfluidity in liquid helium. A pioneer in cryogenics and strong magnetic fields.",
-	    date_of_birth: "1894-07-08",
-	    date_of_death: "1984-04-08",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Soviet physicist and Nobel laureate, known for his work in low-temperature physics and the discovery of superfluidity in liquid helium. A pioneer in cryogenics and strong magnetic fields.",
+		date_of_birth: "1894-07-08",
+		date_of_death: "1984-04-08",
+		discoveries: [
 			"Discovered superfluidity in liquid helium-4 (1937)",
 			"Developed innovative techniques for producing strong magnetic fields",
 			"Pioneered the study of high-intensity microwave electronics",
@@ -2086,14 +2171,15 @@ export const scientistsData = [
 			"Studied the properties of liquid helium and its phase transitions",
 			"Contributed to the development of cryogenic engineering and low-temperature physics",
 			"Authored foundational works on plasma physics and superconductivity",
-			"Founded the Institute for Physical Problems in Moscow"
+			"Founded the Institute for Physical Problems in Moscow",
 		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1978,
-				study: "basic inventions and discoveries in the area of low-temperature physics"
-			}
+				study:
+					"basic inventions and discoveries in the area of low-temperature physics",
+			},
 		],
 		other_awards: [
 			"Lomonosov Gold Medal (1959)",
@@ -2102,27 +2188,29 @@ export const scientistsData = [
 			"Foreign Member of the Royal Society (London)",
 			"Honorary doctorates from numerous universities",
 			"Legacy honored through the Kapitza Institute in Moscow",
-			"Considered one of the founders of modern low-temperature physics"
-		]
-	 },
+			"Considered one of the founders of modern low-temperature physics",
+		],
+	},
 
 	// Richard A. Muller
 	{
-	    id: 77,
-	    name: "Richard A. Muller",
+		id: 77,
+		name: "Richard A. Muller",
 		nationality: "American",
-	    description: "American physicist known for his work in climate science, astrophysics, and geophysics. Founder of the Berkeley Earth project, which analyzes global temperature data, and a prominent science communicator",
-	    date_of_birth: "1944-01-06",
-	    date_of_death: null,
-	    discoveries: [
-	             "Co-founded the Berkeley Earth project to refine and validate global climate temperature records",
+		category: "physicist",
+		description:
+			"American physicist known for his work in climate science, astrophysics, and geophysics. Founder of the Berkeley Earth project, which analyzes global temperature data, and a prominent science communicator",
+		date_of_birth: "1944-01-06",
+		date_of_death: null,
+		discoveries: [
+			"Co-founded the Berkeley Earth project to refine and validate global climate temperature records",
 			"Proposed the Nemesis hypothesis, suggesting a stellar companion to the Sun influencing comet dynamics",
 			"Conducted pioneering research on dark matter distribution in the Milky Way",
 			"Developed methods for analyzing cosmic microwave background radiation anisotropies",
 			"Authored influential works on climate science, including *Physics for Future Presidents*",
 			"Investigated the causes of mass extinctions and asteroid impacts",
 			"Contributed to the understanding of radioisotope dating techniques",
-			"Advanced public understanding of energy and climate through accessible science writing"
+			"Advanced public understanding of energy and climate through accessible science writing",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2131,19 +2219,21 @@ export const scientistsData = [
 			"Fellow of the American Physical Society",
 			"Professor Emeritus at the University of California, Berkeley",
 			"Author of popular science books: *Physics for Future Presidents* and *The Instant Physicist*",
-			"Legacy honored through the Berkeley Earth initiative's global climate analyses"
-		]
-	 },
+			"Legacy honored through the Berkeley Earth initiative's global climate analyses",
+		],
+	},
 
 	// Richard Feynman
 	{
-	    id: 78,
-	    name: "Richard Feynman",
+		id: 78,
+		name: "Richard Feynman",
 		nationality: "American",
-	    description: "American theoretical physicist, Nobel laureate, and charismatic science communicator. Revolutionized quantum electrodynamics (QED), developed Feynman diagrams, and contributed to particle physics, superfluidity, and quantum computing",
-	    date_of_birth: "1918-05-11",
-	    date_of_death: "1988-02-15",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"American theoretical physicist, Nobel laureate, and charismatic science communicator. Revolutionized quantum electrodynamics (QED), developed Feynman diagrams, and contributed to particle physics, superfluidity, and quantum computing",
+		date_of_birth: "1918-05-11",
+		date_of_death: "1988-02-15",
+		discoveries: [
 			"Formulated quantum electrodynamics (QED), explaining interactions between light and matter",
 			"Invented Feynman diagrams, a visual tool for particle interactions",
 			"Developed the path integral formulation of quantum mechanics",
@@ -2152,14 +2242,15 @@ export const scientistsData = [
 			"Co-authored the Feynman Lectures on Physics, a landmark in physics education",
 			"Investigated the Challenger disaster as part of the Rogers Commission",
 			"Pioneered concepts in quantum computing (Feynman's version of the Church-Turing thesis)",
-			"Worked on the Manhattan Project, contributing to atomic bomb development"
+			"Worked on the Manhattan Project, contributing to atomic bomb development",
 		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1965,
-				study: "fundamental work in quantum electrodynamics, with profound consequences for particle physics"
-			}
+				study:
+					"fundamental work in quantum electrodynamics, with profound consequences for particle physics",
+			},
 		],
 		other_awards: [
 			"Albert Einstein Award (1954)",
@@ -2170,19 +2261,21 @@ export const scientistsData = [
 			"Honorary doctorates from over 30 universities",
 			"Named one of the 'Ten Greatest Physicists of All Time' by Physics World",
 			"Legacy honored through the Feynman Prize in Nanotechnology",
-			"Authored popular science books: *Surely You're Joking, Mr. Feynman!* and *What Do You Care What Other People Think?*"
-		]
-	 },
+			"Authored popular science books: *Surely You're Joking, Mr. Feynman!* and *What Do You Care What Other People Think?*",
+		],
+	},
 
 	// Robert Hooke
 	{
-	    id: 79,
-	    name: "Robert Hooke",
+		id: 79,
+		name: "Robert Hooke",
 		nationality: "English",
-	    description: "English natural philosopher, architect, and polymath, known for his contributions to physics, biology, and microscopy. A key figure in the Scientific Revolution.",
-	    date_of_birth: "1635-07-18",
-	    date_of_death: "1703-03-03",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"English natural philosopher, architect, and polymath, known for his contributions to physics, biology, and microscopy. A key figure in the Scientific Revolution.",
+		date_of_birth: "1635-07-18",
+		date_of_death: "1703-03-03",
+		discoveries: [
 			"Discovered Hooke's Law of elasticity, describing the behavior of springs",
 			"Pioneered the use of the microscope, coining the term 'cell' in biology",
 			"Published *Micrographia*, a groundbreaking work on microscopy and biology",
@@ -2191,27 +2284,29 @@ export const scientistsData = [
 			"Proposed a wave theory of light and studied diffraction",
 			"Made significant contributions to astronomy, including the study of comets and planets",
 			"Designed buildings and structures, including the Royal Observatory at Greenwich",
-			"Advocated for the scientific method and experimental philosophy"
-	     ],
+			"Advocated for the scientific method and experimental philosophy",
+		],
 		nobel_prize: null,
 		other_awards: [
 			"Fellow of the Royal Society (1663)",
 			"Curator of Experiments for the Royal Society (1662–1677)",
 			"Gresham Professor of Geometry (1665–1703)",
 			"Legacy honored through the Hooke Medal (British Society for the History of Science)",
-			"Considered one of the most influential scientists of the 17th century"
-		]
-	 },
+			"Considered one of the most influential scientists of the 17th century",
+		],
+	},
 
 	// Rodger Penrose
 	{
-	    id: 80,
-	    name: "Rodger Penrose",
+		id: 80,
+		name: "Rodger Penrose",
 		nationality: "British",
-	    description: "British mathematical physicist, mathematician, and philosopher of science, renowned for his work on general relativity, black holes, and the nature of consciousness. Nobel laureate in Physics.",
-	    date_of_birth: "1931-08-08",
-	    date_of_death: null,
-	    discoveries: [
+		category: "physicist",
+		description:
+			"British mathematical physicist, mathematician, and philosopher of science, renowned for his work on general relativity, black holes, and the nature of consciousness. Nobel laureate in Physics.",
+		date_of_birth: "1931-08-08",
+		date_of_death: null,
+		discoveries: [
 			"Proved the Penrose-Hawking singularity theorems, showing singularities are inevitable in general relativity",
 			"Developed the theory of black hole formation and the cosmic censorship conjecture",
 			"Invented Penrose tilings, aperiodic patterns with fivefold symmetry",
@@ -2220,14 +2315,15 @@ export const scientistsData = [
 			"Studied the nature of spacetime and the geometry of the universe",
 			"Authored *The Road to Reality*, a comprehensive guide to the laws of physics",
 			"Explored the relationship between physics and consciousness in *The Emperor's New Mind*",
-			"Made significant contributions to the study of gravitational waves and cosmology"
+			"Made significant contributions to the study of gravitational waves and cosmology",
 		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 2020,
-				study: "discovery that black hole formation is a robust prediction of the general theory of relativity"
-			}
+				study:
+					"discovery that black hole formation is a robust prediction of the general theory of relativity",
+			},
 		],
 		other_awards: [
 			"Wolf Prize in Physics (1988)",
@@ -2237,19 +2333,21 @@ export const scientistsData = [
 			"Fellow of the Royal Society (1972)",
 			"Honorary doctorates from numerous universities",
 			"Knighted for services to science (1994)",
-			"Legacy honored through the Penrose Institute, exploring physics and consciousness"
-		]
-	 },
+			"Legacy honored through the Penrose Institute, exploring physics and consciousness",
+		],
+	},
 
 	// S. N. Bose
 	{
-	    id: 81,
-	    name: "S. N. Bose",
+		id: 81,
+		name: "S. N. Bose",
 		nationality: "Indian",
-	    description: "Indian physicist and mathematician, best known for his work on quantum mechanics and the development of Bose-Einstein statistics. The class of particles known as bosons is named in his honor",
-	    date_of_birth: "1894-01-01",
-	    date_of_death: "1974-02-04",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Indian physicist and mathematician, best known for his work on quantum mechanics and the development of Bose-Einstein statistics. The class of particles known as bosons is named in his honor",
+		date_of_birth: "1894-01-01",
+		date_of_death: "1974-02-04",
+		discoveries: [
 			"Developed Bose-Einstein statistics, describing the behavior of bosons",
 			"Collaborated with Albert Einstein to predict the Bose-Einstein condensate",
 			"Pioneered the study of quantum mechanics and statistical mechanics",
@@ -2257,7 +2355,7 @@ export const scientistsData = [
 			"Authored the foundational paper on quantum statistics, sent to Einstein for validation",
 			"Studied the properties of X-rays and crystallography",
 			"Made significant contributions to the understanding of unified field theories",
-			"Advocated for the development of science education in India"
+			"Advocated for the development of science education in India",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2266,19 +2364,21 @@ export const scientistsData = [
 			"Honorary doctorates from numerous universities",
 			"Legacy honored through the naming of bosons (particles obeying Bose-Einstein statistics)",
 			"S.N. Bose National Centre for Basic Sciences (Kolkata) named in his honor",
-			"Considered one of the founders of quantum statistics"
-		]
-	 },
+			"Considered one of the founders of quantum statistics",
+		],
+	},
 
 	// Stephen Hawking
 	{
-	    id: 82,
-	    name: "Stephen Hawking",
+		id: 82,
+		name: "Stephen Hawking",
 		nationality: "British",
-	    description: "British theoretical physicist, cosmologist, and author, renowned for his work on black holes, general relativity, and quantum mechanics. A cultural icon for his contributions to science and his resilience in the face of ALS.",
-	    date_of_birth: "1942-01-08",
-	    date_of_death: "2018-03-14",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"British theoretical physicist, cosmologist, and author, renowned for his work on black holes, general relativity, and quantum mechanics. A cultural icon for his contributions to science and his resilience in the face of ALS.",
+		date_of_birth: "1942-01-08",
+		date_of_death: "2018-03-14",
+		discoveries: [
 			"Predicted that black holes emit radiation (Hawking radiation)",
 			"Proposed the no-boundary condition for the origin of the universe",
 			"Contributed to the understanding of singularities in general relativity",
@@ -2287,8 +2387,8 @@ export const scientistsData = [
 			"Developed the theory of cosmic inflation and the multiverse",
 			"Collaborated on the Penrose-Hawking singularity theorems",
 			"Explored the relationship between quantum mechanics and general relativity",
-			"Made significant contributions to the study of the early universe and cosmology"
-	     ],
+			"Made significant contributions to the study of the early universe and cosmology",
+		],
 		nobel_prize: null,
 		other_awards: [
 			"Albert Einstein Medal (1979)",
@@ -2300,19 +2400,21 @@ export const scientistsData = [
 			"Honorary doctorates from numerous universities",
 			"Legacy honored through the Stephen Hawking Medal for Science Communication",
 			"Stephen Hawking Fellowship (University of Cambridge)",
-			"Considered one of the most influential scientists of the modern era"
-		]
-	 },
+			"Considered one of the most influential scientists of the modern era",
+		],
+	},
 
 	// Steven Weinberg
 	{
-	    id: 83,
-	    name: "Steven Weinberg",
+		id: 83,
+		name: "Steven Weinberg",
 		nationality: "American",
-	    description: "American theoretical physicist and Nobel laureate, known for his contributions to the unification of the weak force and electromagnetism, and for his work on the Standard Model of particle physics",
-	    date_of_birth: "1933-05-03",
-	    date_of_death: "2021-07-23",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"American theoretical physicist and Nobel laureate, known for his contributions to the unification of the weak force and electromagnetism, and for his work on the Standard Model of particle physics",
+		date_of_birth: "1933-05-03",
+		date_of_death: "2021-07-23",
+		discoveries: [
 			"Formulated the electroweak theory, unifying the weak force and electromagnetism",
 			"Predicted the existence of the W and Z bosons and the Higgs mechanism",
 			"Co-developed the Standard Model of particle physics",
@@ -2321,14 +2423,15 @@ export const scientistsData = [
 			"Studied the cosmological constant problem and dark energy",
 			"Proposed the Weinberg angle, a key parameter in the electroweak theory",
 			"Made significant contributions to the theory of quantum chromodynamics (QCD)",
-			"Advocated for the reductionist approach in physics"
-	     ],
+			"Advocated for the reductionist approach in physics",
+		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1979,
-				study: "contributions to the theory of the unified weak and electromagnetic interaction between elementary particles"
-			}
+				study:
+					"contributions to the theory of the unified weak and electromagnetic interaction between elementary particles",
+			},
 		],
 		other_awards: [
 			"National Medal of Science (1991)",
@@ -2338,19 +2441,21 @@ export const scientistsData = [
 			"Foreign Member of the Royal Society (London)",
 			"Honorary doctorates from numerous universities",
 			"Legacy honored through the Steven Weinberg Award (American Physical Society)",
-			"Authored popular science books, including *The First Three Minutes* and *Dreams of a Final Theory*"
-		]
-	 },
+			"Authored popular science books, including *The First Three Minutes* and *Dreams of a Final Theory*",
+		],
+	},
 
 	// SUBRAHMANYAN CHANDRASEKHAR
 	{
-	    id: 84,
-	    name: "SUBRAHMANYAN CHANDRASEKHAR",
+		id: 84,
+		name: "SUBRAHMANYAN CHANDRASEKHAR",
 		nationality: "Indian-American",
-	    description: "Indian-American astrophysicist and Nobel laureate, known for his work on stellar structure, black holes, and the Chandrasekhar limit. A pioneer in theoretical astrophysics",
-	    date_of_birth: "1910-10-19",
-	    date_of_death: "1995-08-21",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"Indian-American astrophysicist and Nobel laureate, known for his work on stellar structure, black holes, and the Chandrasekhar limit. A pioneer in theoretical astrophysics",
+		date_of_birth: "1910-10-19",
+		date_of_death: "1995-08-21",
+		discoveries: [
 			"Discovered the Chandrasekhar limit (1.4 solar masses), determining the fate of white dwarfs",
 			"Developed the theory of stellar structure and evolution",
 			"Pioneered the study of black holes and relativistic astrophysics",
@@ -2358,14 +2463,15 @@ export const scientistsData = [
 			"Contributed to the theory of hydrodynamic and hydromagnetic stability",
 			"Studied the mathematical theory of black holes and singularities",
 			"Authored *An Introduction to the Study of Stellar Structure* and *The Mathematical Theory of Black Holes*",
-			"Made significant contributions to the understanding of white dwarfs, neutron stars, and supernovae"
+			"Made significant contributions to the understanding of white dwarfs, neutron stars, and supernovae",
 		],
 		nobel_prize: [
 			{
 				category: "Physics",
 				year: 1983,
-				study: "theoretical studies of the physical processes important to the structure and evolution of stars"
-			}
+				study:
+					"theoretical studies of the physical processes important to the structure and evolution of stars",
+			},
 		],
 		other_awards: [
 			"National Medal of Science (1966)",
@@ -2376,19 +2482,21 @@ export const scientistsData = [
 			"Gold Medal of the Royal Astronomical Society (1953)",
 			"Honorary doctorates from numerous universities",
 			"Chandra X-ray Observatory named in his honor",
-			"Legacy honored through the Chandrasekhar Prize (American Physical Society)"
-		]
-	 },
+			"Legacy honored through the Chandrasekhar Prize (American Physical Society)",
+		],
+	},
 
 	// Thomas Young
 	{
-	    id: 85,
-	    name: "Thomas Young",
+		id: 85,
+		name: "Thomas Young",
 		nationality: "British",
-	    description: "British polymath, physicist, and physician, known for his contributions to wave theory of light, vision, and deciphering the Rosetta Stone. A pioneer in multiple scientific fields.",
-	    date_of_birth: "1773-06-13",
-	    date_of_death: "1829-05-10",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"British polymath, physicist, and physician, known for his contributions to wave theory of light, vision, and deciphering the Rosetta Stone. A pioneer in multiple scientific fields.",
+		date_of_birth: "1773-06-13",
+		date_of_death: "1829-05-10",
+		discoveries: [
 			"Demonstrated the wave nature of light through the double-slit experiment",
 			"Proposed the Young-Helmholtz theory of color vision (trichromatic theory)",
 			"Deciphered parts of the Rosetta Stone, laying the groundwork for understanding Egyptian hieroglyphs",
@@ -2397,7 +2505,7 @@ export const scientistsData = [
 			"Investigated the mechanics of the eye and vision, including astigmatism",
 			"Contributed to the understanding of surface tension and capillary action",
 			"Authored *A Course of Lectures on Natural Philosophy and the Mechanical Arts*",
-			"Pioneered the field of physiological optics"
+			"Pioneered the field of physiological optics",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2407,27 +2515,29 @@ export const scientistsData = [
 			"Foreign Member of the Royal Swedish Academy of Sciences",
 			"Honorary doctorates from several universities",
 			"Legacy honored through the Thomas Young Medal and Prize (Institute of Physics)",
-			"Considered one of the last true polymaths"
-		]
-	 },
+			"Considered one of the last true polymaths",
+		],
+	},
 
 	// Vera Rubin
 	{
-	    id: 86,
-	    name: "Vera Rubin",
+		id: 86,
+		name: "Vera Rubin",
 		nationality: "American",
-	    description: "American astronomer who pioneered work on galaxy rotation rates, providing key evidence for the existence of dark matter. A trailblazer for women in science",
-	    date_of_birth: "1928-07-23",
-	    date_of_death: "2016-12-25",
-	    discoveries: [
+		category: "physicist",
+		description:
+			"American astronomer who pioneered work on galaxy rotation rates, providing key evidence for the existence of dark matter. A trailblazer for women in science",
+		date_of_birth: "1928-07-23",
+		date_of_death: "2016-12-25",
+		discoveries: [
 			"Provided observational evidence for dark matter through galaxy rotation curves",
 			"Discovered the discrepancy between predicted and observed galactic rotation rates (Rubin-Ford effect)",
 			"Pioneered the study of galaxy dynamics and large-scale structure in the universe",
 			"Advocated for the existence of dark matter as a major component of the universe",
 			"Studied the distribution of galaxies and their motions, contributing to cosmology",
 			"Authored influential papers on galaxy clustering and dark matter",
-			"Mentored numerous women in astronomy and advocated for gender equality in science"
-     ],
+			"Mentored numerous women in astronomy and advocated for gender equality in science",
+		],
 		nobel_prize: [],
 		other_awards: [
 			"National Medal of Science (1993)",
@@ -2438,19 +2548,21 @@ export const scientistsData = [
 			"Henry Norris Russell Lectureship (1994)",
 			"Honorary doctorates from numerous universities",
 			"Vera Rubin Observatory (under construction in Chile) named in her honor",
-			"Legacy honored through the Vera Rubin Early Career Award (American Astronomical Society)"
-		]
-	 },
+			"Legacy honored through the Vera Rubin Early Career Award (American Astronomical Society)",
+		],
+	},
 
 	// Werner Karl Heisenberg
 	{
-	    id: 87,
-	    name: "Werner Karl Heisenberg",
-	    nationality: "German",
-	    description: "Was a German physicist and philosopher who discovered a way to formulate quantum mechanics in terms of matrices",
-	    date_of_birth: "1901-12-05",
-	    date_of_death: "1976-02-01",
-	    discoveries: [
+		id: 87,
+		name: "Werner Karl Heisenberg",
+		nationality: "German",
+		category: "physicist",
+		description:
+			"Was a German physicist and philosopher who discovered a way to formulate quantum mechanics in terms of matrices",
+		date_of_birth: "1901-12-05",
+		date_of_death: "1976-02-01",
+		discoveries: [
 			"Formulated the uncertainty principle, a cornerstone of quantum mechanics",
 			"Developed matrix mechanics, the first complete formulation of quantum mechanics",
 			"Contributed to the development of quantum field theory",
@@ -2459,14 +2571,15 @@ export const scientistsData = [
 			"Played a key role in the Copenhagen interpretation of quantum mechanics",
 			"Authored influential works like *The Physical Principles of the Quantum Theory*",
 			"Contributed to the understanding of turbulence in fluid dynamics",
-			"Developed the S-matrix theory in particle physics"
-	     ],
+			"Developed the S-matrix theory in particle physics",
+		],
 		nobel_prize: [
 			{
-				"category": "Physics",
-				"year": 1932,
-				"study": "creation of quantum mechanics, particularly the uncertainty principle"
-			}
+				category: "Physics",
+				year: 1932,
+				study:
+					"creation of quantum mechanics, particularly the uncertainty principle",
+			},
 		],
 		other_awards: [
 			"Max Planck Medal (1933)",
@@ -2475,19 +2588,21 @@ export const scientistsData = [
 			"Foreign Member of the Royal Society (London)",
 			"Honorary doctorates from numerous universities",
 			"Werner Heisenberg Medal (awarded by the Alexander von Humboldt Foundation)",
-			"Legacy honored through the Heisenberg Prize (German Research Foundation)"
-		]
-	 },
+			"Legacy honored through the Heisenberg Prize (German Research Foundation)",
+		],
+	},
 
 	// J. Willard Gibbs
 	{
-	    id: 88,
-	    name: "J. Willard Gibbs",
-	    nationality: "American",
-	    description: "American theoretical physicist and chemist, foundational to thermodynamics, statistical mechanics, and physical chemistry. His work laid the mathematical foundations for modern physics and chemistry.",
-	    date_of_birth: "1839-02-11",
-	    date_of_death: "1903-04-28",
-	    discoveries: [
+		id: 88,
+		name: "J. Willard Gibbs",
+		nationality: "American",
+		category: "physicist",
+		description:
+			"American theoretical physicist and chemist, foundational to thermodynamics, statistical mechanics, and physical chemistry. His work laid the mathematical foundations for modern physics and chemistry.",
+		date_of_birth: "1839-02-11",
+		date_of_death: "1903-04-28",
+		discoveries: [
 			"Developed the Gibbs free energy concept, central to chemical thermodynamics",
 			"Formulated the phase rule, explaining the equilibrium of heterogeneous systems",
 			"Pioneered vector calculus and its application to physics",
@@ -2497,7 +2612,7 @@ export const scientistsData = [
 			"Contributed to the Gibbs paradox in thermodynamics",
 			"Developed the Gibbs-Helmholtz equation, relating enthalpy and free energy",
 			"Introduced the Gibbs phenomenon in Fourier analysis",
-			"Laid the groundwork for modern chemical thermodynamics and physical chemistry" 
+			"Laid the groundwork for modern chemical thermodynamics and physical chemistry",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2506,19 +2621,21 @@ export const scientistsData = [
 			"Gibbs free energy and Gibbs phase rule named in his honor",
 			"Gibbs Lecturer (American Mathematical Society)",
 			"Legacy honored through the Willard Gibbs Award (American Chemical Society)",
-			"Considered one of the greatest theoretical scientists in American history"
-		]
-	 },
+			"Considered one of the greatest theoretical scientists in American history",
+		],
+	},
 
 	// William Gilbert
 	{
-	    id: 89,
-	    name: "William Gilbert",
-	    nationality: "English",
-	    description: "English physician, physicist, and natural philosopher, known as the father of electricity and magnetism. His pioneering work laid the foundation for the study of electromagnetism.",
-	    date_of_birth: "1544-05-24",
-	    date_of_death: "1603-11-30",
-	    discoveries: [
+		id: 89,
+		name: "William Gilbert",
+		nationality: "English",
+		category: "physicist",
+		description:
+			"English physician, physicist, and natural philosopher, known as the father of electricity and magnetism. His pioneering work laid the foundation for the study of electromagnetism.",
+		date_of_birth: "1544-05-24",
+		date_of_death: "1603-11-30",
+		discoveries: [
 			"First systematic study of magnetism, published in *De Magnete* (1600)",
 			"Introduced the concept of the Earth as a giant magnet, explaining compass behavior",
 			"Distinguished between magnetic and static electric forces",
@@ -2526,7 +2643,7 @@ export const scientistsData = [
 			"Discovered that many substances could be electrified by friction",
 			"Proposed that electricity and magnetism were separate phenomena",
 			"Pioneered experimental methods in physics, emphasizing observation and experimentation",
-			"Authored *De Magnete*, one of the first major scientific works based on experimental evidence" 
+			"Authored *De Magnete*, one of the first major scientific works based on experimental evidence",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2534,35 +2651,37 @@ export const scientistsData = [
 			"Gilbert (unit of magnetomotive force) named in his honor",
 			"Recognized as a pioneer of the scientific method",
 			"Legacy honored through the Gilbert Medal (awarded by the Royal Society of Chemistry)",
-			"His work influenced later scientists like Galileo and Kepler"
-		]
+			"His work influenced later scientists like Galileo and Kepler",
+		],
 	},
 
 	// Wolfgang Pauli
 	{
-	    id: 90,
-	    name: "Wolfgang Pauli",
-	    nationality: "Austrian",
-	    description: "Austrian theoretical physicist, one of the pioneers of quantum mechanics. Best known for the Pauli exclusion principle and his work on spin theory",
-	    date_of_birth: "1900-04-25",
-	    date_of_death: "1958-12-15",
-	    discoveries: [
-	            	"Pauli exclusion principle (fundamental to quantum mechanics and atomic structure)",
-		"Predicted the existence of the neutrino to explain beta decay",
-		"Formulated the Pauli matrices, foundational to quantum spin theory",
-		"Introduced the concept of spin and the spin-statistics theorem",
-		"Contributed to the development of quantum field theory",
-		"Worked on the CPT theorem (charge, parity, and time reversal symmetry)",
-		"Collaborated with Niels Bohr and Werner Heisenberg on quantum theory",
-		"Critiqued and refined early quantum mechanics, including the Bohr-Sommerfeld model",
-		"Authored influential papers on quantum electrodynamics (QED) and particle physics" 
+		id: 90,
+		name: "Wolfgang Pauli",
+		nationality: "Austrian",
+		category: "physicist",
+		description:
+			"Austrian theoretical physicist, one of the pioneers of quantum mechanics. Best known for the Pauli exclusion principle and his work on spin theory",
+		date_of_birth: "1900-04-25",
+		date_of_death: "1958-12-15",
+		discoveries: [
+			"Pauli exclusion principle (fundamental to quantum mechanics and atomic structure)",
+			"Predicted the existence of the neutrino to explain beta decay",
+			"Formulated the Pauli matrices, foundational to quantum spin theory",
+			"Introduced the concept of spin and the spin-statistics theorem",
+			"Contributed to the development of quantum field theory",
+			"Worked on the CPT theorem (charge, parity, and time reversal symmetry)",
+			"Collaborated with Niels Bohr and Werner Heisenberg on quantum theory",
+			"Critiqued and refined early quantum mechanics, including the Bohr-Sommerfeld model",
+			"Authored influential papers on quantum electrodynamics (QED) and particle physics",
 		],
 		nobel_prize: [
 			{
-				"category": "Physics",
-				"year": 1945,
-				"study": "discovery of the Pauli exclusion principle"
-			}
+				category: "Physics",
+				year: 1945,
+				study: "discovery of the Pauli exclusion principle",
+			},
 		],
 		other_awards: [
 			"Matteucci Medal (1956)",
@@ -2571,19 +2690,21 @@ export const scientistsData = [
 			"Franklin Medal (1952)",
 			"Foreign Member of the Royal Society (London)",
 			"Honorary doctorates from numerous universities",
-			"Wolfgang Pauli Institute (Vienna) named in his honor"
-		]
-	 },
+			"Wolfgang Pauli Institute (Vienna) named in his honor",
+		],
+	},
 
 	// Herman Von Helmholtz
 	{
-	    id: 91,
-	    name: "Herman Von Helmholtz",
-	    nationality: "German",
-	    description: "Was a German physicist and philosopher. Best known for his statement of the law of conservation of energy",
-	    date_of_birth: "1821-08-31",
-	    date_of_death: "1894-09-08",
-	    discoveries: [
+		id: 91,
+		name: "Herman Von Helmholtz",
+		nationality: "German",
+		category: "physicist",
+		description:
+			"Was a German physicist and philosopher. Best known for his statement of the law of conservation of energy",
+		date_of_birth: "1821-08-31",
+		date_of_death: "1894-09-08",
+		discoveries: [
 			"Formulated the law of conservation of energy (First Law of Thermodynamics)",
 			"Pioneered the study of nerve impulses and the speed of neural transmission",
 			"Developed the theory of color vision (Young-Helmholtz trichromatic theory)",
@@ -2592,7 +2713,7 @@ export const scientistsData = [
 			"Advanced the understanding of fluid dynamics and vortex motion",
 			"Contributed to the principle of least action in mechanics",
 			"Investigated the perception of sound and music, laying groundwork for psychoacoustics",
-			"Authored seminal works like *On the Conservation of Force* and *Handbook of Physiological Optics*"
+			"Authored seminal works like *On the Conservation of Force* and *Handbook of Physiological Optics*",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2602,17 +2723,18 @@ export const scientistsData = [
 			"Helmholtz Medal (established in his honor by the German Physical Society)",
 			"Honorary doctorates from numerous universities",
 			"Helmholtz Association of German Research Centres named in his honor",
-			"Helmholtz-Zentrum Berlin (research institute) named in his honor"
-		]
-	 },
+			"Helmholtz-Zentrum Berlin (research institute) named in his honor",
+		],
+	},
 
 	// Joseph Black
 	{
 		id: 92,
 		name: "Joseph Black",
+		nationality: "British",
+		category: "physicist",
 		description:
 			"Was a british chemist and physicist best known for the rediscoveries of fixed air (carbon dioxide).",
-		nationality: "British",
 		date_of_birth: "1728-04-16",
 		date_of_death: "1799-12-06",
 		discoveries: [

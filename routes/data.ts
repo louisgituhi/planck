@@ -181,26 +181,26 @@ export const scientistsData = [
 	},
 
 	// Alhazen -> BC ERA
-	// 	{
-	// 	    id: 5,
-	// 	    name: "Alhazen Ibn al-Haytham",
-	// 	    nationality: "Egyptian",
-	// 	    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
-	// 	    date_of_birth: "c.965",
-	// 	    date_of_death: "c.1040",
-	// 	    discoveries: [
-	// 			"Optics (theory of light and vision)",
-	// 			"Scientific method (empirical experimentation)",
-	// 			"Camera obscura principles",
-	// 			"Refraction and reflection laws",
-	// 			"Anatomy of the eye (cornea, lens, optic nerve)",
-	// 			"Alhazen's problem(mathematical optics)",
-	// 			"Critique of Ptolemic astronomy",
-	// 			"Early concepts of inertia and momentum"
-	// 			],
-	// 	    nobel_prize: null,
-	// 	    other_awards: null,
-	// 	},
+		{
+		    id: 5,
+		    name: "Alhazen Ibn al-Haytham",
+		    nationality: "Egyptian",
+		    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
+		    date_of_birth: "c.965",
+		    date_of_death: "c.1040",
+		    discoveries: [
+				"Optics (theory of light and vision)",
+				"Scientific method (empirical experimentation)",
+				"Camera obscura principles",
+				"Refraction and reflection laws",
+				"Anatomy of the eye (cornea, lens, optic nerve)",
+				"Alhazen's problem(mathematical optics)",
+				"Critique of Ptolemic astronomy",
+				"Early concepts of inertia and momentum"
+				],
+		    nobel_prize: null,
+		    other_awards: null,
+		},
 
 	// Amedeo Avogadro
 	{
@@ -218,17 +218,24 @@ export const scientistsData = [
 	},
 
 	// Anaximander
-	// {
-	//     id: 7,
-	//     name: "Anaximander",
-	//     nationality: "Turkish",
-	//     description: "About Anaximander",
-	//     date_of_birth: "1776-08-09",
-	//     date_of_death: "1856-07-09",
-	//     discoveries: [],
-	//     nobel_prize: [],
-	//     other_awards: []
-	// },
+	{
+	    id: 7,
+	    name: "Anaximander",
+	    nationality: "Ancient Greek",
+	    description: "A pre-Socratic philosopher and one of the earliest known scientists. He proposed revolutionary ideas about the origin of the universe, the nature of matter, and the evolution of life. His work laid the foundation for later scientific inquiry",
+	    date_of_birth: "610 BCE",
+	    date_of_death: "546 BCE",
+	    discoveries: [
+			"Concept of the 'apeiron' (the boundless or infinite as the origin of all things)",
+			"First known map of the world (cartography)",
+			"Theory of the evolution of life from water",
+			"Explanation of natural phenomena without invoking mythology",
+			"Proposed that celestial bodies make full circles around the Earth",
+			"Early ideas about the Earth floating freely in space",
+		],
+	    nobel_prize: null,
+	    other_awards: null,
+	},
 
 	// Andre-Marie Ampere
 	{
@@ -256,30 +263,48 @@ export const scientistsData = [
 	},
 
 	// Archimedes
-	// {
-	//     id: 9,
-	//     name: "Archimedes",
-	//     nationality: "Italian",
-	//     description: "About Archimedes",
-	//     date_of_birth: "1775-01-20",
-	//     date_of_death: "1836-06-10",
-	//     discoveries: [],
-	//     nobel_prize: [],
-	//     other_awards: []
-	// },
+	{
+	    id: 9,
+	    name: "Archimedes",
+	    nationality: "Ancient Greek",
+	    description: "One of the greatest mathematicians, physicists, and engineers of antiquity. Known for his groundbreaking work in geometry, hydrostatics, and mechanics, as well as his practical inventions like the Archimedes screw and war machines",
+	    date_of_birth: "287 BCE",
+	    date_of_death: "212 BCE",
+	    discoveries: [
+			"Principle of buoyancy (Archimedes' Principle)",
+			"Lever and pulley systems (mechanical advantage)",
+			"Archimedes screw (device for lifting water)",
+			"Calculation of pi (π) and area of a circle",
+			"Volume and surface area of a sphere",
+			"Hydrostatics and fluid mechanics",
+			"War machines (e.g., the Claw of Archimedes, heat ray)",
+			"Method of exhaustion (early form of integral calculus)",
+		],
+	    nobel_prize: null,
+	    other_awards: null,
+	},
 
 	// Aristotle
-	// {
-	//     id: 10,
-	//     name: "Aristotle",
-	//     nationality: "Greek",
-	//     description: "About Aristotle",
-	//     date_of_birth: "1775-01-20",
-	//     date_of_death: "1836-06-10",
-	//     discoveries: [],
-	//     nobel_prize: [],
-	//     other_awards: []
-	// },
+	{
+	    id: 10,
+	    name: "Aristotle",
+	    nationality: "Ancient-Greek",
+	    description: "One of the greatest philosophers and scientists of ancient Greece, Aristotle made foundational contributions to logic, biology, physics, ethics, and metaphysics. His works influenced Western thought for centuries and laid the groundwork for many scientific disciplines",
+	    date_of_birth: "384 BCE",
+	    date_of_death: "322 BCE",
+	    discoveries: [
+			"Foundations of formal logic (syllogism)",
+			"Classification of living organisms (early taxonomy)",
+			"Concept of causality (four causes: material, formal, efficient, and final)",
+			"Geocentric model of the universe (later refined by Ptolemy)",
+			"Empirical approach to studying nature",
+			"Theory of elements (earth, water, air, fire, and aether)",
+			"Ethical theory of virtue ethics",
+			"Metaphysical concepts of substance and essence"
+		],
+	    nobel_prize: null,
+	    other_awards: null,
+	},
 
 	// Arthur Compton
 	{
@@ -686,23 +711,25 @@ export const scientistsData = [
 		other_awards: null,
 	},
 
-	// // Democritus
-	// {
-	//     "id": 26,
-	//     "name": "Democritus",
-	//     "description": "lkdjhbvnwndbmsncldjfbcj",
-	//     "nationality": "Ancient Greek city of Abdera.",
-	//     "date_of_birth": 460,
-	//     "date_of_death": 370,
-	//     "discoveries": [
-	//         "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
-	//         "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
-	//         "His description of a universe containing an infinity of diverse inhabited worlds",
-	//         "His assertion that nothing is actually something",
-	//         "His deduction that the light of stars explains the Milky Way’s appearance",
-	//         "His discoveries that a cone’s volume is one-third that of the cylinder with the same base and height"
-	//     ]
-	// },
+	// Democritus
+	{
+	    id: 26,
+	    name: "Democritus",
+	    description: "An ancient Greek philosopher known as the 'father of modern science' for his pioneering atomic theory. He proposed that the universe is composed of indivisible particles (atoms) in constant motion, governed by natural laws rather than divine intervention.",
+	    nationality: "Ancient-Greek",
+	    date_of_birth: "460",
+	    date_of_death: "370",
+	    discoveries: [
+	        "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
+	        "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
+	        "His description of a universe containing an infinity of diverse inhabited worlds",
+	        "His assertion that nothing is actually something",
+	        "His deduction that the light of stars explains the Milky Way’s appearance",
+	        "His discoveries that a cone’s volume is one-third that of the cylinder with the same base and height"
+	    ],
+		nobel_prize: null,
+		other_awards: null,
+	},
 
 	// Amalie Emmy Noether
 	{
@@ -1524,20 +1551,25 @@ export const scientistsData = [
 	},
 
 	// John Philoponus
-	// {
-	//     id: 55,
-	//     name: "John Philoponus",
-	// 	nationality: "Greek",
-	// 	description:
-	// 		"Considered 'one of the greatest unsung scientists of all time', he is the first person known to have proposed the existence of stellar bodies comparable to black holes, and the first to have suggested that earthquakes travelled in (seismic) waves.",
-	// 	date_of_birth: "1724-12-25",
-	// 	date_of_death: "1793-04-21",
-	// 	discoveries: [
-	// 		"Predicting the existence of black holes, seismology, manufacture of magnets, mass of the Earth",
-	// 	],
-	// 	nobel_prize: null,
-	// 	other_awards: null,
-	// }
+	{
+	    id: 55,
+	    name: "John Philoponus",
+		nationality: "Byzantine",
+		description:
+			"A 6th-century philosopher and polymath who made groundbreaking critiques of Aristotelian physics. Proposed the 'theory of impetus,' a precursor to inertia, and argued against Aristotle's eternal universe. His work influenced later Islamic scholars and Galileo.",
+		date_of_birth: "0490-01-01",
+		date_of_death: "0570-01-01",
+		discoveries: [
+			"Theory of impetus(foundation for inertia)",
+			"Critique of Aristotelian eternal universe",
+			"Early concept of finite universe",
+			"Pioneered use of empirical arguments in natural philosophy",
+			"Work on light refraction and optics",
+			"Critique of Aristotle's physics (motion, dynamics)",
+		],
+		nobel_prize: null,
+		other_awards: null,
+	}
 
 	// John Wallis
 	{

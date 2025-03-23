@@ -2782,6 +2782,33 @@ export const scientistsData = [
 		nobel_prize: null,
 		other_awards: null,
 	},
+	
+	// Antoine Lavoisier
+	// Robert Boyle
+	// Dmitri Mendeleev
+	// Joseph Priestley .
+	// John Dalton
+	// Jöns Jacob Berzelius
+	// Marie-Anne Lavoisier
+	// Friedrich Wöhler
+	// Justus von Liebig
+	// Emil Fischer
+	// Dorothy Crowfoot Hodgkin
+	// Linus Pauling
+	// Rosalind Franklin
+	// Svante Arrhenius
+	// Gilbert N. Lewis
+	// Erwin Schrödinger
+	// Robert Mulliken
+	// Leo Baekeland
+	// Fritz Haber
+	// Carl Bosch
+	// Wallace Carothers
+	// Marie Curie
+	// Pierre Curie
+	// Ernest Rutherford
+	// Glenn T. Seaborg
+
 ];
 
 scientistSchema.parse(scientistsData);

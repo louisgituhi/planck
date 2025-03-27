@@ -2784,9 +2784,110 @@ export const scientistsData = [
 	},
 	
 	// Antoine Lavoisier
+	{
+		id: 4,
+		name: "Antoine Lavoisier",
+		nationality: "French",
+		description: "French nobleman and chemist who is considered the 'Father of Modern Chemistry.' He established the law of conservation of mass, recognized and named oxygen and hydrogen, and helped reform chemical nomenclature.",
+		date_of_birth: "1743-08-26",
+		date_of_death: "1794-05-08",
+		discoveries: [
+			"Law of conservation of mass",
+			"Identified and named oxygen (1778) and hydrogen (1783)",
+			"Disproved the phlogiston theory",
+			"Helped construct the metric system",
+			"First extensive list of elements",
+			"Explained combustion and respiration as reactions with oxygen",
+			"Developed modern chemical nomenclature",
+			"Pioneered stoichiometry"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Gold Medal, French Academy of Sciences (1766)",
+			"Elected to the French Academy of Sciences (1768)",
+			"Director of the French Academy of Sciences (1785)"
+		]
+	},
+
 	// Robert Boyle
+	{
+		id: 5,
+		name: "Robert Boyle",
+		nationality: "Irish",
+		description: "Anglo-Irish natural philosopher, chemist, physicist, and inventor. Boyle is largely regarded today as the first modern chemist and one of the founders of modern chemistry. He is best known for Boyle's law, which describes the inversely proportional relationship between pressure and volume of a gas.",
+		date_of_birth: "1627-01-25",
+		date_of_death: "1691-12-31",
+		discoveries: [
+			"Boyle's law (the pressure-volume relationship in gases)",
+			"Pioneered experimental scientific method in chemistry",
+			"Defined chemical elements as the simplest substances",
+			"Discovered the role of air in combustion, sound transmission, and respiration",
+			"Introduced the litmus test for acids and bases",
+			"Made advances in vacuum experiments",
+			"Discovered that electric forces are transmitted through a vacuum",
+			"One of the founders of the Royal Society of London"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Fellow of the Royal Society (1663)",
+			"The lunar crater 'Boyle' is named in his honor",
+			"The Boyle Medal (Ireland's oldest scientific award) is named after him"
+		]
+	},
 	// Dmitri Mendeleev
+	{
+		id: 6,
+		name: "Dmitri Mendeleev",
+		nationality: "Russian",
+		description: "Russian chemist and inventor, best known for formulating the Periodic Law and creating the first version of the periodic table of elements. His work allowed him to predict the properties of elements yet to be discovered, revolutionizing chemistry.",
+		date_of_birth: "1834-02-08",
+		date_of_death: "1907-02-02",
+		discoveries: [
+			"Formulated the Periodic Law",
+			"Created the first widely recognized periodic table of elements (1869)",
+			"Predicted the existence and properties of undiscovered elements (e.g., gallium, germanium, scandium)",
+			"Corrected atomic weights of known elements based on periodic trends",
+			"Proposed the concept of gaps in the periodic table for missing elements",
+			"Studied the nature of solutions and chemical bonding",
+			"Developed theories on the origin of petroleum",
+			"Worked on the expansion of liquids with heat"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Davy Medal (1882, Royal Society of London)",
+			"Copley Medal (1905, Royal Society of London)",
+			"Foreign Member of the Royal Society (ForMemRS, 1892)",
+			"Demidov Prize (1862, Russian Academy of Sciences)",
+			"Named after him: Mendelevium (element 101), lunar crater Mendeleev, and multiple scientific institutions"
+		]
+	},
+	
 	// Joseph Priestley .
+	{
+		id: 7,
+		name: "Joseph Priestley",
+		nationality: "British",
+		description: "English chemist, natural philosopher, separatist theologian, grammarian, and liberal political theorist. Best known for discovering oxygen and his contributions to the understanding of gases, which laid the foundations of modern chemistry.",
+		date_of_birth: "1733-03-24",
+		date_of_death: "1804-02-06",
+		discoveries: [
+			"Discovered oxygen (1774) - though he called it 'dephlogisticated air'",
+			"Discovered carbon monoxide, nitrous oxide, and other gases",
+			"Invented carbonated water (soda water)",
+			"Demonstrated that plants produce oxygen (early photosynthesis research)",
+			"Discovered that graphite conducts electricity",
+			"Made important observations about respiration and combustion",
+			"Pioneered experiments with electricity"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Fellow of the Royal Society (1766)",
+			"Copley Medal (1772, Royal Society)",
+			"Named after him: Priestley Medal (American Chemical Society's highest honor)",
+			"Lunar crater Priestley named in his honor",
+			"Several educational institutions bear his name"
+		]
+	},
 	// John Dalton
 	// Jöns Jacob Berzelius
 	// Marie-Anne Lavoisier

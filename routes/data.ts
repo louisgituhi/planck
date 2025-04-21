@@ -2785,7 +2785,7 @@ export const scientistsData = [
 	
 	// Antoine Lavoisier
 	{
-		id: 4,
+		id: 93,
 		name: "Antoine Lavoisier",
 		nationality: "French",
 		description: "French nobleman and chemist who is considered the 'Father of Modern Chemistry.' He established the law of conservation of mass, recognized and named oxygen and hydrogen, and helped reform chemical nomenclature.",
@@ -2811,7 +2811,7 @@ export const scientistsData = [
 
 	// Robert Boyle
 	{
-		id: 5,
+		id: 94,
 		name: "Robert Boyle",
 		nationality: "Irish",
 		description: "Anglo-Irish natural philosopher, chemist, physicist, and inventor. Boyle is largely regarded today as the first modern chemist and one of the founders of modern chemistry. He is best known for Boyle's law, which describes the inversely proportional relationship between pressure and volume of a gas.",
@@ -2836,7 +2836,7 @@ export const scientistsData = [
 	},
 	// Dmitri Mendeleev
 	{
-		id: 6,
+		id: 95,
 		name: "Dmitri Mendeleev",
 		nationality: "Russian",
 		description: "Russian chemist and inventor, best known for formulating the Periodic Law and creating the first version of the periodic table of elements. His work allowed him to predict the properties of elements yet to be discovered, revolutionizing chemistry.",
@@ -2864,7 +2864,7 @@ export const scientistsData = [
 	
 	// Joseph Priestley .
 	{
-		id: 7,
+		id: 96,
 		name: "Joseph Priestley",
 		nationality: "British",
 		description: "English chemist, natural philosopher, separatist theologian, grammarian, and liberal political theorist. Best known for discovering oxygen and his contributions to the understanding of gases, which laid the foundations of modern chemistry.",
@@ -2889,27 +2889,467 @@ export const scientistsData = [
 		]
 	},
 	// John Dalton
+	{
+		id: 97,
+	    name: "John Dalton",
+		nationality: "British",
+	    description: "Known for his pioneering work in atomic theory and color blindness research",
+		date_of_birth: "1766-09-06",
+	    date_of_death: "1844-07-27",
+		discoveries: [
+			"Atomic theory",
+			"Law of partial pressures",
+			"Color blindness research (Daltonism)"
+		],
+		nobel_prize: null,
+	    other_awards: [
+			"Royal Medal",
+			"Fellow of the Royal Society"
+		]
+	},
 	// Jöns Jacob Berzelius
+	{
+		id: 98,
+		name: "Jöns Jacob Berzelius",
+		nationality: "Swedish",    
+		description: "One of the founders of modern chemistry who developed the modern chemical notation system",
+		date_of_birth: "1779-08-20",
+		date_of_death: "1848-08-07",
+		discoveries: [
+			"Chemical notation system",
+			"Discovery of several elements (cerium, selenium, thorium)",
+			"Law of constant proportions",
+			"Catalysis concept"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Copley Medal",
+			"Foreign Member of the Royal Society"
+		]
+	},
 	// Marie-Anne Lavoisier
+	{
+		id: 99,
+	    name: "Marie-Anne Lavoisier",
+	    nationality: "French",
+	    description: "Scientific collaborator who helped establish modern chemistry through her work with Antoine Lavoisier",
+	    date_of_birth: "1758-01-20",
+	    date_of_death: "1836-02-10",
+	    discoveries: [
+			"Contributed to oxygen theory of combustion",
+			"Translation of scientific works",
+			"Chemical nomenclature development"
+		],
+	    nobel_prize: null,
+	    other_awards: null
+	  },
 	// Friedrich Wöhler
+	{
+		id: 100,
+	    name: "Friedrich Wöhler",
+	    nationality: "German",
+		description: "Pioneer in organic chemistry who synthesized urea, challenging vitalism",
+	    date_of_birth: "1800-07-31",
+	    date_of_death: "1882-09-23",
+		discoveries: [
+			"First synthesis of urea from inorganic compounds",
+			"Isolation of aluminum",
+			"Discovery of beryllium",
+			"Synthesis of acetylene"
+		],
+	    nobel_prize: null,
+	    other_awards: [
+			"Copley Medal",
+			"Albert Medal"
+		]
+	},
 	// Justus von Liebig
+	{
+		id: 101,
+	    name: "Justus von Liebig",
+	    nationality: "German",
+	    description: "Father of the fertilizer industry and influential organic chemist",
+	    date_of_birth: "1803-05-12",
+	    date_of_death: "1873-04-18",
+	    discoveries: [
+			"Law of the minimum in agriculture",
+			"Developed nitrogen-based fertilizers",
+			"Kaliapparat laboratory device",
+			"Chloroform discoveries"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Copley Medal",
+			"Albert Medal"
+		]
+	},
 	// Emil Fischer
+	{
+		id: 102,
+	    name: "Emil Fischer",
+	    nationality: "German",
+	    description: "Organic chemist known for his work on purines, sugars, and proteins",
+		date_of_birth: "1852-10-09",
+	    date_of_death: "1919-07-15",
+	    discoveries: [
+			"Synthesis of purines",
+			"Fischer projection method",
+			"Structure of glucose",
+			"Fischer indole synthesis"
+		],
+	    nobel_prize: [
+			{
+				category: "Chemistry",
+		        year: 1902,
+				study: "For his work on sugar and purine syntheses"
+			}
+		],
+	    other_awards: [
+			"Copley Medal",
+			"Davy Medal"
+		]
+	},
 	// Dorothy Crowfoot Hodgkin
+	{
+		id: 103,
+	    name: "Dorothy Crowfoot Hodgkin",
+	    nationality: "British",
+	    description: "Pioneer in protein crystallography who determined the structures of many biomolecules",
+	    date_of_birth: "1910-05-12",
+	    date_of_death: "1994-07-29",
+	    discoveries: [
+			"Structure of penicillin",
+			"Structure of vitamin B12",
+			"Structure of insulin",
+			"Advanced X-ray crystallography techniques"
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1964,
+				study: "For her determinations by X-ray techniques of the structures of important biochemical substances"
+			}
+		],
+	    other_awards: [
+			"Order of Merit",
+			"Copley Medal",
+			"Lenin Peace Prize"
+		]
+	},
 	// Linus Pauling
+	{
+		id: 104,
+	    name: "Linus Pauling",
+	    nationality: "American",
+	    description: "Quantum chemist and peace activist who made fundamental contributions to chemical bonding theory",
+	    date_of_birth: "1901-02-28",
+	    date_of_death: "1994-08-19",
+	    discoveries: [
+			"Nature of the chemical bond",
+			"Electronegativity scale",
+			"Alpha helix structure of proteins",
+			"Molecular disease concept"
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+		        year: 1954,
+				study: "For his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances"
+			},
+			{
+				category: "Peace",
+		        year: 1962,
+		        study: "For his campaign against nuclear weapons testing"
+			}
+		],
+		other_awards: [
+			"National Medal of Science",
+			"Lenin Peace Prize",
+			"Priestley Medal"
+		]
+	},
+	
 	// Rosalind Franklin
+	{
+		id: 105,
+		name: "Rosalind Franklin",
+		nationality: "British",
+		description: "X-ray crystallographer whose work was central to understanding the molecular structures of DNA",
+		date_of_birth: "1920-07-25",
+		date_of_death: "1958-04-16",
+		discoveries: [
+			"X-ray diffraction images of DNA (Photo 51)",
+			"Molecular structure of viruses",
+			"Structure of coal and graphite",
+			"DNA double helix evidence"
+		],
+		nobel_prize: null,
+	    other_awards: [
+			"Posthumous recognition for DNA structure work"
+		]
+	},
+	
 	// Svante Arrhenius
-	// Gilbert N. Lewis
-	// Erwin Schrödinger
-	// Robert Mulliken
-	// Leo Baekeland
-	// Fritz Haber
-	// Carl Bosch
-	// Wallace Carothers
-	// Marie Curie
-	// Pierre Curie
-	// Ernest Rutherford
-	// Glenn T. Seaborg
+	{
+		id: 106,
+		name: "Svante Arrhenius",
+	    nationality: "Swedish",
+	    description: "Physical chemist known for his electrolytic dissociation theory and early work on climate change",
+	    date_of_birth: "1859-02-19",
+	    date_of_death: "1927-10-02",
+	    discoveries: [
+			"Arrhenius equation",
+			"Theory of electrolytic dissociation",
+			"Greenhouse effect studies",
+			"Acid-base theory"
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1903,
+				study: "For his electrolytic theory of dissociation"
+			}
+		],
+		other_awards: [
+			"Davy Medal",
+			"Faraday Medal"
+		]
+	},
 
+	// Gilbert N. Lewis
+	{
+		id: 107,
+		name: "Gilbert N. Lewis",
+	    nationality: "American",
+	    description: "Physical chemist who developed electron pair theory and concepts of acids and bases",
+	    date_of_birth: "1875-10-23",
+	    date_of_death: "1946-03-23",
+	    discoveries: [
+			"Lewis structures",
+			"Lewis acid-base theory",
+			"Concept of covalent bonding",
+			"Concept of photon (termed 'light quantum')"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Davy Medal",
+			"Willard Gibbs Award",
+			"Fellow of the Royal Society"
+		]
+	},
+
+	// Erwin Schrödinger
+	 {
+		 id: 108,
+		 name: "Erwin Schrödinger",
+		 nationality: "Austrian",
+		 description: "Physicist who made fundamental contributions to quantum mechanics and chemistry",
+		 date_of_birth: "1887-08-12",
+		 date_of_death: "1961-01-04",
+		 discoveries: [
+			 "Schrödinger equation",
+			 "Wave mechanics",
+			 "Quantum mechanical model of the atom",
+			 "Schrödinger's cat thought experiment"
+		 ],
+		 nobel_prize: [
+			 {
+				 category: "Physics",
+				 year: 1933,
+				 study: "For the discovery of new productive forms of atomic theory"
+			 }
+		 ],
+		 other_awards: [
+			 "Max Planck Medal",
+			 "Copley Medal"
+		 ]
+	 },
+
+	// Robert Mulliken
+	 {
+		 id: 109,
+		 name: "Robert Mulliken",
+		 nationality: "American",
+		 description: "Physicist and chemist who developed molecular orbital theory and electronegativity scale",
+		 date_of_birth: "1896-06-07",
+		 date_of_death: "1986-10-31",
+		 discoveries: [
+			 "Molecular orbital theory",
+			 "Mulliken electronegativity scale",
+			 "Mulliken population analysis",
+			 "Electronic structure of molecules"
+		 ],
+		 nobel_prize: [
+			 {
+				 category: "Chemistry",
+				 year: 1966,
+				 study: "For his fundamental work concerning chemical bonds and the electronic structure of molecules"
+			 }
+		 ],
+		 other_awards: [
+			 "Priestley Medal",
+			 "Peter Debye Award",
+			 "National Medal of Science"
+		 ]
+	  },
+
+	// Leo Baekeland
+	{
+		id: 110,
+		name: "Leo Baekeland",
+		nationality: "Belgian-American",
+		description: "Chemist and inventor who created the first fully synthetic plastic, Bakelite",
+		date_of_birth: "1863-11-14",
+		date_of_death: "1944-02-23",
+		discoveries: [
+			"Bakelite (first synthetic plastic)",
+			"Velox photographic paper",
+			"Heat-resistant polymers",
+			"Phenol-formaldehyde resins"
+		],
+		nobel_prize: null,
+		other_awards: [
+			"Perkin Medal",
+			"Franklin Medal",
+			"Willard Gibbs Award"
+		]
+	},
+
+	// Fritz Haber
+	{
+		id: 111,
+		name: "Fritz Haber",
+		nationality: "German",
+		description: "Chemist who developed the Haber process for ammonia synthesis, enabling fertilizer production on an industrial scale",
+		date_of_birth: "1868-12-09",
+		date_of_death: "1934-01-29",
+		discoveries: [
+			"Haber process (ammonia synthesis)",
+			"Born-Haber cycle",
+			"Chemical warfare applications",
+			"Gas-phase reactions"
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1918,
+				study: "For the synthesis of ammonia from its elements"
+			}
+		],
+		other_awards: [
+			"Rumford Medal",
+			"Bunsen Medal",
+			"Liebig Medal"
+		]
+	},
+
+	// Carl Bosch
+	{
+		id: 112,
+	    name: "Carl Bosch",
+	    nationality: "German",
+	    description: "Industrial chemist and engineer who scaled up the Haber process for industrial ammonia production",
+	    date_of_birth: "1874-08-27",
+	    date_of_death: "1940-04-26",
+	    discoveries: [
+			"Industrial-scale ammonia production",
+			"High-pressure chemistry techniques",
+			"Haber-Bosch process",
+			"Direct production of synthetic fuels"
+		],
+	    nobel_prize: [
+			{
+				category: "Chemistry",
+		        year: 1931,
+		        study: "For contributions to the invention and development of chemical high-pressure methods"
+			}
+		],
+		other_awards: [
+			"Liebig Medal",
+			"Siemens Ring",
+			"Bunsen Medal"
+		]
+	},
+
+	// Wallace Carothers
+	{
+		id: 113,
+	    name: "Wallace Carothers",
+	    nationality: "American",
+	    description: "Organic chemist who invented nylon and pioneered polymer chemistry research",
+	    date_of_birth: "1896-04-27",
+	    date_of_death: "1937-04-29",
+	    discoveries: [
+			"Nylon synthesis",
+			"Neoprene (synthetic rubber)",
+			"Linear condensation polymers",
+			"Polyester development"
+		],
+		nobel_prize: null,
+	    other_awards: [
+			"Posthumous induction to National Inventors Hall of Fame",
+			"National Academy of Sciences",
+			"American Chemical Society award"
+		]
+	},
+
+	// Ernest Rutherford
+	{
+		id: 115,
+	    name: "Ernest Rutherford",
+	    nationality: "New Zealand-British",
+	    description: "Physicist who is widely regarded as the father of nuclear physics for his pioneering work on atomic structure",
+	    date_of_birth: "1871-08-30",
+	    date_of_death: "1937-10-19",
+	    discoveries: [
+			"Nuclear model of the atom",
+			"Alpha and beta radiation classification",
+			"Half-life concept for radioactive elements",
+			"First artificial nuclear reaction"
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+		        year: 1908,
+				study: "For his investigations into the disintegration of the elements, and the chemistry of radioactive substances"
+			}
+		],
+		other_awards: [
+			"Copley Medal",
+			"Rumford Medal",
+			"Order of Merit",
+			"Knight Bachelor"
+		]
+	},
+
+	// Glenn T. Seaborg
+	 {
+		 id: 116,
+		 name: "Glenn T. Seaborg",
+		 nationality: "American",
+		 description: "Nuclear chemist who discovered plutonium and nine other transuranium elements",
+		 date_of_birth: "1912-04-19",
+		 date_of_death: "1999-02-25",
+		 discoveries: [
+			 "Discovery and isolation of plutonium",
+			 "Discovery of nine other transuranium elements",
+			 "Actinide concept",
+			 "Nuclear isomerism"
+		 ],
+		 nobel_prize: [
+			 {
+				 category: "Chemistry",
+				 year: 1951,
+				 study: "For discoveries in the chemistry of the transuranium elements"
+			 }
+		 ],
+		 other_awards: [
+			 "National Medal of Science",
+			 "Enrico Fermi Award",
+			 "Priestley Medal",
+			 "Element 106 named seaborgium in his honor"
+		 ]
+	 }
 ];
 
 scientistSchema.parse(scientistsData);

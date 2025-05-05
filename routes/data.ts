@@ -181,26 +181,28 @@ export const scientistsData = [
 	},
 
 	// Alhazen -> BC ERA
-		{
-		    id: 5,
-		    name: "Alhazen Ibn al-Haytham",
-		    nationality: "Egyptian",
-		    description: "was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
-		    date_of_birth: "c.965",
-		    date_of_death: "c.1040",
-		    discoveries: [
-				"Optics (theory of light and vision)",
-				"Scientific method (empirical experimentation)",
-				"Camera obscura principles",
-				"Refraction and reflection laws",
-				"Anatomy of the eye (cornea, lens, optic nerve)",
-				"Alhazen's problem(mathematical optics)",
-				"Critique of Ptolemic astronomy",
-				"Early concepts of inertia and momentum"
-				],
-		    nobel_prize: null,
-		    other_awards: null,
-		},
+	// {
+	// 	id: 5,
+	// 	name: "Alhazen Ibn al-Haytham",
+	// 	nationality: "Egyptian",
+	// 	category: "physicist",
+	// 	description:
+	// 		"was a pioneering Arab polymath, mathematician, astronomer, and physicist during the Islamic Golden Age. He is often regarded as the father of modern optics and made groundbreaking contributions to the scientific method, experimental physics, and the study of light and vision",
+	// 	date_of_birth: "c.965",
+	// 	date_of_death: "c.1040",
+	// 	discoveries: [
+	// 		"Optics (theory of light and vision)",
+	// 		"Scientific method (empirical experimentation)",
+	// 		"Camera obscura principles",
+	// 		"Refraction and reflection laws",
+	// 		"Anatomy of the eye (cornea, lens, optic nerve)",
+	// 		"Alhazen's problem(mathematical optics)",
+	// 		"Critique of Ptolemic astronomy",
+	// 		"Early concepts of inertia and momentum",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// },
 
 	// Amedeo Avogadro
 	{
@@ -218,24 +220,25 @@ export const scientistsData = [
 	},
 
 	// Anaximander
-	{
-	    id: 7,
-	    name: "Anaximander",
-	    nationality: "Ancient Greek",
-	    description: "A pre-Socratic philosopher and one of the earliest known scientists. He proposed revolutionary ideas about the origin of the universe, the nature of matter, and the evolution of life. His work laid the foundation for later scientific inquiry",
-	    date_of_birth: "610 BCE",
-	    date_of_death: "546 BCE",
-	    discoveries: [
-			"Concept of the 'apeiron' (the boundless or infinite as the origin of all things)",
-			"First known map of the world (cartography)",
-			"Theory of the evolution of life from water",
-			"Explanation of natural phenomena without invoking mythology",
-			"Proposed that celestial bodies make full circles around the Earth",
-			"Early ideas about the Earth floating freely in space",
-		],
-	    nobel_prize: null,
-	    other_awards: null,
-	},
+	// {
+	// 	id: 7,
+	// 	name: "Anaximander",
+	// 	nationality: "Ancient Greek",
+	// 	description:
+	// 		"A pre-Socratic philosopher and one of the earliest known scientists. He proposed revolutionary ideas about the origin of the universe, the nature of matter, and the evolution of life. His work laid the foundation for later scientific inquiry",
+	// 	date_of_birth: "610 BCE",
+	// 	date_of_death: "546 BCE",
+	// 	discoveries: [
+	// 		"Concept of the 'apeiron' (the boundless or infinite as the origin of all things)",
+	// 		"First known map of the world (cartography)",
+	// 		"Theory of the evolution of life from water",
+	// 		"Explanation of natural phenomena without invoking mythology",
+	// 		"Proposed that celestial bodies make full circles around the Earth",
+	// 		"Early ideas about the Earth floating freely in space",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// },
 
 	// Andre-Marie Ampere
 	{
@@ -263,48 +266,50 @@ export const scientistsData = [
 	},
 
 	// Archimedes
-	{
-	    id: 9,
-	    name: "Archimedes",
-	    nationality: "Ancient Greek",
-	    description: "One of the greatest mathematicians, physicists, and engineers of antiquity. Known for his groundbreaking work in geometry, hydrostatics, and mechanics, as well as his practical inventions like the Archimedes screw and war machines",
-	    date_of_birth: "287 BCE",
-	    date_of_death: "212 BCE",
-	    discoveries: [
-			"Principle of buoyancy (Archimedes' Principle)",
-			"Lever and pulley systems (mechanical advantage)",
-			"Archimedes screw (device for lifting water)",
-			"Calculation of pi (π) and area of a circle",
-			"Volume and surface area of a sphere",
-			"Hydrostatics and fluid mechanics",
-			"War machines (e.g., the Claw of Archimedes, heat ray)",
-			"Method of exhaustion (early form of integral calculus)",
-		],
-	    nobel_prize: null,
-	    other_awards: null,
-	},
+	// {
+	// 	id: 9,
+	// 	name: "Archimedes",
+	// 	nationality: "Ancient Greek",
+	// 	description:
+	// 		"One of the greatest mathematicians, physicists, and engineers of antiquity. Known for his groundbreaking work in geometry, hydrostatics, and mechanics, as well as his practical inventions like the Archimedes screw and war machines",
+	// 	date_of_birth: "287 BCE",
+	// 	date_of_death: "212 BCE",
+	// 	discoveries: [
+	// 		"Principle of buoyancy (Archimedes' Principle)",
+	// 		"Lever and pulley systems (mechanical advantage)",
+	// 		"Archimedes screw (device for lifting water)",
+	// 		"Calculation of pi (π) and area of a circle",
+	// 		"Volume and surface area of a sphere",
+	// 		"Hydrostatics and fluid mechanics",
+	// 		"War machines (e.g., the Claw of Archimedes, heat ray)",
+	// 		"Method of exhaustion (early form of integral calculus)",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// },
 
 	// Aristotle
-	{
-	    id: 10,
-	    name: "Aristotle",
-	    nationality: "Ancient-Greek",
-	    description: "One of the greatest philosophers and scientists of ancient Greece, Aristotle made foundational contributions to logic, biology, physics, ethics, and metaphysics. His works influenced Western thought for centuries and laid the groundwork for many scientific disciplines",
-	    date_of_birth: "384 BCE",
-	    date_of_death: "322 BCE",
-	    discoveries: [
-			"Foundations of formal logic (syllogism)",
-			"Classification of living organisms (early taxonomy)",
-			"Concept of causality (four causes: material, formal, efficient, and final)",
-			"Geocentric model of the universe (later refined by Ptolemy)",
-			"Empirical approach to studying nature",
-			"Theory of elements (earth, water, air, fire, and aether)",
-			"Ethical theory of virtue ethics",
-			"Metaphysical concepts of substance and essence"
-		],
-	    nobel_prize: null,
-	    other_awards: null,
-	},
+	// {
+	// 	id: 10,
+	// 	name: "Aristotle",
+	// 	nationality: "Ancient-Greek",
+	// 	description:
+	// 		"One of the greatest philosophers and scientists of ancient Greece, Aristotle made foundational contributions to logic, biology, physics, ethics, and metaphysics. His works influenced Western thought for centuries and laid the groundwork for many scientific disciplines",
+	// 	date_of_birth: "384 BCE",
+	// 	date_of_death: "322 BCE",
+	// 	discoveries: [
+	// 		"Foundations of formal logic (syllogism)",
+	// 		"Classification of living organisms (early taxonomy)",
+	// 		"Concept of causality (four causes: material, formal, efficient, and final)",
+	// 		"Geocentric model of the universe (later refined by Ptolemy)",
+	// 		"Empirical approach to studying nature",
+	// 		"Theory of elements (earth, water, air, fire, and aether)",
+	// 		"Ethical theory of virtue ethics",
+	// 		"Metaphysical concepts of substance and essence",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// },
 
 	// Arthur Compton
 	{
@@ -712,24 +717,25 @@ export const scientistsData = [
 	},
 
 	// Democritus
-	{
-	    id: 26,
-	    name: "Democritus",
-	    description: "An ancient Greek philosopher known as the 'father of modern science' for his pioneering atomic theory. He proposed that the universe is composed of indivisible particles (atoms) in constant motion, governed by natural laws rather than divine intervention.",
-	    nationality: "Ancient-Greek",
-	    date_of_birth: "460",
-	    date_of_death: "370",
-	    discoveries: [
-	        "He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
-	        "His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
-	        "His description of a universe containing an infinity of diverse inhabited worlds",
-	        "His assertion that nothing is actually something",
-	        "His deduction that the light of stars explains the Milky Way’s appearance",
-	        "His discoveries that a cone’s volume is one-third that of the cylinder with the same base and height"
-	    ],
-		nobel_prize: null,
-		other_awards: null,
-	},
+	// {
+	// 	id: 26,
+	// 	name: "Democritus",
+	// 	description:
+	// 		"An ancient Greek philosopher known as the 'father of modern science' for his pioneering atomic theory. He proposed that the universe is composed of indivisible particles (atoms) in constant motion, governed by natural laws rather than divine intervention.",
+	// 	nationality: "Ancient-Greek",
+	// 	date_of_birth: "460",
+	// 	date_of_death: "370",
+	// 	discoveries: [
+	// 		"He is famous for his atomic theory featuring tiny particles always in motion interacting through collisions",
+	// 		"His belief that the universe is governed entirely by natural, mechanistic laws rather than gods",
+	// 		"His description of a universe containing an infinity of diverse inhabited worlds",
+	// 		"His assertion that nothing is actually something",
+	// 		"His deduction that the light of stars explains the Milky Way’s appearance",
+	// 		"His discoveries that a cone’s volume is one-third that of the cylinder with the same base and height",
+	// 	],
+	// 	nobel_prize: null,
+	// 	other_awards: null,
+	// },
 
 	// Amalie Emmy Noether
 	{
@@ -1552,9 +1558,10 @@ export const scientistsData = [
 
 	// John Philoponus
 	{
-	    id: 55,
-	    name: "John Philoponus",
+		id: 55,
+		name: "John Philoponus",
 		nationality: "Byzantine",
+		category: "physicist",
 		description:
 			"A 6th-century philosopher and polymath who made groundbreaking critiques of Aristotelian physics. Proposed the 'theory of impetus,' a precursor to inertia, and argued against Aristotle's eternal universe. His work influenced later Islamic scholars and Galileo.",
 		date_of_birth: "0490-01-01",
@@ -1569,7 +1576,7 @@ export const scientistsData = [
 		],
 		nobel_prize: null,
 		other_awards: null,
-	}
+	},
 
 	// John Wallis
 	{
@@ -2782,13 +2789,15 @@ export const scientistsData = [
 		nobel_prize: null,
 		other_awards: null,
 	},
-	
+
 	// Antoine Lavoisier
 	{
 		id: 93,
 		name: "Antoine Lavoisier",
 		nationality: "French",
-		description: "French nobleman and chemist who is considered the 'Father of Modern Chemistry.' He established the law of conservation of mass, recognized and named oxygen and hydrogen, and helped reform chemical nomenclature.",
+		category: "chemist",
+		description:
+			"French nobleman and chemist who is considered the 'Father of Modern Chemistry.' He established the law of conservation of mass, recognized and named oxygen and hydrogen, and helped reform chemical nomenclature.",
 		date_of_birth: "1743-08-26",
 		date_of_death: "1794-05-08",
 		discoveries: [
@@ -2799,14 +2808,14 @@ export const scientistsData = [
 			"First extensive list of elements",
 			"Explained combustion and respiration as reactions with oxygen",
 			"Developed modern chemical nomenclature",
-			"Pioneered stoichiometry"
+			"Pioneered stoichiometry",
 		],
 		nobel_prize: null,
 		other_awards: [
 			"Gold Medal, French Academy of Sciences (1766)",
 			"Elected to the French Academy of Sciences (1768)",
-			"Director of the French Academy of Sciences (1785)"
-		]
+			"Director of the French Academy of Sciences (1785)",
+		],
 	},
 
 	// Robert Boyle
@@ -2814,7 +2823,9 @@ export const scientistsData = [
 		id: 94,
 		name: "Robert Boyle",
 		nationality: "Irish",
-		description: "Anglo-Irish natural philosopher, chemist, physicist, and inventor. Boyle is largely regarded today as the first modern chemist and one of the founders of modern chemistry. He is best known for Boyle's law, which describes the inversely proportional relationship between pressure and volume of a gas.",
+		category: "chemist",
+		description:
+			"Anglo-Irish natural philosopher, chemist, physicist, and inventor. Boyle is largely regarded today as the first modern chemist and one of the founders of modern chemistry. He is best known for Boyle's law, which describes the inversely proportional relationship between pressure and volume of a gas.",
 		date_of_birth: "1627-01-25",
 		date_of_death: "1691-12-31",
 		discoveries: [
@@ -2825,21 +2836,23 @@ export const scientistsData = [
 			"Introduced the litmus test for acids and bases",
 			"Made advances in vacuum experiments",
 			"Discovered that electric forces are transmitted through a vacuum",
-			"One of the founders of the Royal Society of London"
+			"One of the founders of the Royal Society of London",
 		],
 		nobel_prize: null,
 		other_awards: [
 			"Fellow of the Royal Society (1663)",
 			"The lunar crater 'Boyle' is named in his honor",
-			"The Boyle Medal (Ireland's oldest scientific award) is named after him"
-		]
+			"The Boyle Medal (Ireland's oldest scientific award) is named after him",
+		],
 	},
 	// Dmitri Mendeleev
 	{
 		id: 95,
 		name: "Dmitri Mendeleev",
 		nationality: "Russian",
-		description: "Russian chemist and inventor, best known for formulating the Periodic Law and creating the first version of the periodic table of elements. His work allowed him to predict the properties of elements yet to be discovered, revolutionizing chemistry.",
+		category: "chemist",
+		description:
+			"Russian chemist and inventor, best known for formulating the Periodic Law and creating the first version of the periodic table of elements. His work allowed him to predict the properties of elements yet to be discovered, revolutionizing chemistry.",
 		date_of_birth: "1834-02-08",
 		date_of_death: "1907-02-02",
 		discoveries: [
@@ -2850,7 +2863,7 @@ export const scientistsData = [
 			"Proposed the concept of gaps in the periodic table for missing elements",
 			"Studied the nature of solutions and chemical bonding",
 			"Developed theories on the origin of petroleum",
-			"Worked on the expansion of liquids with heat"
+			"Worked on the expansion of liquids with heat",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2858,16 +2871,18 @@ export const scientistsData = [
 			"Copley Medal (1905, Royal Society of London)",
 			"Foreign Member of the Royal Society (ForMemRS, 1892)",
 			"Demidov Prize (1862, Russian Academy of Sciences)",
-			"Named after him: Mendelevium (element 101), lunar crater Mendeleev, and multiple scientific institutions"
-		]
+			"Named after him: Mendelevium (element 101), lunar crater Mendeleev, and multiple scientific institutions",
+		],
 	},
-	
+
 	// Joseph Priestley .
 	{
 		id: 96,
 		name: "Joseph Priestley",
 		nationality: "British",
-		description: "English chemist, natural philosopher, separatist theologian, grammarian, and liberal political theorist. Best known for discovering oxygen and his contributions to the understanding of gases, which laid the foundations of modern chemistry.",
+		category: "chemist",
+		description:
+			"English chemist, natural philosopher, separatist theologian, grammarian, and liberal political theorist. Best known for discovering oxygen and his contributions to the understanding of gases, which laid the foundations of modern chemistry.",
 		date_of_birth: "1733-03-24",
 		date_of_death: "1804-02-06",
 		discoveries: [
@@ -2877,7 +2892,7 @@ export const scientistsData = [
 			"Demonstrated that plants produce oxygen (early photosynthesis research)",
 			"Discovered that graphite conducts electricity",
 			"Made important observations about respiration and combustion",
-			"Pioneered experiments with electricity"
+			"Pioneered experiments with electricity",
 		],
 		nobel_prize: null,
 		other_awards: [
@@ -2885,334 +2900,334 @@ export const scientistsData = [
 			"Copley Medal (1772, Royal Society)",
 			"Named after him: Priestley Medal (American Chemical Society's highest honor)",
 			"Lunar crater Priestley named in his honor",
-			"Several educational institutions bear his name"
-		]
+			"Several educational institutions bear his name",
+		],
 	},
 	// John Dalton
 	{
 		id: 97,
-	    name: "John Dalton",
+		name: "John Dalton",
 		nationality: "British",
-	    description: "Known for his pioneering work in atomic theory and color blindness research",
+		category: "chemist",
+		description:
+			"Known for his pioneering work in atomic theory and color blindness research",
 		date_of_birth: "1766-09-06",
-	    date_of_death: "1844-07-27",
+		date_of_death: "1844-07-27",
 		discoveries: [
 			"Atomic theory",
 			"Law of partial pressures",
-			"Color blindness research (Daltonism)"
+			"Color blindness research (Daltonism)",
 		],
 		nobel_prize: null,
-	    other_awards: [
-			"Royal Medal",
-			"Fellow of the Royal Society"
-		]
+		other_awards: ["Royal Medal", "Fellow of the Royal Society"],
 	},
 	// Jöns Jacob Berzelius
 	{
 		id: 98,
 		name: "Jöns Jacob Berzelius",
-		nationality: "Swedish",    
-		description: "One of the founders of modern chemistry who developed the modern chemical notation system",
+		nationality: "Swedish",
+		category: "chemist",
+		description:
+			"One of the founders of modern chemistry who developed the modern chemical notation system",
 		date_of_birth: "1779-08-20",
 		date_of_death: "1848-08-07",
 		discoveries: [
 			"Chemical notation system",
 			"Discovery of several elements (cerium, selenium, thorium)",
 			"Law of constant proportions",
-			"Catalysis concept"
+			"Catalysis concept",
 		],
 		nobel_prize: null,
-		other_awards: [
-			"Copley Medal",
-			"Foreign Member of the Royal Society"
-		]
+		other_awards: ["Copley Medal", "Foreign Member of the Royal Society"],
 	},
 	// Marie-Anne Lavoisier
 	{
 		id: 99,
-	    name: "Marie-Anne Lavoisier",
-	    nationality: "French",
-	    description: "Scientific collaborator who helped establish modern chemistry through her work with Antoine Lavoisier",
-	    date_of_birth: "1758-01-20",
-	    date_of_death: "1836-02-10",
-	    discoveries: [
+		name: "Marie-Anne Lavoisier",
+		nationality: "French",
+		category: "chemist",
+		description:
+			"Scientific collaborator who helped establish modern chemistry through her work with Antoine Lavoisier",
+		date_of_birth: "1758-01-20",
+		date_of_death: "1836-02-10",
+		discoveries: [
 			"Contributed to oxygen theory of combustion",
 			"Translation of scientific works",
-			"Chemical nomenclature development"
+			"Chemical nomenclature development",
 		],
-	    nobel_prize: null,
-	    other_awards: null
-	  },
+		nobel_prize: null,
+		other_awards: null,
+	},
 	// Friedrich Wöhler
 	{
 		id: 100,
-	    name: "Friedrich Wöhler",
-	    nationality: "German",
-		description: "Pioneer in organic chemistry who synthesized urea, challenging vitalism",
-	    date_of_birth: "1800-07-31",
-	    date_of_death: "1882-09-23",
+		name: "Friedrich Wöhler",
+		nationality: "German",
+		category: "chemist",
+		description:
+			"Pioneer in organic chemistry who synthesized urea, challenging vitalism",
+		date_of_birth: "1800-07-31",
+		date_of_death: "1882-09-23",
 		discoveries: [
 			"First synthesis of urea from inorganic compounds",
 			"Isolation of aluminum",
 			"Discovery of beryllium",
-			"Synthesis of acetylene"
+			"Synthesis of acetylene",
 		],
-	    nobel_prize: null,
-	    other_awards: [
-			"Copley Medal",
-			"Albert Medal"
-		]
+		nobel_prize: null,
+		other_awards: ["Copley Medal", "Albert Medal"],
 	},
 	// Justus von Liebig
 	{
 		id: 101,
-	    name: "Justus von Liebig",
-	    nationality: "German",
-	    description: "Father of the fertilizer industry and influential organic chemist",
-	    date_of_birth: "1803-05-12",
-	    date_of_death: "1873-04-18",
-	    discoveries: [
+		name: "Justus von Liebig",
+		nationality: "German",
+		category: "chemist",
+		description:
+			"Father of the fertilizer industry and influential organic chemist",
+		date_of_birth: "1803-05-12",
+		date_of_death: "1873-04-18",
+		discoveries: [
 			"Law of the minimum in agriculture",
 			"Developed nitrogen-based fertilizers",
 			"Kaliapparat laboratory device",
-			"Chloroform discoveries"
+			"Chloroform discoveries",
 		],
 		nobel_prize: null,
-		other_awards: [
-			"Copley Medal",
-			"Albert Medal"
-		]
+		other_awards: ["Copley Medal", "Albert Medal"],
 	},
 	// Emil Fischer
 	{
 		id: 102,
-	    name: "Emil Fischer",
-	    nationality: "German",
-	    description: "Organic chemist known for his work on purines, sugars, and proteins",
+		name: "Emil Fischer",
+		nationality: "German",
+		category: "chemist",
+		description:
+			"Organic chemist known for his work on purines, sugars, and proteins",
 		date_of_birth: "1852-10-09",
-	    date_of_death: "1919-07-15",
-	    discoveries: [
+		date_of_death: "1919-07-15",
+		discoveries: [
 			"Synthesis of purines",
 			"Fischer projection method",
 			"Structure of glucose",
-			"Fischer indole synthesis"
+			"Fischer indole synthesis",
 		],
-	    nobel_prize: [
+		nobel_prize: [
 			{
 				category: "Chemistry",
-		        year: 1902,
-				study: "For his work on sugar and purine syntheses"
-			}
+				year: 1902,
+				study: "For his work on sugar and purine syntheses",
+			},
 		],
-	    other_awards: [
-			"Copley Medal",
-			"Davy Medal"
-		]
+		other_awards: ["Copley Medal", "Davy Medal"],
 	},
 	// Dorothy Crowfoot Hodgkin
 	{
 		id: 103,
-	    name: "Dorothy Crowfoot Hodgkin",
-	    nationality: "British",
-	    description: "Pioneer in protein crystallography who determined the structures of many biomolecules",
-	    date_of_birth: "1910-05-12",
-	    date_of_death: "1994-07-29",
-	    discoveries: [
+		name: "Dorothy Crowfoot Hodgkin",
+		nationality: "British",
+		category: "chemist",
+		description:
+			"Pioneer in protein crystallography who determined the structures of many biomolecules",
+		date_of_birth: "1910-05-12",
+		date_of_death: "1994-07-29",
+		discoveries: [
 			"Structure of penicillin",
 			"Structure of vitamin B12",
 			"Structure of insulin",
-			"Advanced X-ray crystallography techniques"
+			"Advanced X-ray crystallography techniques",
 		],
 		nobel_prize: [
 			{
 				category: "Chemistry",
 				year: 1964,
-				study: "For her determinations by X-ray techniques of the structures of important biochemical substances"
-			}
+				study:
+					"For her determinations by X-ray techniques of the structures of important biochemical substances",
+			},
 		],
-	    other_awards: [
-			"Order of Merit",
-			"Copley Medal",
-			"Lenin Peace Prize"
-		]
+		other_awards: ["Order of Merit", "Copley Medal", "Lenin Peace Prize"],
 	},
 	// Linus Pauling
 	{
 		id: 104,
-	    name: "Linus Pauling",
-	    nationality: "American",
-	    description: "Quantum chemist and peace activist who made fundamental contributions to chemical bonding theory",
-	    date_of_birth: "1901-02-28",
-	    date_of_death: "1994-08-19",
-	    discoveries: [
+		name: "Linus Pauling",
+		nationality: "American",
+		category: "chemist",
+		description:
+			"Quantum chemist and peace activist who made fundamental contributions to chemical bonding theory",
+		date_of_birth: "1901-02-28",
+		date_of_death: "1994-08-19",
+		discoveries: [
 			"Nature of the chemical bond",
 			"Electronegativity scale",
 			"Alpha helix structure of proteins",
-			"Molecular disease concept"
+			"Molecular disease concept",
 		],
 		nobel_prize: [
 			{
 				category: "Chemistry",
-		        year: 1954,
-				study: "For his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances"
+				year: 1954,
+				study:
+					"For his research into the nature of the chemical bond and its application to the elucidation of the structure of complex substances",
 			},
 			{
 				category: "Peace",
-		        year: 1962,
-		        study: "For his campaign against nuclear weapons testing"
-			}
+				year: 1962,
+				study: "For his campaign against nuclear weapons testing",
+			},
 		],
 		other_awards: [
 			"National Medal of Science",
 			"Lenin Peace Prize",
-			"Priestley Medal"
-		]
+			"Priestley Medal",
+		],
 	},
-	
+
 	// Rosalind Franklin
 	{
 		id: 105,
 		name: "Rosalind Franklin",
 		nationality: "British",
-		description: "X-ray crystallographer whose work was central to understanding the molecular structures of DNA",
+		category: "biologist",
+		description:
+			"X-ray crystallographer whose work was central to understanding the molecular structures of DNA",
 		date_of_birth: "1920-07-25",
 		date_of_death: "1958-04-16",
 		discoveries: [
 			"X-ray diffraction images of DNA (Photo 51)",
 			"Molecular structure of viruses",
 			"Structure of coal and graphite",
-			"DNA double helix evidence"
+			"DNA double helix evidence",
 		],
 		nobel_prize: null,
-	    other_awards: [
-			"Posthumous recognition for DNA structure work"
-		]
+		other_awards: ["Posthumous recognition for DNA structure work"],
 	},
-	
+
 	// Svante Arrhenius
 	{
 		id: 106,
 		name: "Svante Arrhenius",
-	    nationality: "Swedish",
-	    description: "Physical chemist known for his electrolytic dissociation theory and early work on climate change",
-	    date_of_birth: "1859-02-19",
-	    date_of_death: "1927-10-02",
-	    discoveries: [
+		nationality: "Swedish",
+		category: "chemist",
+		description:
+			"Physical chemist known for his electrolytic dissociation theory and early work on climate change",
+		date_of_birth: "1859-02-19",
+		date_of_death: "1927-10-02",
+		discoveries: [
 			"Arrhenius equation",
 			"Theory of electrolytic dissociation",
 			"Greenhouse effect studies",
-			"Acid-base theory"
+			"Acid-base theory",
 		],
 		nobel_prize: [
 			{
 				category: "Chemistry",
 				year: 1903,
-				study: "For his electrolytic theory of dissociation"
-			}
+				study: "For his electrolytic theory of dissociation",
+			},
 		],
-		other_awards: [
-			"Davy Medal",
-			"Faraday Medal"
-		]
+		other_awards: ["Davy Medal", "Faraday Medal"],
 	},
 
 	// Gilbert N. Lewis
 	{
 		id: 107,
 		name: "Gilbert N. Lewis",
-	    nationality: "American",
-	    description: "Physical chemist who developed electron pair theory and concepts of acids and bases",
-	    date_of_birth: "1875-10-23",
-	    date_of_death: "1946-03-23",
-	    discoveries: [
+		nationality: "American",
+		category: "chemist",
+		description:
+			"Physical chemist who developed electron pair theory and concepts of acids and bases",
+		date_of_birth: "1875-10-23",
+		date_of_death: "1946-03-23",
+		discoveries: [
 			"Lewis structures",
 			"Lewis acid-base theory",
 			"Concept of covalent bonding",
-			"Concept of photon (termed 'light quantum')"
+			"Concept of photon (termed 'light quantum')",
 		],
 		nobel_prize: null,
 		other_awards: [
 			"Davy Medal",
 			"Willard Gibbs Award",
-			"Fellow of the Royal Society"
-		]
+			"Fellow of the Royal Society",
+		],
 	},
 
 	// Erwin Schrödinger
-	 {
-		 id: 108,
-		 name: "Erwin Schrödinger",
-		 nationality: "Austrian",
-		 description: "Physicist who made fundamental contributions to quantum mechanics and chemistry",
-		 date_of_birth: "1887-08-12",
-		 date_of_death: "1961-01-04",
-		 discoveries: [
-			 "Schrödinger equation",
-			 "Wave mechanics",
-			 "Quantum mechanical model of the atom",
-			 "Schrödinger's cat thought experiment"
-		 ],
-		 nobel_prize: [
-			 {
-				 category: "Physics",
-				 year: 1933,
-				 study: "For the discovery of new productive forms of atomic theory"
-			 }
-		 ],
-		 other_awards: [
-			 "Max Planck Medal",
-			 "Copley Medal"
-		 ]
-	 },
+	{
+		id: 108,
+		name: "Erwin Schrödinger",
+		nationality: "Austrian",
+		category: "chemist",
+		description:
+			"Physicist who made fundamental contributions to quantum mechanics and chemistry",
+		date_of_birth: "1887-08-12",
+		date_of_death: "1961-01-04",
+		discoveries: [
+			"Schrödinger equation",
+			"Wave mechanics",
+			"Quantum mechanical model of the atom",
+			"Schrödinger's cat thought experiment",
+		],
+		nobel_prize: [
+			{
+				category: "Physics",
+				year: 1933,
+				study: "For the discovery of new productive forms of atomic theory",
+			},
+		],
+		other_awards: ["Max Planck Medal", "Copley Medal"],
+	},
 
 	// Robert Mulliken
-	 {
-		 id: 109,
-		 name: "Robert Mulliken",
-		 nationality: "American",
-		 description: "Physicist and chemist who developed molecular orbital theory and electronegativity scale",
-		 date_of_birth: "1896-06-07",
-		 date_of_death: "1986-10-31",
-		 discoveries: [
-			 "Molecular orbital theory",
-			 "Mulliken electronegativity scale",
-			 "Mulliken population analysis",
-			 "Electronic structure of molecules"
-		 ],
-		 nobel_prize: [
-			 {
-				 category: "Chemistry",
-				 year: 1966,
-				 study: "For his fundamental work concerning chemical bonds and the electronic structure of molecules"
-			 }
-		 ],
-		 other_awards: [
-			 "Priestley Medal",
-			 "Peter Debye Award",
-			 "National Medal of Science"
-		 ]
-	  },
+	{
+		id: 109,
+		name: "Robert Mulliken",
+		nationality: "American",
+		category: "chemist",
+		description:
+			"Physicist and chemist who developed molecular orbital theory and electronegativity scale",
+		date_of_birth: "1896-06-07",
+		date_of_death: "1986-10-31",
+		discoveries: [
+			"Molecular orbital theory",
+			"Mulliken electronegativity scale",
+			"Mulliken population analysis",
+			"Electronic structure of molecules",
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1966,
+				study:
+					"For his fundamental work concerning chemical bonds and the electronic structure of molecules",
+			},
+		],
+		other_awards: [
+			"Priestley Medal",
+			"Peter Debye Award",
+			"National Medal of Science",
+		],
+	},
 
 	// Leo Baekeland
 	{
 		id: 110,
 		name: "Leo Baekeland",
 		nationality: "Belgian-American",
-		description: "Chemist and inventor who created the first fully synthetic plastic, Bakelite",
+		category: "chemist",
+		description:
+			"Chemist and inventor who created the first fully synthetic plastic, Bakelite",
 		date_of_birth: "1863-11-14",
 		date_of_death: "1944-02-23",
 		discoveries: [
 			"Bakelite (first synthetic plastic)",
 			"Velox photographic paper",
 			"Heat-resistant polymers",
-			"Phenol-formaldehyde resins"
+			"Phenol-formaldehyde resins",
 		],
 		nobel_prize: null,
-		other_awards: [
-			"Perkin Medal",
-			"Franklin Medal",
-			"Willard Gibbs Award"
-		]
+		other_awards: ["Perkin Medal", "Franklin Medal", "Willard Gibbs Award"],
 	},
 
 	// Fritz Haber
@@ -3220,136 +3235,140 @@ export const scientistsData = [
 		id: 111,
 		name: "Fritz Haber",
 		nationality: "German",
-		description: "Chemist who developed the Haber process for ammonia synthesis, enabling fertilizer production on an industrial scale",
+		category: "chemist",
+		description:
+			"Chemist who developed the Haber process for ammonia synthesis, enabling fertilizer production on an industrial scale",
 		date_of_birth: "1868-12-09",
 		date_of_death: "1934-01-29",
 		discoveries: [
 			"Haber process (ammonia synthesis)",
 			"Born-Haber cycle",
 			"Chemical warfare applications",
-			"Gas-phase reactions"
+			"Gas-phase reactions",
 		],
 		nobel_prize: [
 			{
 				category: "Chemistry",
 				year: 1918,
-				study: "For the synthesis of ammonia from its elements"
-			}
+				study: "For the synthesis of ammonia from its elements",
+			},
 		],
-		other_awards: [
-			"Rumford Medal",
-			"Bunsen Medal",
-			"Liebig Medal"
-		]
+		other_awards: ["Rumford Medal", "Bunsen Medal", "Liebig Medal"],
 	},
 
 	// Carl Bosch
 	{
 		id: 112,
-	    name: "Carl Bosch",
-	    nationality: "German",
-	    description: "Industrial chemist and engineer who scaled up the Haber process for industrial ammonia production",
-	    date_of_birth: "1874-08-27",
-	    date_of_death: "1940-04-26",
-	    discoveries: [
+		name: "Carl Bosch",
+		nationality: "German",
+		category: "chemist",
+		description:
+			"Industrial chemist and engineer who scaled up the Haber process for industrial ammonia production",
+		date_of_birth: "1874-08-27",
+		date_of_death: "1940-04-26",
+		discoveries: [
 			"Industrial-scale ammonia production",
 			"High-pressure chemistry techniques",
 			"Haber-Bosch process",
-			"Direct production of synthetic fuels"
+			"Direct production of synthetic fuels",
 		],
-	    nobel_prize: [
+		nobel_prize: [
 			{
 				category: "Chemistry",
-		        year: 1931,
-		        study: "For contributions to the invention and development of chemical high-pressure methods"
-			}
+				year: 1931,
+				study:
+					"For contributions to the invention and development of chemical high-pressure methods",
+			},
 		],
-		other_awards: [
-			"Liebig Medal",
-			"Siemens Ring",
-			"Bunsen Medal"
-		]
+		other_awards: ["Liebig Medal", "Siemens Ring", "Bunsen Medal"],
 	},
 
 	// Wallace Carothers
 	{
 		id: 113,
-	    name: "Wallace Carothers",
-	    nationality: "American",
-	    description: "Organic chemist who invented nylon and pioneered polymer chemistry research",
-	    date_of_birth: "1896-04-27",
-	    date_of_death: "1937-04-29",
-	    discoveries: [
+		name: "Wallace Carothers",
+		nationality: "American",
+		category: "chemist",
+		description:
+			"Organic chemist who invented nylon and pioneered polymer chemistry research",
+		date_of_birth: "1896-04-27",
+		date_of_death: "1937-04-29",
+		discoveries: [
 			"Nylon synthesis",
 			"Neoprene (synthetic rubber)",
 			"Linear condensation polymers",
-			"Polyester development"
+			"Polyester development",
 		],
 		nobel_prize: null,
-	    other_awards: [
+		other_awards: [
 			"Posthumous induction to National Inventors Hall of Fame",
 			"National Academy of Sciences",
-			"American Chemical Society award"
-		]
+			"American Chemical Society award",
+		],
 	},
 
 	// Ernest Rutherford
 	{
 		id: 115,
-	    name: "Ernest Rutherford",
-	    nationality: "New Zealand-British",
-	    description: "Physicist who is widely regarded as the father of nuclear physics for his pioneering work on atomic structure",
-	    date_of_birth: "1871-08-30",
-	    date_of_death: "1937-10-19",
-	    discoveries: [
+		name: "Ernest Rutherford",
+		nationality: "New Zealand-British",
+		category: "chemist",
+		description:
+			"Physicist who is widely regarded as the father of nuclear physics for his pioneering work on atomic structure",
+		date_of_birth: "1871-08-30",
+		date_of_death: "1937-10-19",
+		discoveries: [
 			"Nuclear model of the atom",
 			"Alpha and beta radiation classification",
 			"Half-life concept for radioactive elements",
-			"First artificial nuclear reaction"
+			"First artificial nuclear reaction",
 		],
 		nobel_prize: [
 			{
 				category: "Chemistry",
-		        year: 1908,
-				study: "For his investigations into the disintegration of the elements, and the chemistry of radioactive substances"
-			}
+				year: 1908,
+				study:
+					"For his investigations into the disintegration of the elements, and the chemistry of radioactive substances",
+			},
 		],
 		other_awards: [
 			"Copley Medal",
 			"Rumford Medal",
 			"Order of Merit",
-			"Knight Bachelor"
-		]
+			"Knight Bachelor",
+		],
 	},
 
 	// Glenn T. Seaborg
-	 {
-		 id: 116,
-		 name: "Glenn T. Seaborg",
-		 nationality: "American",
-		 description: "Nuclear chemist who discovered plutonium and nine other transuranium elements",
-		 date_of_birth: "1912-04-19",
-		 date_of_death: "1999-02-25",
-		 discoveries: [
-			 "Discovery and isolation of plutonium",
-			 "Discovery of nine other transuranium elements",
-			 "Actinide concept",
-			 "Nuclear isomerism"
-		 ],
-		 nobel_prize: [
-			 {
-				 category: "Chemistry",
-				 year: 1951,
-				 study: "For discoveries in the chemistry of the transuranium elements"
-			 }
-		 ],
-		 other_awards: [
-			 "National Medal of Science",
-			 "Enrico Fermi Award",
-			 "Priestley Medal",
-			 "Element 106 named seaborgium in his honor"
-		 ]
-	 }
+	{
+		id: 116,
+		name: "Glenn T. Seaborg",
+		nationality: "American",
+		category: "chemist",
+		description:
+			"Nuclear chemist who discovered plutonium and nine other transuranium elements",
+		date_of_birth: "1912-04-19",
+		date_of_death: "1999-02-25",
+		discoveries: [
+			"Discovery and isolation of plutonium",
+			"Discovery of nine other transuranium elements",
+			"Actinide concept",
+			"Nuclear isomerism",
+		],
+		nobel_prize: [
+			{
+				category: "Chemistry",
+				year: 1951,
+				study: "For discoveries in the chemistry of the transuranium elements",
+			},
+		],
+		other_awards: [
+			"National Medal of Science",
+			"Enrico Fermi Award",
+			"Priestley Medal",
+			"Element 106 named seaborgium in his honor",
+		],
+	},
 ];
 
 scientistSchema.parse(scientistsData);

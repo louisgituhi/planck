@@ -22,6 +22,7 @@ const scientistSchema = z.array(
         id: z.number({ message: "Id should be a number" }),
         name: z.string(),
         nationality: z.string(),
+	category: z.nativeEnum(CategoryEnum),
         description: z.string(),
         date_of_birth: z
             .string()
@@ -75,6 +76,7 @@ You should now access it on port 3000 🎉
 		id: 3,
 		name: "Albert Einstein",
 		nationality: "German",
+		category: "physicist",
 		description:
 			"German-born theoretical physicist who is widely held as one of the most influential scientists. Best known for developing the theory of relativity",
 		date_of_birth: "1879-03-14",

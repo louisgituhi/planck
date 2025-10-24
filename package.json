@@ -10,12 +10,12 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@hono/zod-validator": "^0.4.1",
-    "hono": "^4.6.19",
-    "wrangler": "^3.114.0",
-    "zod": "^3.23.8"
+    "@hono/zod-validator": "^0.4.3",
+    "hono": "^4.10.3",
+    "wrangler": "^3.114.15",
+    "zod": "^3.25.76"
   }
 }

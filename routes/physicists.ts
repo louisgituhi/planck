@@ -3,11 +3,7 @@ import { logger } from "hono/logger";
 import { scientistsData } from "./data";
 
 const app = new Hono();
-
-export const customLogger = (message: string, ...rest: string[]) => {
-	console.log(message, ...rest);
-};
-app.use(logger(customLogger));
+app.use(logger());
 
 app.get("/", (c) => {
 	logger();
@@ -15,19 +11,16 @@ app.get("/", (c) => {
 });
 
 app.get("/scientists", (c) => {
-	logger();
 	return c.json(scientistsData);
 });
 
 app.get("/scientists/random", (c) => {
-	logger();
 	return c.json(
 		scientistsData[Math.floor(Math.random() * scientistsData.length)],
 	);
 });
 
 app.get("/scientists/:scientist", (c) => {
-	logger();
 	if (!c.req.param("scientist")) {
 		return c.text("No scientist name provided");
 	}

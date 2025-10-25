@@ -1,21 +1,24 @@
 {
-  "name": "bun-hono",
-  "module": "index.ts",
-  "type": "module",
-  "scripts": {
-    "deploy": "bunx wrangler deploy"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "@hono/zod-validator": "^0.4.3",
-    "hono": "^4.10.3",
-    "wrangler": "^3.114.15",
-    "zod": "^3.25.76"
-  }
+	"name": "bun-hono",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"deploy": "bunx wrangler deploy",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@cloudflare/vitest-pool-workers": "^0.10.0",
+		"@types/bun": "latest",
+		"vitest": "~3.2.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"@hono/zod-validator": "^0.4.3",
+		"hono": "^4.10.3",
+		"wrangler": "4",
+		"zod": "^3.25.76"
+	}
 }

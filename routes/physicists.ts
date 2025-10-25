@@ -3,7 +3,11 @@ import { logger } from "hono/logger";
 import { scientistsData } from "./data";
 
 const app = new Hono();
-app.use(logger());
+
+export const customLogger = (message: string, ...rest: string[]) => {
+	console.log(message, ...rest);
+};
+app.use(logger(customLogger));
 
 app.get("/", (c) => {
 	logger();

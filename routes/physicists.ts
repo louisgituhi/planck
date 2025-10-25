@@ -1,27 +1,29 @@
 import { Hono } from "hono";
+import { logger } from "hono/logger";
 import { scientistsData } from "./data";
 
-const physicist = new Hono();
+const app = new Hono();
+app.use(logger());
 
-// home page of scientists
-physicist.get("/", (c) => {
-	return c.text("Welcome to the scientists API!");
+app.get("/", (c) => {
+	logger();
+	return c.text("Welcome to the planck");
 });
 
-// get all scientists
-physicist.get("/scientists", (c) => {
+app.get("/scientists", (c) => {
+	logger();
 	return c.json(scientistsData);
 });
 
-// get random scientits
-physicist.get("/scientists/random", (c) => {
+app.get("/scientists/random", (c) => {
+	logger();
 	return c.json(
 		scientistsData[Math.floor(Math.random() * scientistsData.length)],
 	);
 });
 
-// specific scientitist
-physicist.get("/scientists/:scientist", (c) => {
+app.get("/scientists/:scientist", (c) => {
+	logger();
 	if (!c.req.param("scientist")) {
 		return c.text("No scientist name provided");
 	}
@@ -31,4 +33,4 @@ physicist.get("/scientists/:scientist", (c) => {
 	return scientist ? c.json(scientist) : c.notFound();
 });
 
-export default physicist;
+export default app;
